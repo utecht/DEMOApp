@@ -1,0 +1,2566 @@
+{
+  "https://uamshealth.com/expertise/behavioral-care/": {
+    "name": null,
+    "aka": "Also called: Psychiatry; Psychology",
+    "description": "UAMS Health is committed to working within our community to reduce the stigma of mental illness for patients and their families. Behavioral health care at UAMS Health includes a wide range of outpatient and inpatient services. Our locations are staffed with some of the brightest and most qualified doctors in Arkansas.\\u00a0\nAt UAMS, we use evidence-based techniques to treat mental health and addictive diseases. With such a large staff of experts, our range of services includes treating addiction, eating disorders, anxiety, depression, PTSD, and more. We also help women who are going through postpartum depression, high-risk pregnancy, addiction, infertility or grief associated with pregnancy loss.\\u00a0\n\nCancer and Behavioral Medicine\n\n\n",
+    "conditions_treated": [
+      {
+        "name": "Addiction",
+        "link": "https://uamshealth.com/condition/addiction/"
+      },
+      {
+        "name": "Alcohol Use Disorder",
+        "link": "https://uamshealth.com/condition/alcohol-use-disorder/"
+      },
+      {
+        "name": "Anxiety Disorders",
+        "link": "https://uamshealth.com/condition/anxiety-disorders/"
+      },
+      {
+        "name": "Depression",
+        "link": "https://uamshealth.com/condition/depression/"
+      },
+      {
+        "name": "Eating Disorders",
+        "link": "https://uamshealth.com/condition/eating-disorders/"
+      },
+      {
+        "name": "Grief",
+        "link": "https://uamshealth.com/condition/grief/"
+      },
+      {
+        "name": "Opioid Use Disorder",
+        "link": "https://uamshealth.com/condition/opioid-use-disoder/"
+      },
+      {
+        "name": "Postpartum Depression",
+        "link": "https://uamshealth.com/condition/postpartum-depression/"
+      },
+      {
+        "name": "Sleep Disorders",
+        "link": "https://uamshealth.com/condition/sleep-disorders/"
+      },
+      {
+        "name": "Stress",
+        "link": "https://uamshealth.com/condition/stress/"
+      },
+      {
+        "name": "Substance Abuse",
+        "link": "https://uamshealth.com/condition/substance-abuse/"
+      }
+    ],
+    "treatments": [
+      {
+        "name": "Behavioral Therapy",
+        "link": "https://uamshealth.com/treatment/behavioral-therapy/"
+      },
+      {
+        "name": "Child-Parent Psychotherapy (CPP)",
+        "link": "https://uamshealth.com/treatment/child-parent-psychotherapy-cpp/"
+      },
+      {
+        "name": "Couples Intensive Therapy",
+        "link": "https://uamshealth.com/treatment/couples-intensive-therapy/"
+      },
+      {
+        "name": "Parent-Child Interaction Therapy (PCIT)",
+        "link": "https://uamshealth.com/treatment/parent-child-interaction-therapy-pcit/"
+      },
+      {
+        "name": "Psychological Evaluations",
+        "link": "https://uamshealth.com/treatment/psychological-evaluations/"
+      },
+      {
+        "name": "Sex Therapy",
+        "link": "https://uamshealth.com/treatment/sex-therapy/"
+      },
+      {
+        "name": "Suboxone Treatment Programs",
+        "link": "https://uamshealth.com/treatment/suboxone-treatment-programs/"
+      },
+      {
+        "name": "Subutex Treatment Programs",
+        "link": "https://uamshealth.com/treatment/subutex-treatment-programs/"
+      },
+      {
+        "name": "Transcranial Magnetic Stimulation (TMS)",
+        "link": "https://uamshealth.com/treatment/transcranial-magnetic-stimulation-tms/"
+      }
+    ],
+    "providers": [
+      {
+        "name": "Heather M. Allen, LMSW",
+        "picture": "/wp-content/plugins/UAMSWP-Find-a-Doc/assets/svg/no-image_3-4.jpg",
+        "specialty": "Couples Therapist",
+        "link": "https://uamshealth.com/provider/heather-allen/"
+      },
+      {
+        "name": "Toby L. Belknap, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/961317/Belknap_Toby-Lee-253x337-cc.jpg",
+        "specialty": "Child and Adolescent Psychiatrist",
+        "link": "https://uamshealth.com/provider/toby-l-belknap/"
+      },
+      {
+        "name": "Jayne Bellando, Ph.D.",
+        "picture": "/wp-content/plugins/UAMSWP-Find-a-Doc/assets/svg/no-image_3-4.jpg",
+        "specialty": "Child and Adolescent Psychologist",
+        "link": "https://uamshealth.com/provider/jayne-bellando/"
+      },
+      {
+        "name": "San T. Bui, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/961320/Bui_San-Thuy-253x337-cc.jpg",
+        "specialty": "Psychiatrist",
+        "link": "https://uamshealth.com/provider/san-t-bui/"
+      },
+      {
+        "name": "Janice K. Church, Ph.D.",
+        "picture": "/wp-content/plugins/UAMSWP-Find-a-Doc/assets/svg/no-image_3-4.jpg",
+        "specialty": "Child and Adolescent Psychologist",
+        "link": "https://uamshealth.com/provider/janice-k-church/"
+      },
+      {
+        "name": "Jeffrey L. Clothier, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/11357/Clothier_Jeffrey-253x337-cc.jpg",
+        "specialty": "Psychiatrist",
+        "link": "https://uamshealth.com/provider/jeffrey-l-clothier/"
+      },
+      {
+        "name": "Jessica L. Coker, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/12390/Coker_Jessica-1-253x337-cc.jpg",
+        "specialty": "Psychiatrist",
+        "link": "https://uamshealth.com/provider/jessica-l-coker/"
+      },
+      {
+        "name": "Michael A. Cucciare, Ph.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/57346/Cucciare_Michael-1-253x337-cc.jpg",
+        "specialty": "Psychologist",
+        "link": "https://uamshealth.com/provider/michael-a-cucciare/"
+      },
+      {
+        "name": "Lou Ann Eads, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/11677/Eads_Lou-Ann-253x337-cc.jpg",
+        "specialty": "Geriatric Psychiatrist",
+        "link": "https://uamshealth.com/provider/lou-ann-eads/"
+      },
+      {
+        "name": "Mark Edwards, Ph.D.",
+        "picture": "/wp-content/plugins/UAMSWP-Find-a-Doc/assets/svg/no-image_3-4.jpg",
+        "specialty": "Child and Adolescent Psychologist",
+        "link": "https://uamshealth.com/provider/mark-edwards/"
+      },
+      {
+        "name": "Larry D. Evans, Psy.D.",
+        "picture": "/wp-content/plugins/UAMSWP-Find-a-Doc/assets/svg/no-image_3-4.jpg",
+        "specialty": "Child and Adolescent Psychologist",
+        "link": "https://uamshealth.com/provider/larry-d-evans/"
+      },
+      {
+        "name": "Lisa J. Evans, Ph.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/57496/Evans_Lisa-J-253x337-cc.jpg",
+        "specialty": "Psychologist",
+        "link": "https://uamshealth.com/provider/lisa-j-evans/"
+      }
+    ],
+    "locations": [
+      {
+        "name": "Behavioral Medicine Clinic",
+        "picture": "https://uamshealth.com/wp-content/uploads/2018/12/cancer-institute-512x288.jpg",
+        "link": "https://uamshealth.com/location/behavioral-medicine-clinic/"
+      },
+      {
+        "name": "Center for Addiction Services and Treatment (CAST)",
+        "picture": "https://uamshealth.com/wp-content/uploads/2018/04/Psychiatric-Research-Institute-512x288.jpg",
+        "link": "https://uamshealth.com/location/center-for-addiction-services-and-treatment-cast/"
+      },
+      {
+        "name": "Child Study Center Outpatient Therapy Clinic",
+        "picture": "https://uamshealth.com/wp-content/uploads/2019/12/UAMS-Child-Study-Ctr-12192019-DSC_8159-512x288.jpg",
+        "link": "https://uamshealth.com/location/child-study-center-outpatient-therapy-clinic/"
+      },
+      {
+        "name": "James L. Dennis Developmental Center",
+        "picture": "https://uamshealth.com/wp-content/uploads/2019/11/Dennis-Developmental-Center-512x288.jpg",
+        "link": "https://uamshealth.com/location/james-l-dennis-developmental-center/"
+      },
+      {
+        "name": "Schmieding Developmental Center",
+        "picture": "https://uamshealth.com/wp-content/uploads/2019/12/Schmieding-Developmental-Center-512x288.jpg",
+        "link": "https://uamshealth.com/location/schmieding-developmental-center/"
+      },
+      {
+        "name": "The Couples Center",
+        "picture": "https://uamshealth.com/wp-content/uploads/2018/04/Psychiatric-Research-Institute-512x288.jpg",
+        "link": "https://uamshealth.com/location/the-couples-center/"
+      },
+      {
+        "name": "Walker Family Clinic",
+        "picture": "https://uamshealth.com/wp-content/uploads/2018/04/Psychiatric-Research-Institute-512x288.jpg",
+        "link": "https://uamshealth.com/location/walker-family-clinic/"
+      },
+      {
+        "name": "Women\\u2019s Mental Health Clinic",
+        "picture": "https://uamshealth.com/wp-content/uploads/2018/04/Psychiatric-Research-Institute-512x288.jpg",
+        "link": "https://uamshealth.com/location/womens-mental-health-clinic/"
+      }
+    ]
+  },
+  "https://uamshealth.com/expertise/burn-care/": {
+    "name": null,
+    "description": "Throughout the United States, burn injuries account for more than 100,000 hospital admissions annually. While many burns are minor and have minimal consequences, some burns can be extensive or deep, resulting in significant scarring and functional impairment.",
+    "conditions_treated": [
+      {
+        "name": "Burns",
+        "link": "https://uamshealth.com/condition/burns/"
+      },
+      {
+        "name": "Electrical Injuries",
+        "link": "https://uamshealth.com/condition/electrical-injuries/"
+      },
+      {
+        "name": "Inhalation Injuries",
+        "link": "https://uamshealth.com/condition/inhalation-injuries/"
+      },
+      {
+        "name": "Necrotizing Soft-Tissue Infections",
+        "link": "https://uamshealth.com/condition/necrotizing-soft-tissue-infections/"
+      },
+      {
+        "name": "Steven-Johnson Syndrome",
+        "link": "https://uamshealth.com/condition/steven-johnson-syndrome/"
+      },
+      {
+        "name": "Toxic Epidermal Necrolysis (TEN)",
+        "link": "https://uamshealth.com/condition/toxic-epidermal-necrolysis/"
+      },
+      {
+        "name": "Traumatic Soft-Tissue Injuries",
+        "link": "https://uamshealth.com/condition/traumatic-soft-tissue-injuries/"
+      }
+    ],
+    "treatments": [
+      {
+        "name": "Burn Reconstruction",
+        "link": "https://uamshealth.com/treatment/burn-reconstruction/"
+      },
+      {
+        "name": "Pain Management",
+        "link": "https://uamshealth.com/treatment/pain-management/"
+      },
+      {
+        "name": "Scar Revision",
+        "link": "https://uamshealth.com/treatment/scar-revision/"
+      }
+    ],
+    "providers": [
+      {
+        "name": "Esther H. Teo, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/55374/Teo_Esther-253x337-cc.jpg",
+        "specialty": "Surgeon",
+        "link": "https://uamshealth.com/provider/esther-h-teo/"
+      }
+    ],
+    "locations": [
+      {
+        "name": "Arkansas Children\\u2019s Hospital",
+        "picture": "https://uamshealth.com/wp-content/uploads/2018/04/B31A3657-Edit-512x288.jpg",
+        "link": "https://uamshealth.com/location/arkansas-childrens-hospital/"
+      }
+    ]
+  },
+  "https://uamshealth.com/expertise/cancer-care/": {
+    "name": null,
+    "aka": "Also called: Oncology",
+    "description": "\n\nTechnology and Research\nSince UAMS is the only academic medical center in the state of Arkansas, we have the state-of-the-art equipment and technology to provide the best medical care. And our researchers and scientists are conducting research that translates into new procedures and treatment that are being used in hospitals around the country and the world.\n",
+    "conditions_treated": [
+      {
+        "name": "Adrenal Cancer",
+        "link": "https://uamshealth.com/condition/adrenal-cancer/"
+      },
+      {
+        "name": "Bladder Cancer",
+        "link": "https://uamshealth.com/condition/bladder-cancer/"
+      },
+      {
+        "name": "Bone Cancer",
+        "link": "https://uamshealth.com/condition/bone-cancer/"
+      },
+      {
+        "name": "Brain and Spine Cancer",
+        "link": "https://uamshealth.com/condition/brain-and-spine-cancer/"
+      },
+      {
+        "name": "Breast Cancer",
+        "link": "https://uamshealth.com/condition/breast-cancer/"
+      },
+      {
+        "name": "Cervical Cancer",
+        "link": "https://uamshealth.com/condition/cervical-cancer/"
+      },
+      {
+        "name": "Colorectal Cancer",
+        "link": "https://uamshealth.com/condition/colorectal-cancer/"
+      },
+      {
+        "name": "Esophageal Cancer",
+        "link": "https://uamshealth.com/condition/esophageal-cancer/"
+      },
+      {
+        "name": "Gallbladder Cancer",
+        "link": "https://uamshealth.com/condition/gallbladder-cancer/"
+      },
+      {
+        "name": "Head and Neck Cancer",
+        "link": "https://uamshealth.com/condition/head-and-neck-cancer/"
+      },
+      {
+        "name": "Kidney Cancer",
+        "link": "https://uamshealth.com/condition/kidney-cancer/"
+      },
+      {
+        "name": "Leukemia",
+        "link": "https://uamshealth.com/condition/leukemia/"
+      },
+      {
+        "name": "Liver Cancer",
+        "link": "https://uamshealth.com/condition/liver-cancer/"
+      },
+      {
+        "name": "Lung Cancer",
+        "link": "https://uamshealth.com/condition/lung-cancer/"
+      },
+      {
+        "name": "Lymphoma",
+        "link": "https://uamshealth.com/condition/lymphoma/"
+      },
+      {
+        "name": "Multiple Myeloma",
+        "link": "https://uamshealth.com/condition/multiple-myeloma/"
+      },
+      {
+        "name": "Myelodysplastic Syndrome",
+        "link": "https://uamshealth.com/condition/myelodysplastic-syndrome/"
+      },
+      {
+        "name": "Ovarian Cancer",
+        "link": "https://uamshealth.com/condition/ovarian-cancer/"
+      },
+      {
+        "name": "Pancreatic Cancer",
+        "link": "https://uamshealth.com/condition/pancreatic-cancer/"
+      },
+      {
+        "name": "Penile Cancer",
+        "link": "https://uamshealth.com/condition/penile-cancer/"
+      },
+      {
+        "name": "Prostate Cancer",
+        "link": "https://uamshealth.com/condition/prostate-cancer/"
+      },
+      {
+        "name": "Sarcoma",
+        "link": "https://uamshealth.com/condition/sarcoma/"
+      },
+      {
+        "name": "Skin Cancer",
+        "link": "https://uamshealth.com/condition/skin-cancer/"
+      },
+      {
+        "name": "Small Intestine Cancer",
+        "link": "https://uamshealth.com/condition/small-intestine-cancer/"
+      },
+      {
+        "name": "Stomach Cancer",
+        "link": "https://uamshealth.com/condition/stomach-cancer/"
+      },
+      {
+        "name": "Testicular Cancer",
+        "link": "https://uamshealth.com/condition/testicular-cancer/"
+      },
+      {
+        "name": "Thyroid Cancer",
+        "link": "https://uamshealth.com/condition/thyroid-cancer/"
+      },
+      {
+        "name": "Uterus/Endometrial Cancer",
+        "link": "https://uamshealth.com/condition/uterus-cancer/"
+      },
+      {
+        "name": "Vaginal Cancer",
+        "link": "https://uamshealth.com/condition/vaginal-cancer/"
+      },
+      {
+        "name": "Vulvar Cancer",
+        "link": "https://uamshealth.com/condition/vulvar-cancer/"
+      }
+    ],
+    "treatments": [
+      {
+        "name": "Cancer Surgery",
+        "link": "https://uamshealth.com/treatment/cancer-surgery/"
+      },
+      {
+        "name": "CAR-T-cell Therapy",
+        "link": "https://uamshealth.com/treatment/car-t-cell-therapy/"
+      },
+      {
+        "name": "Chemotherapy",
+        "link": "https://uamshealth.com/treatment/chemotherapy/"
+      },
+      {
+        "name": "Hormone Therapy",
+        "link": "https://uamshealth.com/treatment/hormone-therapy/"
+      },
+      {
+        "name": "Immunotherapy",
+        "link": "https://uamshealth.com/treatment/immunotherapy/"
+      },
+      {
+        "name": "Radiation Therapy",
+        "link": "https://uamshealth.com/treatment/radiation-therapy/"
+      },
+      {
+        "name": "Stem Cell Transplantation",
+        "link": "https://uamshealth.com/treatment/stem-cell-transplantation/"
+      }
+    ],
+    "providers": [
+      {
+        "name": "Jibran Ahmed, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/954873/Ahmed_Jibran-253x337-cc.jpg",
+        "specialty": "Medical Oncologist",
+        "link": "https://uamshealth.com/provider/jibran-ahmed/"
+      },
+      {
+        "name": "Konstantinos Arnaoutakis, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/11634/Arnaoutakis_Konstantinos-253x337-cc.jpg",
+        "specialty": "Medical Oncologist",
+        "link": "https://uamshealth.com/provider/konstantinos-arnaoutakis/"
+      },
+      {
+        "name": "Omar T. Atiq, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/54448/Atiq_Omar-253x337-cc.jpg",
+        "specialty": "Medical Oncologist",
+        "link": "https://uamshealth.com/provider/omar-t-atiq/"
+      },
+      {
+        "name": "J. Camilo Barreto Andrade, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/12209/Barreto_Juan-Camilo-253x337-cc.jpg",
+        "specialty": "Surgical Oncologist",
+        "link": "https://uamshealth.com/provider/juan-camilo-barreto-andrade/"
+      },
+      {
+        "name": "Sajjad A. Bhatti, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/954872/Bhatti_Sajjad-A-253x337-cc.jpg",
+        "specialty": "Hematologist Oncologist",
+        "link": "https://uamshealth.com/provider/sajjad-a-bhatti/"
+      },
+      {
+        "name": "Michael J. Birrer, M.D., Ph.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/58423/Birrer_Michael-James-253x337-cc.jpg",
+        "specialty": "Medical Oncologist",
+        "link": "https://uamshealth.com/provider/michael-j-birrer/"
+      },
+      {
+        "name": "Donald L. Bodenner, M.D., Ph.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/909867/Bodenner_Donald-Lee-253x337-cc.jpg",
+        "specialty": "Endocrinologist",
+        "link": "https://uamshealth.com/provider/donald-l-bodenner/"
+      },
+      {
+        "name": "J. Ralph Broadwater, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/11392/Broadwater_J-Ralph-253x337-cc.jpg",
+        "specialty": "Surgical Oncologist",
+        "link": "https://uamshealth.com/provider/j-ralph-broadwater/"
+      },
+      {
+        "name": "Gwendolyn M. Bryant-Smith, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/12276/Bryant-Smith_Gwendolyn-Michelle-253x337-cc.jpg",
+        "specialty": "Radiologist",
+        "link": "https://uamshealth.com/provider/gwendolyn-m-bryant-smith/"
+      },
+      {
+        "name": "Lyle J. Burdine, M.D., Ph.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/12454/Burdine_Lyle-253x337-cc.jpg",
+        "specialty": "Transplant Surgeon",
+        "link": "https://uamshealth.com/provider/lyle-j-burdine/"
+      },
+      {
+        "name": "Alexander F. Burnett, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/11419/Burnett_Alexander-Ferguson-253x337-cc.jpg",
+        "specialty": "Gynecologic Oncologist",
+        "link": "https://uamshealth.com/provider/alexander-f-burnett/"
+      },
+      {
+        "name": "Tina D. Butler, CNP",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/956930/Butler_Tina-Diane-253x337-cc.jpg",
+        "specialty": "Nurse Practitioner",
+        "link": "https://uamshealth.com/provider/tina-d-butler/"
+      }
+    ],
+    "locations": [
+      {
+        "name": "Behavioral Medicine Clinic",
+        "picture": "https://uamshealth.com/wp-content/uploads/2018/12/cancer-institute-512x288.jpg",
+        "link": "https://uamshealth.com/location/behavioral-medicine-clinic/"
+      },
+      {
+        "name": "Bone Marrow Procurement Clinic",
+        "picture": "https://uamshealth.com/wp-content/uploads/2019/11/Bruce-fountain-512x288.jpg",
+        "link": "https://uamshealth.com/location/bone-marrow-procurement-clinic/"
+      },
+      {
+        "name": "Breast Cancer Clinic",
+        "picture": "https://uamshealth.com/wp-content/uploads/2018/12/cancer-institute-512x288.jpg",
+        "link": "https://uamshealth.com/location/breast-cancer-clinic/"
+      },
+      {
+        "name": "Cancer Blood Draw",
+        "picture": "https://uamshealth.com/wp-content/uploads/2018/12/cancer-institute-512x288.jpg",
+        "link": "https://uamshealth.com/location/cancer-blood-draw/"
+      },
+      {
+        "name": "Cancer Genetics Clinic",
+        "picture": "https://uamshealth.com/wp-content/uploads/2018/12/cancer-institute-512x288.jpg",
+        "link": "https://uamshealth.com/location/cancer-genetics-clinic/"
+      },
+      {
+        "name": "Dermatology Cancer Clinic",
+        "picture": "https://uamshealth.com/wp-content/uploads/2018/12/cancer-institute-512x288.jpg",
+        "link": "https://uamshealth.com/location/dermatology-cancer-clinic/"
+      },
+      {
+        "name": "Gynecologic Cancer Clinic",
+        "picture": "https://uamshealth.com/wp-content/uploads/2018/12/cancer-institute-512x288.jpg",
+        "link": "https://uamshealth.com/location/gynecologic-cancer-clinic/"
+      },
+      {
+        "name": "Head and Neck Cancer Clinic",
+        "picture": "https://uamshealth.com/wp-content/uploads/2018/12/cancer-institute-512x288.jpg",
+        "link": "https://uamshealth.com/location/head-and-neck-cancer-clinic/"
+      },
+      {
+        "name": "Hematology Oncology Clinic",
+        "picture": "https://uamshealth.com/wp-content/uploads/2018/12/cancer-institute-512x288.jpg",
+        "link": "https://uamshealth.com/location/hematology-oncology-clinic/"
+      },
+      {
+        "name": "Infusion Clinic 1",
+        "picture": "https://uamshealth.com/wp-content/uploads/2018/12/cancer-institute-512x288.jpg",
+        "link": "https://uamshealth.com/location/infusion-clinic-1/"
+      },
+      {
+        "name": "Infusion Clinic 4",
+        "picture": "https://uamshealth.com/wp-content/uploads/2018/12/cancer-institute-512x288.jpg",
+        "link": "https://uamshealth.com/location/infusion-clinic-4/"
+      },
+      {
+        "name": "Lymphedema Clinic",
+        "picture": "https://uamshealth.com/wp-content/uploads/2018/12/cancer-institute-512x288.jpg",
+        "link": "https://uamshealth.com/location/lymphedema-clinic/"
+      },
+      {
+        "name": "Myeloma Center",
+        "picture": "https://uamshealth.com/wp-content/uploads/2018/12/cancer-institute-512x288.jpg",
+        "link": "https://uamshealth.com/location/myeloma-center/"
+      },
+      {
+        "name": "Orthopaedic Cancer Clinic",
+        "picture": "https://uamshealth.com/wp-content/uploads/2018/12/cancer-institute-512x288.jpg",
+        "link": "https://uamshealth.com/location/orthopedic-cancer-clinic/"
+      },
+      {
+        "name": "Palliative Care Clinic",
+        "picture": "https://uamshealth.com/wp-content/uploads/2018/12/cancer-institute-512x288.jpg",
+        "link": "https://uamshealth.com/location/palliative-care-clinic/"
+      },
+      {
+        "name": "Radiation Oncology Center",
+        "picture": "https://uamshealth.com/wp-content/uploads/2018/04/RadOnc-Center-512x288.jpg",
+        "link": "https://uamshealth.com/location/radiation-oncology-center/"
+      },
+      {
+        "name": "Surgical Oncology Clinic",
+        "picture": "https://uamshealth.com/wp-content/uploads/2018/12/cancer-institute-512x288.jpg",
+        "link": "https://uamshealth.com/location/surgical-oncology-clinic/"
+      },
+      {
+        "name": "Survivorship Clinic",
+        "picture": "https://uamshealth.com/wp-content/uploads/2018/12/cancer-institute-512x288.jpg",
+        "link": "https://uamshealth.com/location/survivorship-clinic/"
+      },
+      {
+        "name": "Thyroid Cancer Clinic",
+        "picture": "https://uamshealth.com/wp-content/uploads/2018/12/cancer-institute-512x288.jpg",
+        "link": "https://uamshealth.com/location/thyroid-cancer-clinic/"
+      },
+      {
+        "name": "Urology Cancer Clinic",
+        "picture": "https://uamshealth.com/wp-content/uploads/2018/12/cancer-institute-512x288.jpg",
+        "link": "https://uamshealth.com/location/urology-cancer-clinic/"
+      }
+    ]
+  },
+  "https://uamshealth.com/expertise/dental-care/": {
+    "name": null,
+    "description": "Oral health can often be an indicator of a person\\u2019s overall health. That\\u2019s why UAMS provides dental care to our community through our Oral Health Clinic and Dental Hygiene Student Clinic. These clinics offer different options for your oral health care needs. They are located adjacent to each other, share a common waiting area & other resources but provide unique services and offer different payment options.",
+    "conditions_treated": [],
+    "treatments": [],
+    "providers": [
+      {
+        "name": "Sarah E. Hardin, D.D.S.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/942365/Hardin_Sarah-253x337-cc.jpg",
+        "specialty": "Dentist",
+        "link": "https://uamshealth.com/provider/sarah-e-hardin/"
+      },
+      {
+        "name": "Ashley J. McMillan, D.D.S.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/56569/McMillan_Ashley-Michelle-Jones-253x337-cc.jpg",
+        "specialty": "Dentist",
+        "link": "https://uamshealth.com/provider/ashley-j-mcmillan/"
+      }
+    ],
+    "locations": [
+      {
+        "name": "Dental Hygiene Student Clinic",
+        "picture": "https://uamshealth.com/wp-content/uploads/2019/11/Bruce-fountain-512x288.jpg",
+        "link": "https://uamshealth.com/location/dental-hygiene-student-clinic/"
+      },
+      {
+        "name": "UAMS Delta Dental of Arkansas Foundation Oral Health Clinic",
+        "picture": "https://uamshealth.com/wp-content/uploads/2019/11/Bruce-fountain-512x288.jpg",
+        "link": "https://uamshealth.com/location/oral-health-clinic/"
+      }
+    ]
+  },
+  "https://uamshealth.com/expertise/diabetes-and-endocrinology-care/": {
+    "name": null,
+    "description": "Diabetes is a disease that affects the way the body turns sugar into energy. There are several types of diabetes, including Type 1, Type 2 and gestational diabetes.",
+    "conditions_treated": [
+      {
+        "name": "Diabetes, Type 1",
+        "link": "https://uamshealth.com/condition/type-1-diabetes/"
+      },
+      {
+        "name": "Diabetes, Type 2",
+        "link": "https://uamshealth.com/condition/type-2-diabetes/"
+      },
+      {
+        "name": "Gestational Diabetes",
+        "link": "https://uamshealth.com/condition/gestational-diabetes/"
+      }
+    ],
+    "treatments": [],
+    "providers": [
+      {
+        "name": "Ashley  N. Allen, PA",
+        "picture": "/wp-content/plugins/UAMSWP-Find-a-Doc/assets/svg/no-image_3-4.jpg",
+        "specialty": "Physician Assistant",
+        "link": "https://uamshealth.com/provider/ashley-n-allen/"
+      },
+      {
+        "name": "Elena Ambrogini, M.D., Ph.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/12218/Ambrogini_Elena-253x337-cc.jpg",
+        "specialty": "Endocrinologist",
+        "link": "https://uamshealth.com/provider/elena-ambrogini/"
+      },
+      {
+        "name": "Shipra Bansal, M.D.",
+        "picture": "/wp-content/plugins/UAMSWP-Find-a-Doc/assets/svg/no-image_3-4.jpg",
+        "specialty": "Endocrinologist",
+        "link": "https://uamshealth.com/provider/shipra-bansal/"
+      },
+      {
+        "name": "J. Paul Frindik, M.D.",
+        "picture": "/wp-content/plugins/UAMSWP-Find-a-Doc/assets/svg/no-image_3-4.jpg",
+        "specialty": "Pediatric Endocrinologist",
+        "link": "https://uamshealth.com/provider/j-paul-frindik/"
+      },
+      {
+        "name": "Joseph A. Henske, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/55291/Henske_Joseph-Anthony-253x337-cc.jpg",
+        "specialty": "Endocrinologist",
+        "link": "https://uamshealth.com/provider/joseph-a-henske/"
+      },
+      {
+        "name": "Spyridoula Maraka, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/56572/Maraka_Spyridoula-253x337-cc.jpg",
+        "specialty": "Endocrinologist",
+        "link": "https://uamshealth.com/provider/spyridoula-maraka/"
+      },
+      {
+        "name": "Lakshmi P. Menon, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/54471/Menon_Lakshmi-253x337-cc.jpg",
+        "specialty": "Endocrinologist",
+        "link": "https://uamshealth.com/provider/lakshmi-p-menon/"
+      },
+      {
+        "name": "Robert S. Weinstein, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/917054/Weinstein_Robert-S-253x337-cc.jpg",
+        "specialty": "Endocrinologist",
+        "link": "https://uamshealth.com/provider/robert-s-weinstein/"
+      }
+    ],
+    "locations": [
+      {
+        "name": "Endocrinology Clinic",
+        "picture": "https://uamshealth.com/wp-content/uploads/2019/12/UAMS-Outpatient-Center-12182019-DSC_8127-512x288.jpg",
+        "link": "https://uamshealth.com/location/endocrinology-clinic/"
+      }
+    ]
+  },
+  "https://uamshealth.com/expertise/digestive-health/": {
+    "name": null,
+    "aka": "Also called: Gastroenterology",
+    "description": "\nWith highly skilled and trained specialists and the latest technology, UAMS\\u2019 gastroenterology service is the most complete in the state. Our gastroenterology specialists include nationally known experts in the treatment of\\u00a0stomach ulcers, hepatitis, inflammatory bowel diseases, colitis,\\u00a0Crohn\\u2019s disease, cirrhosis and conditions affecting the bile duct cells.\nUsing the latest in diagnostic tools, we can identify and develop a treatment plan for problems in the stomach, colon, esophagus, liver, pancreas, intestines and other digestive organs.\nAbout Our Doctors\nOur hepatologists, or liver specialists, diagnose and treat hepatitis, fatty liver and non-alcoholic fatty liver disease, along with other conditions. These specialists are part of the multi-disciplinary UAMS\\u00a0liver transplant program, Arkansas\\u2019 only liver transplant program.\nHighlights\nGastroenterology program highlights include:\n\n",
+    "conditions_treated": [
+      {
+        "name": "Bile Duct Disease",
+        "link": "https://uamshealth.com/condition/bile-duct-disease/"
+      },
+      {
+        "name": "Chronic Inflammatory Bowel Disease",
+        "link": "https://uamshealth.com/condition/chronic-inflammatory-bowel-disease/"
+      },
+      {
+        "name": "Cirrhosis",
+        "link": "https://uamshealth.com/condition/cirrhosis/"
+      },
+      {
+        "name": "Crohn's Disease",
+        "link": "https://uamshealth.com/condition/crohns-disease/"
+      },
+      {
+        "name": "Diverticulitis",
+        "link": "https://uamshealth.com/condition/diverticulitis/"
+      },
+      {
+        "name": "Esophageal Cancer",
+        "link": "https://uamshealth.com/condition/esophageal-cancer/"
+      },
+      {
+        "name": "Hepatitis",
+        "link": "https://uamshealth.com/condition/hepatitis/"
+      },
+      {
+        "name": "Hepatitis B",
+        "link": "https://uamshealth.com/condition/hepatitis-b/"
+      },
+      {
+        "name": "Hepatitis C",
+        "link": "https://uamshealth.com/condition/hepatitis-c/"
+      },
+      {
+        "name": "Inflammatory Bowel Disease (IBD)",
+        "link": "https://uamshealth.com/condition/inflammatory-bowel-disease/"
+      },
+      {
+        "name": "Jaundice",
+        "link": "https://uamshealth.com/condition/jaundice/"
+      },
+      {
+        "name": "Liver Cancer",
+        "link": "https://uamshealth.com/condition/liver-cancer/"
+      },
+      {
+        "name": "Liver Disease",
+        "link": "https://uamshealth.com/condition/liver-disease/"
+      },
+      {
+        "name": "Pancreatic Cancer",
+        "link": "https://uamshealth.com/condition/pancreatic-cancer/"
+      },
+      {
+        "name": "Primary Biliary Cirrhosis",
+        "link": "https://uamshealth.com/condition/primary-biliary-cirrhosis/"
+      },
+      {
+        "name": "Primary Sclerosing Cholangitis",
+        "link": "https://uamshealth.com/condition/primary-sclerosing-cholangitis/"
+      }
+    ],
+    "treatments": [
+      {
+        "name": "Advanced Endoscopy",
+        "link": "https://uamshealth.com/treatment/advanced-endoscopy/"
+      },
+      {
+        "name": "Colon and Rectal Surgery",
+        "link": "https://uamshealth.com/treatment/colon-and-rectal-surgery/"
+      },
+      {
+        "name": "Colonoscopy",
+        "link": "https://uamshealth.com/treatment/colonoscopy/"
+      },
+      {
+        "name": "Endoscopic Retrograde Cholangiopancreatography",
+        "link": "https://uamshealth.com/treatment/endoscopic-retrograde-cholangiopancreatography/"
+      },
+      {
+        "name": "Endoscopic Ultrasound",
+        "link": "https://uamshealth.com/treatment/endoscopic-ultrasound/"
+      }
+    ],
+    "providers": [
+      {
+        "name": "Travis D. Ayers, M.D.",
+        "picture": "/wp-content/plugins/UAMSWP-Find-a-Doc/assets/svg/no-image_3-4.jpg",
+        "specialty": "Pediatric Gastroenterologist",
+        "link": "https://uamshealth.com/provider/travis-d-ayers/"
+      },
+      {
+        "name": "Samuel T. Boston, M.D.",
+        "picture": "/wp-content/plugins/UAMSWP-Find-a-Doc/assets/svg/no-image_3-4.jpg",
+        "specialty": "Pediatric Gastroenterologist",
+        "link": "https://uamshealth.com/provider/samuel-t-boston/"
+      },
+      {
+        "name": "Lyle J. Burdine, M.D., Ph.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/12454/Burdine_Lyle-253x337-cc.jpg",
+        "specialty": "Transplant Surgeon",
+        "link": "https://uamshealth.com/provider/lyle-j-burdine/"
+      },
+      {
+        "name": "Megan W. Butler, M.D.",
+        "picture": "/wp-content/plugins/UAMSWP-Find-a-Doc/assets/svg/no-image_3-4.jpg",
+        "specialty": "Pediatric Gastroenterologist",
+        "link": "https://uamshealth.com/provider/megan-w-butler/"
+      },
+      {
+        "name": "Adrian Chapa-Rodriguez, M.D.",
+        "picture": "/wp-content/plugins/UAMSWP-Find-a-Doc/assets/svg/no-image_3-4.jpg",
+        "specialty": "Pediatric Gastroenterologist",
+        "link": "https://uamshealth.com/provider/adrian-chapa-rodriguez/"
+      },
+      {
+        "name": "Stephan Dehmel, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/54454/Dehmel_Stephan-253x337-cc.jpg",
+        "specialty": "Gastroenterologist",
+        "link": "https://uamshealth.com/provider/stephan-dehmel/"
+      },
+      {
+        "name": "Matthew G. Deneke, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/12159/Deneke_Matthew-Gordin-253x337-cc.jpg",
+        "specialty": "Gastroenterologist",
+        "link": "https://uamshealth.com/provider/matthew-g-deneke/"
+      },
+      {
+        "name": "Jonathan A. Dranoff, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/11919/Dranoff_Jonathan-Ankin-253x337-cc.jpg",
+        "specialty": "Gastroenterologist",
+        "link": "https://uamshealth.com/provider/jonathan-a-dranoff/"
+      },
+      {
+        "name": "Shashank Garg, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/12424/Garg_Shashank-253x337-cc.jpg",
+        "specialty": "Gastroenterologist",
+        "link": "https://uamshealth.com/provider/shashank-garg/"
+      },
+      {
+        "name": "Curt H. Hagedorn, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/56637/Hagedorn_Curt-253x337-cc.jpg",
+        "specialty": "Gastroenterologist",
+        "link": "https://uamshealth.com/provider/curt-h-hagedorn/"
+      },
+      {
+        "name": "Sumant Inamdar, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/12423/Inamdar_Sumant-253x337-cc.jpg",
+        "specialty": "Gastroenterologist",
+        "link": "https://uamshealth.com/provider/sumant-inamdar/"
+      },
+      {
+        "name": "David  Kawatu, M.D.",
+        "picture": "/wp-content/plugins/UAMSWP-Find-a-Doc/assets/svg/no-image_3-4.jpg",
+        "specialty": "Pediatric Gastroenterologist",
+        "link": "https://uamshealth.com/provider/david-kawatu/"
+      }
+    ],
+    "locations": [
+      {
+        "name": "Gastroenterology Clinic",
+        "picture": "https://uamshealth.com/wp-content/uploads/2019/12/UAMS-Outpatient-Center-12182019-DSC_8127-512x288.jpg",
+        "link": "https://uamshealth.com/location/gastroenterology-clinic/"
+      }
+    ]
+  },
+  "https://uamshealth.com/expertise/digital-health-innovation/": {
+    "name": null,
+    "description": "It is UAMS\\u2019 goal to eliminate health care disparities in Arkansas and beyond through innovations that embrace technology, improve quality and access to clinical care, education and research. ",
+    "conditions_treated": [],
+    "treatments": [],
+    "providers": [
+      {
+        "name": "John  W.  Bracey\\u00a0Jr., M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/12352/Bracey_John-253x337-cc.jpg",
+        "specialty": "Orthopaedic Surgeon",
+        "link": "https://uamshealth.com/provider/john-w-bracey-jr/"
+      },
+      {
+        "name": "Jessica L. Coker, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/12390/Coker_Jessica-1-253x337-cc.jpg",
+        "specialty": "Psychiatrist",
+        "link": "https://uamshealth.com/provider/jessica-l-coker/"
+      },
+      {
+        "name": "Nafisa K. Dajani, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/11264/Dajani_Nafisa-Khaled-253x337-cc.jpg",
+        "specialty": "Perinatologist (Maternal-fetal Medicine)",
+        "link": "https://uamshealth.com/provider/nafisa-k-dajani/"
+      },
+      {
+        "name": "G. Thomas Frazier\\u00a0Jr., M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/12391/Frazier_G-Thomas-Jr-253x337-cc.jpg",
+        "specialty": "Orthopaedic Surgeon",
+        "link": "https://uamshealth.com/provider/g-thomas-frazier-jr/"
+      },
+      {
+        "name": "Dawn S. Hughes, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/54462/Hughes_Dawn-253x337-cc.jpg",
+        "specialty": "Perinatologist (Maternal-fetal Medicine)",
+        "link": "https://uamshealth.com/provider/dawn-s-hughes/"
+      },
+      {
+        "name": "Curtis L. Lowery Jr., M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/11262/Lowery_Curtis-L-Jr-253x337-cc.jpg",
+        "specialty": "Perinatologist (Maternal-fetal Medicine)",
+        "link": "https://uamshealth.com/provider/curtis-l-lowery-jr/"
+      },
+      {
+        "name": "Everett F. \"Pat\" Magann, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/11715/Magann_Everett-F-253x337-cc.jpg",
+        "specialty": "Perinatologist (Maternal-fetal Medicine)",
+        "link": "https://uamshealth.com/provider/everett-f-magann/"
+      },
+      {
+        "name": "Sean M. Morell, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/55207/Morell_Sean-253x337-cc.jpg",
+        "specialty": "Orthopaedic Surgeon",
+        "link": "https://uamshealth.com/provider/sean-m-morell/"
+      },
+      {
+        "name": "Krishna C. Nalleballe, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/12437/Nalleballe_Krishna-253x337-cc.jpg",
+        "specialty": "Neurologist",
+        "link": "https://uamshealth.com/provider/krishna-c-nalleballe/"
+      },
+      {
+        "name": "Sanjeeva Reddy Onteddu, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/12163/Onteddu_Sanjeeva-Reddy-253x337-cc.jpg",
+        "specialty": "Neurologist",
+        "link": "https://uamshealth.com/provider/sanjeeva-reddy-onteddu/"
+      },
+      {
+        "name": "T. Glenn Pait, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/11261/Pait_T-Glenn-253x337-cc.jpg",
+        "specialty": "Neurosurgeon",
+        "link": "https://uamshealth.com/provider/t-glenn-pait/"
+      },
+      {
+        "name": "Kelly-Ann A. Patrice, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/54474/Patrice_Kelly-Ann-1-253x337-cc.jpg",
+        "specialty": "Neurologist",
+        "link": "https://uamshealth.com/provider/kelly-ann-a-patrice/"
+      },
+      {
+        "name": "Adam T. Sandlin, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/12256/Sandlin_Adam-T-253x337-cc.jpg",
+        "specialty": "Perinatologist (Maternal-fetal Medicine)",
+        "link": "https://uamshealth.com/provider/adam-t-sandlin/"
+      },
+      {
+        "name": "Vishank A. Shah, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/54667/Shah_Vishank-A-253x337-cc.jpg",
+        "specialty": "Neurologist",
+        "link": "https://uamshealth.com/provider/vishank-a-shah/"
+      },
+      {
+        "name": "Mark A. Tait, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/12326/Tait_Mark-253x337-cc.jpg",
+        "specialty": "Orthopaedic Surgeon",
+        "link": "https://uamshealth.com/provider/mark-a-tait/"
+      },
+      {
+        "name": "Paul J. Wendel, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/11265/Wendel_Paul-J-253x337-cc.jpg",
+        "specialty": "Perinatologist (Maternal-fetal Medicine)",
+        "link": "https://uamshealth.com/provider/paul-j-wendel/"
+      },
+      {
+        "name": "Theresa O. Wyrick-Glover, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/11676/Wyrick-Glover_Theresa-253x337-cc.jpg",
+        "specialty": "Orthopaedic Surgeon",
+        "link": "https://uamshealth.com/provider/theresa-o-wyrick-glover/"
+      }
+    ],
+    "locations": [
+      {
+        "name": "UAMS Medical Center",
+        "picture": "https://uamshealth.com/wp-content/uploads/2019/11/Bruce-fountain-512x288.jpg",
+        "link": "https://uamshealth.com/location/uams-medical-center/"
+      }
+    ]
+  },
+  "https://uamshealth.com/expertise/ear-nose-throat-care/": {
+    "name": null,
+    "aka": "Also called: Otolaryngology; ENT",
+    "description": "\nOtolaryngology is the field of medicine that\nfocuses on conditions and disorders related to the ear, nose and throat (ENT)\nand related structures of the head and neck. Otolaryngologists (or ENT doctors)\nprovide both surgical and nonsurgical treatments for a wide range of\nconditions. Otolaryngologists are highly trained in both medicine and surgery. \\u00a0\nComplete Care\nThe ENT physicians at UAMS are\nfellowship-trained in their specialty and cover all the sub-specialties in the\nfield: \n\nENT doctors can treat issues that range from\nthe everyday to the complex. Our physicians treat sinus and allergy issues, hearing\nloss and ear disease, balance disorders, facial and cranial nerve disorders, voice\nand swallowing disorders, head and neck cancer and benign tumors of the head\nand neck.\\u00a0 When surgery is required, our\nexperts can provide state-of-the-art surgery to the head and neck whether the\ncause is a traumatic injury, cancer or birth deformity. Our hearing and balance\nteam is internationally known and has one of the highest surgical volumes in\nthe country. People with vascular anomalies come from throughout the world to\nUAMS for treatment.\nTop 50 Nationwide\n\n",
+    "conditions_treated": [
+      {
+        "name": "Acoustic Neuroma",
+        "link": "https://uamshealth.com/condition/acoustic-neuroma/"
+      },
+      {
+        "name": "Allergic Rhinitis",
+        "link": "https://uamshealth.com/condition/allergic-rhinitis/"
+      },
+      {
+        "name": "Allergies",
+        "link": "https://uamshealth.com/condition/allergies/"
+      },
+      {
+        "name": "Balance Problems",
+        "link": "https://uamshealth.com/condition/balance-problems/"
+      },
+      {
+        "name": "Cholesteatoma",
+        "link": "https://uamshealth.com/condition/cholesteatoma/"
+      },
+      {
+        "name": "Dizziness",
+        "link": "https://uamshealth.com/condition/dizziness/"
+      },
+      {
+        "name": "Ear, Nose and Throat Disorders",
+        "link": "https://uamshealth.com/condition/ear-nose-and-throat-disorders/"
+      },
+      {
+        "name": "Facial Nerve Disorders",
+        "link": "https://uamshealth.com/condition/facial-nerve-disorders/"
+      },
+      {
+        "name": "Head and Neck Cancer",
+        "link": "https://uamshealth.com/condition/head-and-neck-cancer/"
+      },
+      {
+        "name": "Hearing Loss",
+        "link": "https://uamshealth.com/condition/hearing-loss/"
+      },
+      {
+        "name": "Hyperparathyroidism",
+        "link": "https://uamshealth.com/condition/hyperparathyroidism/"
+      },
+      {
+        "name": "Meniere\\u2019s Disease",
+        "link": "https://uamshealth.com/condition/menieres-disease/"
+      },
+      {
+        "name": "Nose Fracture",
+        "link": "https://uamshealth.com/condition/nose-fracture/"
+      },
+      {
+        "name": "Obstructive Sleep Apnea",
+        "link": "https://uamshealth.com/condition/obstructive-sleep-apnea/"
+      },
+      {
+        "name": "Ptosis",
+        "link": "https://uamshealth.com/condition/ptosis/"
+      },
+      {
+        "name": "Reflux",
+        "link": "https://uamshealth.com/condition/reflux/"
+      },
+      {
+        "name": "Sleep Apnea",
+        "link": "https://uamshealth.com/condition/sleep-apnea/"
+      },
+      {
+        "name": "Thyroid Cancer",
+        "link": "https://uamshealth.com/condition/thyroid-cancer/"
+      },
+      {
+        "name": "Thyroid Disease",
+        "link": "https://uamshealth.com/condition/thyroid-disease/"
+      },
+      {
+        "name": "Tinnitus",
+        "link": "https://uamshealth.com/condition/tinnitus/"
+      }
+    ],
+    "treatments": [
+      {
+        "name": "Cancer Surgery",
+        "link": "https://uamshealth.com/treatment/cancer-surgery/"
+      },
+      {
+        "name": "Cosmetic Surgery",
+        "link": "https://uamshealth.com/treatment/cosmetic-surgery/"
+      },
+      {
+        "name": "Plastic and Reconstructive Surgery",
+        "link": "https://uamshealth.com/treatment/plastic-and-reconstructive-surgery/"
+      },
+      {
+        "name": "Reconstructive and Cosmetic Nasal Surgery",
+        "link": "https://uamshealth.com/treatment/reconstructive-and-cosmetic-nasal-surgery/"
+      },
+      {
+        "name": "Reconstructive Surgery",
+        "link": "https://uamshealth.com/treatment/reconstructive-surgery/"
+      },
+      {
+        "name": "Skull Base Surgery",
+        "link": "https://uamshealth.com/treatment/skull-base-surgery/"
+      }
+    ],
+    "providers": [
+      {
+        "name": "Donald L. Bodenner, M.D., Ph.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/909867/Bodenner_Donald-Lee-253x337-cc.jpg",
+        "specialty": "Endocrinologist",
+        "link": "https://uamshealth.com/provider/donald-l-bodenner/"
+      },
+      {
+        "name": "Charles M. Bower, M.D.",
+        "picture": "/wp-content/plugins/UAMSWP-Find-a-Doc/assets/svg/no-image_3-4.jpg",
+        "specialty": "Pediatric Otolaryngologist",
+        "link": "https://uamshealth.com/provider/charles-m-bower/"
+      },
+      {
+        "name": "Jennings Russell Boyette, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/12004/Boyette_Jennings-Russell-253x337-cc.jpg",
+        "specialty": "Otolaryngologist",
+        "link": "https://uamshealth.com/provider/jennings-russell-boyette/"
+      },
+      {
+        "name": "Anndi E. Cranford, CNP",
+        "picture": "/wp-content/plugins/UAMSWP-Find-a-Doc/assets/svg/no-image_3-4.jpg",
+        "specialty": "Advanced Practice Registered Nurse",
+        "link": "https://uamshealth.com/provider/anndi-e-cranford/"
+      },
+      {
+        "name": "John L. Dornhoffer, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/58272/Dornhoffer_John-Louis-253x337-cc.jpg",
+        "specialty": "Otolaryngologist",
+        "link": "https://uamshealth.com/provider/john-l-dornhoffer/"
+      },
+      {
+        "name": "Larry D. Hartzell, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/11966/Hartzell_Larry-253x337-cc.jpg",
+        "specialty": "Otolaryngologist",
+        "link": "https://uamshealth.com/provider/larry-d-hartzell/"
+      },
+      {
+        "name": "Adam B. Johnson, M.D., Ph.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/57658/Johnson_Adam-Bradley-253x337-cc.jpg",
+        "specialty": "Otolaryngologist",
+        "link": "https://uamshealth.com/provider/adam-b-johnson/"
+      },
+      {
+        "name": "Alissa Kanaan, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/12176/Kanaan_Alissa-253x337-cc.jpg",
+        "specialty": "Otolaryngologist",
+        "link": "https://uamshealth.com/provider/alissa-kanaan/"
+      },
+      {
+        "name": "J. Michael Key, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/57840/Key_James-Michael-253x337-cc.jpg",
+        "specialty": "Pediatric Otolaryngologist",
+        "link": "https://uamshealth.com/provider/j-michael-key/"
+      },
+      {
+        "name": "Mauricio A. Moreno, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/11661/Moreno-Vera_Mauricio-Alejandro-253x337-cc.jpg",
+        "specialty": "Otolaryngologist",
+        "link": "https://uamshealth.com/provider/mauricio-a-moreno/"
+      },
+      {
+        "name": "Abby R. Nolder, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/12020/Nolder_Abby-R-253x337-cc.jpg",
+        "specialty": "Pediatric Otolaryngologist",
+        "link": "https://uamshealth.com/provider/abby-r-nolder/"
+      },
+      {
+        "name": "Gresham T. Richter, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/11683/Richter_Gresham-T-253x337-cc.jpg",
+        "specialty": "Pediatric Otolaryngologist",
+        "link": "https://uamshealth.com/provider/gresham-t-richter/"
+      }
+    ],
+    "locations": [
+      {
+        "name": "Arkansas Children\\u2019s Hospital",
+        "picture": "https://uamshealth.com/wp-content/uploads/2018/04/B31A3657-Edit-512x288.jpg",
+        "link": "https://uamshealth.com/location/arkansas-childrens-hospital/"
+      },
+      {
+        "name": "Arkansas Children\\u2019s Northwest",
+        "picture": "https://uamshealth.com/wp-content/uploads/2019/04/ACH-Northwest-512x288.jpg",
+        "link": "https://uamshealth.com/location/arkansas-childrens-northwest/"
+      },
+      {
+        "name": "Audiology Clinic",
+        "picture": "https://uamshealth.com/wp-content/uploads/2019/12/UAMS-Stephens-Institute-12182019-DSC_8129-512x288.jpg",
+        "link": "https://uamshealth.com/location/audiology-clinic/"
+      },
+      {
+        "name": "Ear, Nose and Throat (ENT) Clinic",
+        "picture": "https://uamshealth.com/wp-content/uploads/2019/12/UAMS-Stephens-Institute-12182019-DSC_8129-512x288.jpg",
+        "link": "https://uamshealth.com/location/ear-nose-and-throat-clinic/"
+      },
+      {
+        "name": "Head and Neck Cancer Clinic",
+        "picture": "https://uamshealth.com/wp-content/uploads/2018/12/cancer-institute-512x288.jpg",
+        "link": "https://uamshealth.com/location/head-and-neck-cancer-clinic/"
+      },
+      {
+        "name": "Thyroid Cancer Clinic",
+        "picture": "https://uamshealth.com/wp-content/uploads/2018/12/cancer-institute-512x288.jpg",
+        "link": "https://uamshealth.com/location/thyroid-cancer-clinic/"
+      },
+      {
+        "name": "UAMS Medical Center",
+        "picture": "https://uamshealth.com/wp-content/uploads/2019/11/Bruce-fountain-512x288.jpg",
+        "link": "https://uamshealth.com/location/uams-medical-center/"
+      }
+    ]
+  },
+  "https://uamshealth.com/expertise/emergency-care/": {
+    "name": null,
+    "description": "You can\\u2019t predict an emergency, but when one strikes, UAMS Medical Center is the only Adult Level 1 Trauma Center in Arkansas, as recognized by the American College of Surgeons. UAMS is also home to the first and only Comprehensive Stroke Center in Arkansas.",
+    "conditions_treated": [
+      {
+        "name": "Abnormal Bleeding",
+        "link": "https://uamshealth.com/condition/abnormal-bleeding/"
+      },
+      {
+        "name": "Chest Pain",
+        "link": "https://uamshealth.com/condition/chest-pain/"
+      },
+      {
+        "name": "Maxillofacial Trauma",
+        "link": "https://uamshealth.com/condition/maxillofacial-trauma/"
+      },
+      {
+        "name": "Ocular trauma",
+        "link": "https://uamshealth.com/condition/ocular-trauma/"
+      },
+      {
+        "name": "Orthopaedic Trauma",
+        "link": "https://uamshealth.com/condition/orthopaedic-trauma/"
+      },
+      {
+        "name": "Spine Trauma",
+        "link": "https://uamshealth.com/condition/spine-trauma/"
+      },
+      {
+        "name": "Stroke",
+        "link": "https://uamshealth.com/condition/stroke/"
+      },
+      {
+        "name": "Trauma",
+        "link": "https://uamshealth.com/condition/trauma/"
+      },
+      {
+        "name": "Traumatic Brain Injury (TBI)",
+        "link": "https://uamshealth.com/condition/traumatic-brain-injury/"
+      },
+      {
+        "name": "Traumatic Eye Injuries",
+        "link": "https://uamshealth.com/condition/traumatic-eye-injuries/"
+      },
+      {
+        "name": "Traumatic Soft-Tissue Injuries",
+        "link": "https://uamshealth.com/condition/traumatic-soft-tissue-injuries/"
+      },
+      {
+        "name": "Upper Extremity Trauma",
+        "link": "https://uamshealth.com/condition/upper-extremity-trauma/"
+      },
+      {
+        "name": "Vascular Trauma",
+        "link": "https://uamshealth.com/condition/vascular-trauma/"
+      }
+    ],
+    "treatments": [],
+    "providers": [
+      {
+        "name": "Jason N. Arthur, M.D.",
+        "picture": "/wp-content/plugins/UAMSWP-Find-a-Doc/assets/svg/no-image_3-4.jpg",
+        "specialty": "Emergency Medicine Physician",
+        "link": "https://uamshealth.com/provider/jason-n-arthur/"
+      },
+      {
+        "name": "Meryll P. Bouldin, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/58553/Bouldin_Meryll-Pampolina-253x337-cc.jpg",
+        "specialty": "Emergency Medicine Physician",
+        "link": "https://uamshealth.com/provider/meryll-p-bouldin/"
+      },
+      {
+        "name": "Zachary T. Brodrick, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/57202/Brodrick_Zachary-T-1-253x337-cc.jpg",
+        "specialty": "Emergency Medicine Physician",
+        "link": "https://uamshealth.com/provider/zachary-t-brodrick/"
+      },
+      {
+        "name": "Heather M. Bullard-Manbeck, D.O.",
+        "picture": "/wp-content/plugins/UAMSWP-Find-a-Doc/assets/svg/no-image_3-4.jpg",
+        "specialty": "Pediatric Emergency Medicine Physician",
+        "link": "https://uamshealth.com/provider/heather-m-bullard-manbeck/"
+      },
+      {
+        "name": "Deepak Choudary, M.D.",
+        "picture": "/wp-content/plugins/UAMSWP-Find-a-Doc/assets/svg/no-image_3-4.jpg",
+        "specialty": "Pediatric Emergency Medicine Physician",
+        "link": "https://uamshealth.com/provider/deepak-choudhary/"
+      },
+      {
+        "name": "Abdallah R. Dalabih, M.D.",
+        "picture": "/wp-content/plugins/UAMSWP-Find-a-Doc/assets/svg/no-image_3-4.jpg",
+        "specialty": "Pediatric Critical Care Medicine Specialist",
+        "link": "https://uamshealth.com/provider/abdallah-r-dalabih/"
+      },
+      {
+        "name": "Clinton E. Evans, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/56464/Evans_Clinton-Edward-253x337-cc.jpg",
+        "specialty": "Emergency Medicine Physician",
+        "link": "https://uamshealth.com/provider/clinton-e-evans/"
+      },
+      {
+        "name": "Lauren N. Evans, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/57206/Evans_Lauren-Noelle-253x337-cc.jpg",
+        "specialty": "Emergency Medicine Physician",
+        "link": "https://uamshealth.com/provider/lauren-n-evans/"
+      },
+      {
+        "name": "Donald L. Foster, M.D.",
+        "picture": "/wp-content/plugins/UAMSWP-Find-a-Doc/assets/svg/no-image_3-4.jpg",
+        "specialty": "Emergency Medicine Physician",
+        "link": "https://uamshealth.com/provider/donald-l-foster/"
+      },
+      {
+        "name": "Rachael L. Freeze-Ramsey, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/12057/Freeze-Ramsey_Rachael-253x337-cc.jpg",
+        "specialty": "Emergency Medicine Physician",
+        "link": "https://uamshealth.com/provider/rachael-l-freeze-ramsey/"
+      },
+      {
+        "name": "Ethan L. Gillett, M.D.",
+        "picture": "/wp-content/plugins/UAMSWP-Find-a-Doc/assets/svg/no-image_3-4.jpg",
+        "specialty": "Pediatric Emergency Medicine Physician",
+        "link": "https://uamshealth.com/provider/ethan-l-gillett/"
+      },
+      {
+        "name": "Sarah M. Greenberger, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/56597/Greenberger_Sarah-Marcia-253x337-cc.jpg",
+        "specialty": "Emergency Medicine Physician",
+        "link": "https://uamshealth.com/provider/sarah-m-greenberger/"
+      }
+    ],
+    "locations": [
+      {
+        "name": "Emergency Room",
+        "picture": "https://uamshealth.com/wp-content/uploads/2019/11/UAMS-ER--512x288.jpg",
+        "link": "https://uamshealth.com/location/uams-emergency-room/"
+      },
+      {
+        "name": "UAMS Medical Center",
+        "picture": "https://uamshealth.com/wp-content/uploads/2019/11/Bruce-fountain-512x288.jpg",
+        "link": "https://uamshealth.com/location/uams-medical-center/"
+      }
+    ]
+  },
+  "https://uamshealth.com/expertise/eye-care/": {
+    "name": null,
+    "aka": "Also called: Ophthalmology; Optometry",
+    "description": "\nWhether you need a general eye exam or complex care, the professionals at UAMS can help.\nThe UAMS Harvey & Bernice Jones Eye Institute is equipped with operating rooms and laser treatment suites with the latest technology, allowing our skills physicians to provide progressive eye treatment for a number of eye conditions, such as glaucoma,\\u00a0retina and\\u00a0cornea disorders,\\u00a0low vision\\u00a0and eye injuries. We also offer plastic and reconstructive eyelid surgeries.\nUAMS also offers complete optical services in our Optical Shop, including eyeglasses and contact lenses.\nOur Jones Eye Institute is one of a small number of freestanding comprehensive centers in the nation dedicated to the treatment and study of the eye. UAMS is proud to provide this level of comprehensive eye care in Arkansas.\n",
+    "conditions_treated": [
+      {
+        "name": "Cataracts",
+        "link": "https://uamshealth.com/condition/cataracts/"
+      },
+      {
+        "name": "Corneal Abrasions",
+        "link": "https://uamshealth.com/condition/corneal-abrasions/"
+      },
+      {
+        "name": "Corneal Ulcers",
+        "link": "https://uamshealth.com/condition/corneal-ulcers/"
+      },
+      {
+        "name": "Diabetic Retinopathy",
+        "link": "https://uamshealth.com/condition/diabetic-retinopathy/"
+      },
+      {
+        "name": "Glaucoma",
+        "link": "https://uamshealth.com/condition/glaucoma/"
+      },
+      {
+        "name": "Inherited Retinal Diseases",
+        "link": "https://uamshealth.com/condition/inherited-retinal-diseases/"
+      },
+      {
+        "name": "Low Vision",
+        "link": "https://uamshealth.com/condition/low-vision/"
+      },
+      {
+        "name": "Macular Degeneration",
+        "link": "https://uamshealth.com/condition/macular-degeneration/"
+      },
+      {
+        "name": "Macular Hole",
+        "link": "https://uamshealth.com/condition/macular-hole/"
+      },
+      {
+        "name": "Ocular infections",
+        "link": "https://uamshealth.com/condition/ocular-infections/"
+      },
+      {
+        "name": "Ocular inflammation",
+        "link": "https://uamshealth.com/condition/ocular-inflammation/"
+      },
+      {
+        "name": "Ocular trauma",
+        "link": "https://uamshealth.com/condition/ocular-trauma/"
+      },
+      {
+        "name": "Ptosis",
+        "link": "https://uamshealth.com/condition/ptosis/"
+      },
+      {
+        "name": "Retinal Detachment",
+        "link": "https://uamshealth.com/condition/retinal-detachment/"
+      },
+      {
+        "name": "Traumatic Eye Injuries",
+        "link": "https://uamshealth.com/condition/traumatic-eye-injuries/"
+      }
+    ],
+    "treatments": [],
+    "providers": [
+      {
+        "name": "Kathryn L. \"Katie\" Brown, O.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/12141/Brown_Kathryn-253x337-cc.jpg",
+        "specialty": "Optometrist",
+        "link": "https://uamshealth.com/provider/kathryn-l-brown/"
+      },
+      {
+        "name": "Thomas C. Cannon, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/11491/Cannon_Thomas-C-253x337-cc.jpg",
+        "specialty": "Ophthalmologist",
+        "link": "https://uamshealth.com/provider/thomas-c-cannon/"
+      },
+      {
+        "name": "Joseph G. Chacko, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/11400/Chacko_Joseph-253x337-cc.jpg",
+        "specialty": "Ophthalmologist",
+        "link": "https://uamshealth.com/provider/joseph-g-chacko/"
+      },
+      {
+        "name": "Romona L. Davis, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/11443/Davis_Romona-LeDay-253x337-cc.jpg",
+        "specialty": "Ophthalmologist",
+        "link": "https://uamshealth.com/provider/romona-l-davis/"
+      },
+      {
+        "name": "Adriana Paula Grigorian, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/56596/Grigorian_Adriana-Paula-253x337-cc.jpg",
+        "specialty": "Ophthalmologist",
+        "link": "https://uamshealth.com/provider/adriana-paula-grigorian/"
+      },
+      {
+        "name": "Florin Grigorian, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/56603/Grigorian_Florin-253x337-cc.jpg",
+        "specialty": "Ophthalmologist",
+        "link": "https://uamshealth.com/provider/florin-grigorian/"
+      },
+      {
+        "name": "R. Scott Lowery, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/54691/Lowery_Robert-Scott-253x337-cc.jpg",
+        "specialty": "Ophthalmologist",
+        "link": "https://uamshealth.com/provider/r-scott-lowery/"
+      },
+      {
+        "name": "David T. Nixon, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/54373/Nixon_David-T-253x337-cc.jpg",
+        "specialty": "Ophthalmologist",
+        "link": "https://uamshealth.com/provider/david-t-nixon/"
+      },
+      {
+        "name": "John David Pemberton, D.O.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/11897/Pemberton_John-David-253x337-cc.jpg",
+        "specialty": "Ophthalmologist",
+        "link": "https://uamshealth.com/provider/john-david-pemberton/"
+      },
+      {
+        "name": "Paul H. Phillips, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/58820/Phillips_Paul-H-253x337-cc.jpg",
+        "specialty": "Ophthalmologist",
+        "link": "https://uamshealth.com/provider/paul-h-phillips/"
+      },
+      {
+        "name": "Mary K. Price, O.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/56112/Price_Mary-253x337-cc.jpg",
+        "specialty": "Optometrist",
+        "link": "https://uamshealth.com/provider/mary-k-price/"
+      },
+      {
+        "name": "Brita S. Rook, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/57347/Rook_Brita-Sward-253x337-cc.jpg",
+        "specialty": "Ophthalmologist",
+        "link": "https://uamshealth.com/provider/brita-s-rook/"
+      }
+    ],
+    "locations": [
+      {
+        "name": "Harvey & Bernice Jones Eye Institute Clinic",
+        "picture": "https://uamshealth.com/wp-content/uploads/2019/12/Jones-Eye-Institute-12182019-DSC_8117-512x288.jpg",
+        "link": "https://uamshealth.com/location/jones-eye-institute-clinic/"
+      },
+      {
+        "name": "Harvey & Bernice Jones Eye Institute Optical Shop",
+        "picture": "https://uamshealth.com/wp-content/uploads/2019/12/Jones-Eye-Institute-12182019-DSC_8117-512x288.jpg",
+        "link": "https://uamshealth.com/location/harvey-bernice-jones-eye-institute-optical-shop/"
+      }
+    ]
+  },
+  "https://uamshealth.com/expertise/hearing-and-balance/": {
+    "name": null,
+    "description": "At UAMS, we have state-of-the-art equipment and technology to provide the best treatment for your hearing issues, and we subspecialize in more than a dozen areas. Our team of audiologists, advance nurse practitioners and surgeons work closely together to meet your hearing and balance needs.",
+    "conditions_treated": [
+      {
+        "name": "Acoustic Neuroma",
+        "link": "https://uamshealth.com/condition/acoustic-neuroma/"
+      },
+      {
+        "name": "Balance Problems",
+        "link": "https://uamshealth.com/condition/balance-problems/"
+      },
+      {
+        "name": "Cholesteatoma",
+        "link": "https://uamshealth.com/condition/cholesteatoma/"
+      },
+      {
+        "name": "Chronic Mastoiditis",
+        "link": "https://uamshealth.com/condition/chronic-mastoiditis/"
+      },
+      {
+        "name": "Dizziness",
+        "link": "https://uamshealth.com/condition/dizziness/"
+      },
+      {
+        "name": "Ear Disorders",
+        "link": "https://uamshealth.com/condition/ear-disorders/"
+      },
+      {
+        "name": "Ear Infections",
+        "link": "https://uamshealth.com/condition/ear-infection/"
+      },
+      {
+        "name": "Evoked Potentials",
+        "link": "https://uamshealth.com/condition/evoked-potentials/"
+      },
+      {
+        "name": "Glomus",
+        "link": "https://uamshealth.com/condition/glomus/"
+      },
+      {
+        "name": "Hearing Disorders",
+        "link": "https://uamshealth.com/condition/hearing-disorders/"
+      },
+      {
+        "name": "Hearing Loss",
+        "link": "https://uamshealth.com/condition/hearing-loss/"
+      },
+      {
+        "name": "Meniere\\u2019s Disease",
+        "link": "https://uamshealth.com/condition/menieres-disease/"
+      },
+      {
+        "name": "Otoacoustic Emissions (OAEs)",
+        "link": "https://uamshealth.com/condition/otoacoustic-emissions/"
+      },
+      {
+        "name": "Otosclerosis",
+        "link": "https://uamshealth.com/condition/otosclerosis/"
+      },
+      {
+        "name": "Perforation of the Tympanic Membrane",
+        "link": "https://uamshealth.com/condition/perforation-of-the-tympanic-membrane/"
+      },
+      {
+        "name": "Superior Canal Dehiscence Syndrome (SCDS)",
+        "link": "https://uamshealth.com/condition/superior-canal-dehiscence-syndrome-scds/"
+      },
+      {
+        "name": "Tinnitus",
+        "link": "https://uamshealth.com/condition/tinnitus/"
+      },
+      {
+        "name": "Vertigo",
+        "link": "https://uamshealth.com/condition/vertigo/"
+      },
+      {
+        "name": "Vestibular/Inner Ear Balance Disorders",
+        "link": "https://uamshealth.com/condition/vestibular-inner-ear-balance-disorders/"
+      }
+    ],
+    "treatments": [
+      {
+        "name": "Adult Diagnostic Hearing Exams",
+        "link": "https://uamshealth.com/treatment/adult-diagnostic-hearing-exams/"
+      },
+      {
+        "name": "Balance Testing",
+        "link": "https://uamshealth.com/treatment/balance-testing/"
+      },
+      {
+        "name": "Bone-Anchored Hearing Aid (BAHA)",
+        "link": "https://uamshealth.com/treatment/bone-anchored-hearing-aid-baha/"
+      },
+      {
+        "name": "Brain Stem Implantation",
+        "link": "https://uamshealth.com/treatment/brain-stem-implantation/"
+      },
+      {
+        "name": "Cochlear Implantation",
+        "link": "https://uamshealth.com/treatment/cochlear-implantation/"
+      },
+      {
+        "name": "CROS Hearing Aids",
+        "link": "https://uamshealth.com/treatment/cros-hearing-aids/"
+      },
+      {
+        "name": "Ear Tubes",
+        "link": "https://uamshealth.com/treatment/ear-tubes/"
+      },
+      {
+        "name": "Hearing aid evaluations",
+        "link": "https://uamshealth.com/treatment/hearing-aid-evaluations/"
+      },
+      {
+        "name": "Hearing aid\\u00a0fittings",
+        "link": "https://uamshealth.com/treatment/hearing-aid-fittings/"
+      },
+      {
+        "name": "Hearing Device Implantation",
+        "link": "https://uamshealth.com/treatment/implantable-hearing-devices/"
+      },
+      {
+        "name": "Mastoid and Middle Ear Surgery",
+        "link": "https://uamshealth.com/treatment/mastoid-and-middle-ear-surgery/"
+      },
+      {
+        "name": "Posturography",
+        "link": "https://uamshealth.com/treatment/posturography/"
+      },
+      {
+        "name": "Pure Tone Audiometry",
+        "link": "https://uamshealth.com/treatment/pure-tone-audiometry/"
+      },
+      {
+        "name": "Real Ear Measurements",
+        "link": "https://uamshealth.com/treatment/real-ear-measurements/"
+      },
+      {
+        "name": "Smartphone Compatible Hearing Aids",
+        "link": "https://uamshealth.com/treatment/smartphone-compatible-hearing-aids/"
+      },
+      {
+        "name": "Surgery for Hearing Restoration",
+        "link": "https://uamshealth.com/treatment/surgery-for-hearing-restoration/"
+      },
+      {
+        "name": "Tympanometry",
+        "link": "https://uamshealth.com/treatment/tympanometry/"
+      },
+      {
+        "name": "Videonystagmography",
+        "link": "https://uamshealth.com/treatment/videonystagmography/"
+      }
+    ],
+    "providers": [
+      {
+        "name": "Anndi E. Cranford, CNP",
+        "picture": "/wp-content/plugins/UAMSWP-Find-a-Doc/assets/svg/no-image_3-4.jpg",
+        "specialty": "Advanced Practice Registered Nurse",
+        "link": "https://uamshealth.com/provider/anndi-e-cranford/"
+      },
+      {
+        "name": "John L. Dornhoffer, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/58272/Dornhoffer_John-Louis-253x337-cc.jpg",
+        "specialty": "Otolaryngologist",
+        "link": "https://uamshealth.com/provider/john-l-dornhoffer/"
+      },
+      {
+        "name": "Allison C. Gill, Au.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/909840/Gill_Allison-Catlett-253x337-cc.jpg",
+        "specialty": "Audiologist",
+        "link": "https://uamshealth.com/provider/allison-c-gill/"
+      },
+      {
+        "name": "Melissa A. Robertson, Au.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/12429/Robertson_Melissa-A-253x337-cc.jpg",
+        "specialty": "Audiologist",
+        "link": "https://uamshealth.com/provider/melissa-a-robertson/"
+      },
+      {
+        "name": "Amanda H. Russell, Au.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/12430/Russell_Amanda-H-253x337-cc.jpg",
+        "specialty": "Audiologist",
+        "link": "https://uamshealth.com/provider/amanda-h-russell/"
+      },
+      {
+        "name": "Brenda O. Speed, CNP",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/54668/Speed_Brenda-253x337-cc.jpg",
+        "specialty": "Advanced Practice Registered Nurse",
+        "link": "https://uamshealth.com/provider/brenda-o-speed/"
+      },
+      {
+        "name": "David D. Walker, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/54440/Walker_David-Douglas-253x337-cc.jpg",
+        "specialty": "Otolaryngologist",
+        "link": "https://uamshealth.com/provider/david-d-walker/"
+      }
+    ],
+    "locations": [
+      {
+        "name": "Audiology Clinic",
+        "picture": "https://uamshealth.com/wp-content/uploads/2019/12/UAMS-Stephens-Institute-12182019-DSC_8129-512x288.jpg",
+        "link": "https://uamshealth.com/location/audiology-clinic/"
+      },
+      {
+        "name": "Ear, Nose and Throat (ENT) Clinic",
+        "picture": "https://uamshealth.com/wp-content/uploads/2019/12/UAMS-Stephens-Institute-12182019-DSC_8129-512x288.jpg",
+        "link": "https://uamshealth.com/location/ear-nose-and-throat-clinic/"
+      }
+    ]
+  },
+  "https://uamshealth.com/expertise/heart-and-vascular-care/": {
+    "name": null,
+    "description": "At UAMS, our multidisciplinary team in heart and vascular care includes cardiologists, interventional radiologists, vascular surgeons and cardiothoracic surgeons. They collaborate to provide you with comprehensive care that covers all areas of cardiovascular medicine, from hypertension to heart disease to heart failure.",
+    "conditions_treated": [
+      {
+        "name": "Aortic Aneurysms",
+        "link": "https://uamshealth.com/condition/aortic-aneurysms/"
+      },
+      {
+        "name": "Chest Pain",
+        "link": "https://uamshealth.com/condition/chest-pain/"
+      },
+      {
+        "name": "Congestive Heart Failure",
+        "link": "https://uamshealth.com/condition/congestive-heart-failure/"
+      },
+      {
+        "name": "Coronary Artery Disease (CAD)",
+        "link": "https://uamshealth.com/condition/coronary-artery-disease/"
+      },
+      {
+        "name": "Deep Vein Thrombosis",
+        "link": "https://uamshealth.com/condition/deep-vein-thrombosis/"
+      },
+      {
+        "name": "Heart Attack",
+        "link": "https://uamshealth.com/condition/heart-attack/"
+      },
+      {
+        "name": "Heart Valve Disorder",
+        "link": "https://uamshealth.com/condition/heart-valve-disorder/"
+      },
+      {
+        "name": "High Blood Pressure",
+        "link": "https://uamshealth.com/condition/high-blood-pressure/"
+      },
+      {
+        "name": "Irregular Heartbeat",
+        "link": "https://uamshealth.com/condition/irregular-heartbeat/"
+      },
+      {
+        "name": "Peripheral Artery Disease",
+        "link": "https://uamshealth.com/condition/peripheral-artery-disease/"
+      },
+      {
+        "name": "Peripheral Vascular Disease",
+        "link": "https://uamshealth.com/condition/peripheral-vascular-disease/"
+      },
+      {
+        "name": "Pulmonary Embolism",
+        "link": "https://uamshealth.com/condition/pulmonary-embolism/"
+      },
+      {
+        "name": "Valvular Heart Disease",
+        "link": "https://uamshealth.com/condition/valvular-heart-disease/"
+      },
+      {
+        "name": "Varicose Veins",
+        "link": "https://uamshealth.com/condition/varicose-veins/"
+      }
+    ],
+    "treatments": [
+      {
+        "name": "Aneurysm Repairs",
+        "link": "https://uamshealth.com/treatment/aneurysm-repairs/"
+      },
+      {
+        "name": "Aortic dissection repair",
+        "link": "https://uamshealth.com/treatment/aortic-dissection-repair/"
+      },
+      {
+        "name": "Balloon Valvuloplasty",
+        "link": "https://uamshealth.com/treatment/balloon-valvuloplasty/"
+      },
+      {
+        "name": "Cardiothoracic Surgery",
+        "link": "https://uamshealth.com/treatment/cardiothoracic-surgery/"
+      },
+      {
+        "name": "TEVAR (Thoracic Endovascular Aortic Repair)",
+        "link": "https://uamshealth.com/treatment/tevar/"
+      },
+      {
+        "name": "Thoracic Aortic Stenting",
+        "link": "https://uamshealth.com/treatment/thoracic-aortic-stenting/"
+      }
+    ],
+    "providers": [
+      {
+        "name": "Malek Al-Hawwas, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/923098/Al-hawwas_Malek-253x337-cc.jpg",
+        "specialty": "Interventional Cardiologist",
+        "link": "https://uamshealth.com/provider/malek-al-hawwas/"
+      },
+      {
+        "name": "Subhi J. Al'Aref, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/944004/Al-Aref_Subhi-Jamal-253x337-cc.jpg",
+        "specialty": "Cardiologist",
+        "link": "https://uamshealth.com/provider/subhi-j-al-aref/"
+      },
+      {
+        "name": "Michael J. Angtuaco, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/973518/Angtuaco_Michael-Jason-253x337-cc.jpg",
+        "specialty": "Pediatric Cardiologist",
+        "link": "https://uamshealth.com/provider/michael-j-angtuaco/"
+      },
+      {
+        "name": "Sylvia S.O. Angtuaco, M.D.",
+        "picture": "/wp-content/plugins/UAMSWP-Find-a-Doc/assets/svg/no-image_3-4.jpg",
+        "specialty": "Pediatric Cardiologist",
+        "link": "https://uamshealth.com/provider/sylvia-s-o-angtuaco/"
+      },
+      {
+        "name": "Deborah K. Bell, CNP",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/916922/Bell_Debora-Kay-253x337-cc.jpg",
+        "specialty": "Advanced Practice Nurse",
+        "link": "https://uamshealth.com/provider/deborah-k-bell/"
+      },
+      {
+        "name": "Thomas H. Best, M.D.",
+        "picture": "/wp-content/plugins/UAMSWP-Find-a-Doc/assets/svg/no-image_3-4.jpg",
+        "specialty": "Pediatric Cardiologist",
+        "link": "https://uamshealth.com/provider/thomas-h-best/"
+      },
+      {
+        "name": "Jay K. Bhama, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/56832/Bhama_Jay-K-1-253x337-cc.jpg",
+        "specialty": "Cardiovascular Surgeon",
+        "link": "https://uamshealth.com/provider/jay-k-bhama/"
+      },
+      {
+        "name": "Tanmay A. Bhamare, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/973979/Bhamare-Tanmaylab-253x337-cc.jpg",
+        "specialty": "Pediatric Cardiologist",
+        "link": "https://uamshealth.com/provider/tanmay-a-bhamare/"
+      },
+      {
+        "name": "Elijah H. Bolin, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/973738/Bolin_Elijah-Holbrook-1-253x337-cc.jpg",
+        "specialty": "Pediatric Cardiologist",
+        "link": "https://uamshealth.com/provider/elijah-h-bolin/"
+      },
+      {
+        "name": "Renee A. Bornemeier, M.D.",
+        "picture": "/wp-content/plugins/UAMSWP-Find-a-Doc/assets/svg/no-image_3-4.jpg",
+        "specialty": "Pediatric Cardiologist",
+        "link": "https://uamshealth.com/provider/renee-a-bornemeier/"
+      },
+      {
+        "name": "Kiley  R. Branch, CNP",
+        "picture": "/wp-content/plugins/UAMSWP-Find-a-Doc/assets/svg/no-image_3-4.jpg",
+        "specialty": "Nurse Practitioner",
+        "link": "https://uamshealth.com/provider/kiley-r-branch/"
+      },
+      {
+        "name": "Joshua A. Daily, M.D.",
+        "picture": "/wp-content/plugins/UAMSWP-Find-a-Doc/assets/svg/no-image_3-4.jpg",
+        "specialty": "Pediatric Cardiologist",
+        "link": "https://uamshealth.com/provider/joshua-a-daily/"
+      }
+    ],
+    "locations": [
+      {
+        "name": "Arkansas Children\\u2019s Hospital",
+        "picture": "https://uamshealth.com/wp-content/uploads/2018/04/B31A3657-Edit-512x288.jpg",
+        "link": "https://uamshealth.com/location/arkansas-childrens-hospital/"
+      },
+      {
+        "name": "Cardiology Clinic",
+        "picture": "https://uamshealth.com/wp-content/uploads/2019/12/UAMS-Outpatient-Center-12182019-DSC_8127-512x288.jpg",
+        "link": "https://uamshealth.com/location/cardiology-clinic/"
+      },
+      {
+        "name": "Cardiothoracic Clinic",
+        "picture": "https://uamshealth.com/wp-content/uploads/2019/12/UAMS-Outpatient-Center-12182019-DSC_8127-512x288.jpg",
+        "link": "https://uamshealth.com/location/cardiothoracic-clinic/"
+      }
+    ]
+  },
+  "https://uamshealth.com/expertise/neurology/": {
+    "name": null,
+    "description": "UAMS provides some of the best care in Arkansas for adult patients with neurological disorders, including disorders of the brain, spinal cord, peripheral nerves, immune system and muscles.",
+    "conditions_treated": [
+      {
+        "name": "Acute and Chronic Inflammatory Demyelinating Polyneuropathy",
+        "link": "https://uamshealth.com/condition/acute-and-chronic-inflammatory-demyelinating-polyneuropathy/"
+      },
+      {
+        "name": "Alzheimer's Disease",
+        "link": "https://uamshealth.com/condition/alzheimers-disease/"
+      },
+      {
+        "name": "Amyotrophic Lateral Sclerosis (ALS)",
+        "link": "https://uamshealth.com/condition/amyotrophic-lateral-sclerosis/"
+      },
+      {
+        "name": "Brain Aneurysms",
+        "link": "https://uamshealth.com/condition/brain-aneurysms/"
+      },
+      {
+        "name": "Carpal Tunnel Syndrome",
+        "link": "https://uamshealth.com/condition/carpal-tunnel-syndrome/"
+      },
+      {
+        "name": "Cerebrovascular Disease",
+        "link": "https://uamshealth.com/condition/cerebrovascular-disease/"
+      },
+      {
+        "name": "Charcot-Marie-Tooth Disease",
+        "link": "https://uamshealth.com/condition/charcot-marie-tooth-disease/"
+      },
+      {
+        "name": "Dementia",
+        "link": "https://uamshealth.com/condition/dementia/"
+      },
+      {
+        "name": "Dizziness",
+        "link": "https://uamshealth.com/condition/dizziness/"
+      },
+      {
+        "name": "Drug-Resistant Seizures",
+        "link": "https://uamshealth.com/condition/drug-resistant-seizures/"
+      },
+      {
+        "name": "Dystonia",
+        "link": "https://uamshealth.com/condition/dystonia/"
+      },
+      {
+        "name": "Epilepsy",
+        "link": "https://uamshealth.com/condition/epilepsy/"
+      },
+      {
+        "name": "Guillain-Barre Syndrome",
+        "link": "https://uamshealth.com/condition/guillain-barre-syndrome/"
+      },
+      {
+        "name": "Headache",
+        "link": "https://uamshealth.com/condition/headache/"
+      },
+      {
+        "name": "Huntington's Disease",
+        "link": "https://uamshealth.com/condition/huntingtons-disease/"
+      },
+      {
+        "name": "Intracerebral Hemorrhage",
+        "link": "https://uamshealth.com/condition/intracerebral-hemorrhage/"
+      },
+      {
+        "name": "Limb Pain",
+        "link": "https://uamshealth.com/condition/limb-pain/"
+      },
+      {
+        "name": "Memory Problems",
+        "link": "https://uamshealth.com/condition/memory-problems/"
+      },
+      {
+        "name": "Movement Disorders",
+        "link": "https://uamshealth.com/condition/movement-disorders/"
+      },
+      {
+        "name": "Multiple Sclerosis (MS)",
+        "link": "https://uamshealth.com/condition/multiple-sclerosis/"
+      },
+      {
+        "name": "Muscle Pain",
+        "link": "https://uamshealth.com/condition/muscle-pain/"
+      },
+      {
+        "name": "Muscle Wasting",
+        "link": "https://uamshealth.com/condition/muscle-wasting/"
+      },
+      {
+        "name": "Myasthenia Gravis",
+        "link": "https://uamshealth.com/condition/myasthenia-gravis/"
+      },
+      {
+        "name": "Myopathy",
+        "link": "https://uamshealth.com/condition/myopathy/"
+      },
+      {
+        "name": "Neurodegenerative Conditions",
+        "link": "https://uamshealth.com/condition/neurodegenerative-conditions/"
+      },
+      {
+        "name": "Neurological Disorders",
+        "link": "https://uamshealth.com/condition/neurological-disorders/"
+      },
+      {
+        "name": "Neuromuscular Diseases",
+        "link": "https://uamshealth.com/condition/neuromusclar-diseases/"
+      },
+      {
+        "name": "Neuropathy",
+        "link": "https://uamshealth.com/condition/neuropathy/"
+      },
+      {
+        "name": "Parkinson's Disease",
+        "link": "https://uamshealth.com/condition/parkinsons-disease/"
+      },
+      {
+        "name": "Parsonage-Turner Syndrome",
+        "link": "https://uamshealth.com/condition/parsonage-turner-syndrome/"
+      },
+      {
+        "name": "Pinched Nerve",
+        "link": "https://uamshealth.com/condition/pinched-nerve/"
+      },
+      {
+        "name": "Seizure Disorders",
+        "link": "https://uamshealth.com/condition/seizure-disorders/"
+      },
+      {
+        "name": "Seizures",
+        "link": "https://uamshealth.com/condition/seizures/"
+      },
+      {
+        "name": "Sleep Disorders",
+        "link": "https://uamshealth.com/condition/sleep-disorders/"
+      },
+      {
+        "name": "Spasticity",
+        "link": "https://uamshealth.com/condition/spasticity/"
+      },
+      {
+        "name": "Stroke",
+        "link": "https://uamshealth.com/condition/stroke/"
+      },
+      {
+        "name": "Tourette Syndrome",
+        "link": "https://uamshealth.com/condition/tourette-syndrome/"
+      },
+      {
+        "name": "Transient Ischemic Attack (TIA)",
+        "link": "https://uamshealth.com/condition/transient-ischemic-attack/"
+      },
+      {
+        "name": "Treatment-Resistant Migraines",
+        "link": "https://uamshealth.com/condition/treatment-resistant-migraines/"
+      },
+      {
+        "name": "Tremors",
+        "link": "https://uamshealth.com/condition/tremors/"
+      }
+    ],
+    "treatments": [
+      {
+        "name": "Brain Implants",
+        "link": "https://uamshealth.com/treatment/brain-implants/"
+      },
+      {
+        "name": "Deep Brain Stimulation",
+        "link": "https://uamshealth.com/treatment/deep-brain-stimulation/"
+      },
+      {
+        "name": "EEG (Electroencephalogram)",
+        "link": "https://uamshealth.com/treatment/eeg/"
+      },
+      {
+        "name": "Epilepsy Surgery",
+        "link": "https://uamshealth.com/treatment/epilepsy-surgery/"
+      },
+      {
+        "name": "Epilepsy Treatments",
+        "link": "https://uamshealth.com/treatment/epilepsy-treatments/"
+      },
+      {
+        "name": "Nerve Conduction Study (NCS)",
+        "link": "https://uamshealth.com/treatment/ncs/"
+      },
+      {
+        "name": "Video-EEG (Video-Electroencephalography)",
+        "link": "https://uamshealth.com/treatment/video-eeg/"
+      }
+    ],
+    "providers": [
+      {
+        "name": "Syed F. Ali, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/56768/Ali_Syed-Faizan-1-253x337-cc.jpg",
+        "specialty": "Neurologist",
+        "link": "https://uamshealth.com/provider/syed-f-ali/"
+      },
+      {
+        "name": "Robert L. Archer, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/11257/Archer_Robert-Lee-253x337-cc.jpg",
+        "specialty": "Neurologist",
+        "link": "https://uamshealth.com/provider/robert-l-archer/"
+      },
+      {
+        "name": "Tonya M. Balmakund, M.D.",
+        "picture": "/wp-content/plugins/UAMSWP-Find-a-Doc/assets/svg/no-image_3-4.jpg",
+        "specialty": "Neurologist",
+        "link": "https://uamshealth.com/provider/tonya-m-balmakund/"
+      },
+      {
+        "name": "Laura M. Barganier, CNP",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/58552/Barganier_Laura-May-253x337-cc.jpg",
+        "specialty": "Advanced Practice Registered Nurse",
+        "link": "https://uamshealth.com/provider/laura-m-barganier/"
+      },
+      {
+        "name": "Dale  M. Carter, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/12466/Carter_Dale-253x337-cc.jpg",
+        "specialty": "Neurologist",
+        "link": "https://uamshealth.com/provider/dale-m-carter/"
+      },
+      {
+        "name": "Sarah B. Cobb, M.D.",
+        "picture": "/wp-content/plugins/UAMSWP-Find-a-Doc/assets/svg/no-image_3-4.jpg",
+        "specialty": "Pediatric Neurologist",
+        "link": "https://uamshealth.com/provider/sarah-b-cobb/"
+      },
+      {
+        "name": "Rohit Dhall, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/12361/Dhall_Rohit-253x337-cc.jpg",
+        "specialty": "Neurologist",
+        "link": "https://uamshealth.com/provider/rohit-dhall/"
+      },
+      {
+        "name": "Bradley G. Goodson, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/927925/Goodson_Bradley-Gordon-253x337-cc.jpg",
+        "specialty": "Child and Adolescent Psychiatrist",
+        "link": "https://uamshealth.com/provider/bradley-g-goodson/"
+      },
+      {
+        "name": "Tara L. Johnson, M.D.",
+        "picture": "/wp-content/plugins/UAMSWP-Find-a-Doc/assets/svg/no-image_3-4.jpg",
+        "specialty": "Pediatric Neurologist",
+        "link": "https://uamshealth.com/provider/tara-l-johnson/"
+      },
+      {
+        "name": "Nidhi Kapoor, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/12442/Kapoor_Nidhi-253x337-cc.jpg",
+        "specialty": "Neurohospitalist",
+        "link": "https://uamshealth.com/provider/nidhi-kapoor/"
+      },
+      {
+        "name": "Sukanthi Kovvuru, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/54869/Kovvuru_Sukanthi-253x337-cc.jpg",
+        "specialty": "Neurologist",
+        "link": "https://uamshealth.com/provider/sukanthi-kovvuru/"
+      },
+      {
+        "name": "Damon H. Lipinski, Ph.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/928128/Lipinski_Damon-H-253x337-cc.jpg",
+        "specialty": "Child and Adolescent Psychologist",
+        "link": "https://uamshealth.com/provider/damon-h-lipinski/"
+      }
+    ],
+    "locations": [
+      {
+        "name": "Arkansas Children\\u2019s Hospital",
+        "picture": "https://uamshealth.com/wp-content/uploads/2018/04/B31A3657-Edit-512x288.jpg",
+        "link": "https://uamshealth.com/location/arkansas-childrens-hospital/"
+      },
+      {
+        "name": "Epilepsy and Neurology Clinic",
+        "picture": "https://uamshealth.com/wp-content/uploads/2018/04/freeway-medical-tower-512x288.jpg",
+        "link": "https://uamshealth.com/location/epilepsy-and-neurology-clinic/"
+      },
+      {
+        "name": "Movement Disorders Clinic",
+        "picture": "https://uamshealth.com/wp-content/uploads/2019/12/UAMS-Stephens-Institute-12182019-DSC_8129-512x288.jpg",
+        "link": "https://uamshealth.com/location/movement-disorders-clinic/"
+      },
+      {
+        "name": "Neurology Clinic",
+        "picture": "https://uamshealth.com/wp-content/uploads/2019/12/UAMS-Stephens-Institute-12182019-DSC_8129-512x288.jpg",
+        "link": "https://uamshealth.com/location/neurology-clinic/"
+      },
+      {
+        "name": "UAMS Medical Center",
+        "picture": "https://uamshealth.com/wp-content/uploads/2019/11/Bruce-fountain-512x288.jpg",
+        "link": "https://uamshealth.com/location/uams-medical-center/"
+      }
+    ]
+  },
+  "https://uamshealth.com/expertise/neurosurgery/": {
+    "name": null,
+    "description": "UAMS is the center of innovative neurosurgery in Arkansas. More physicians refer patients to UAMS for neurosurgical procedures than elsewhere in the state. Our neurosurgeons perform research, multiple clinical trials and are the leaders for simple and complex surgeries not available at other centers in Arkansas. ",
+    "conditions_treated": [
+      {
+        "name": "Arteriovenous Malformations (AVM)",
+        "link": "https://uamshealth.com/condition/arteriovenous-malformations/"
+      },
+      {
+        "name": "Back Pain",
+        "link": "https://uamshealth.com/condition/back-pain/"
+      },
+      {
+        "name": "Benign Brain Tumors",
+        "link": "https://uamshealth.com/condition/benign-brain-tumors/"
+      },
+      {
+        "name": "Brain and Spine Cancer",
+        "link": "https://uamshealth.com/condition/brain-and-spine-cancer/"
+      },
+      {
+        "name": "Brain Aneurysms",
+        "link": "https://uamshealth.com/condition/brain-aneurysms/"
+      },
+      {
+        "name": "Brain Injuries",
+        "link": "https://uamshealth.com/condition/brain-injuries/"
+      },
+      {
+        "name": "Brain Tumors",
+        "link": "https://uamshealth.com/condition/brain-tumors/"
+      },
+      {
+        "name": "Carotid Artery Stenosis",
+        "link": "https://uamshealth.com/condition/carotid-artery-stenosis/"
+      },
+      {
+        "name": "Cervical Thoracic Lumbar Discogenic",
+        "link": "https://uamshealth.com/condition/cervical-thoracic-lumbar-discogenic/"
+      },
+      {
+        "name": "Degenerative Disorders of the Spine",
+        "link": "https://uamshealth.com/condition/degenerative-disorders-of-the-spine/"
+      },
+      {
+        "name": "Drug-Resistant Seizures",
+        "link": "https://uamshealth.com/condition/drug-resistant-seizures/"
+      },
+      {
+        "name": "Dystonia",
+        "link": "https://uamshealth.com/condition/dystonia/"
+      },
+      {
+        "name": "Epilepsy",
+        "link": "https://uamshealth.com/condition/epilepsy/"
+      },
+      {
+        "name": "Essential Tremor",
+        "link": "https://uamshealth.com/condition/essential-tremor/"
+      },
+      {
+        "name": "Facial Pain",
+        "link": "https://uamshealth.com/condition/facial-pain/"
+      },
+      {
+        "name": "Failed Back Surgery Syndrome",
+        "link": "https://uamshealth.com/condition/failed-back-surgery-syndrome/"
+      },
+      {
+        "name": "Hydrocephalus",
+        "link": "https://uamshealth.com/condition/hydrocephalus/"
+      },
+      {
+        "name": "Movement Disorders",
+        "link": "https://uamshealth.com/condition/movement-disorders/"
+      },
+      {
+        "name": "Neuroendocrine Tumors",
+        "link": "https://uamshealth.com/condition/neuroendocrine-tumors/"
+      },
+      {
+        "name": "Neurological Disorders",
+        "link": "https://uamshealth.com/condition/neurological-disorders/"
+      },
+      {
+        "name": "Parkinson's Disease",
+        "link": "https://uamshealth.com/condition/parkinsons-disease/"
+      },
+      {
+        "name": "Spinal Deformities",
+        "link": "https://uamshealth.com/condition/spinal-deformities/"
+      },
+      {
+        "name": "Spinal Tumors",
+        "link": "https://uamshealth.com/condition/spinal-tumors/"
+      },
+      {
+        "name": "Spine Disorders",
+        "link": "https://uamshealth.com/condition/spine-disorders/"
+      },
+      {
+        "name": "Spine Trauma",
+        "link": "https://uamshealth.com/condition/spine-trauma/"
+      },
+      {
+        "name": "Stroke",
+        "link": "https://uamshealth.com/condition/stroke/"
+      },
+      {
+        "name": "Trigeminal Neuralgia (TN)",
+        "link": "https://uamshealth.com/condition/trigeminal-neuralgia/"
+      },
+      {
+        "name": "Vascular Malformations",
+        "link": "https://uamshealth.com/condition/vascular-malformations/"
+      }
+    ],
+    "treatments": [
+      {
+        "name": "Cranial and Spinal Neurosurgery",
+        "link": "https://uamshealth.com/treatment/cranial-and-spinal-neurosurgery/"
+      },
+      {
+        "name": "Deep Brain Stimulation",
+        "link": "https://uamshealth.com/treatment/deep-brain-stimulation/"
+      },
+      {
+        "name": "Endovascular Neurosurgery",
+        "link": "https://uamshealth.com/treatment/endovascular-neurosurgery/"
+      },
+      {
+        "name": "Movement Disorder Surgery",
+        "link": "https://uamshealth.com/treatment/movement-disorder-surgery/"
+      },
+      {
+        "name": "Selective Nerve Blocks",
+        "link": "https://uamshealth.com/treatment/selective-nerve-blocks/"
+      },
+      {
+        "name": "Skull Base Surgery",
+        "link": "https://uamshealth.com/treatment/skull-base-surgery/"
+      },
+      {
+        "name": "Spinal Cord Stimulation",
+        "link": "https://uamshealth.com/treatment/spinal-cord-stimulation/"
+      },
+      {
+        "name": "Spine Surgery",
+        "link": "https://uamshealth.com/treatment/spine-surgery/"
+      },
+      {
+        "name": "Stereotactic Brain Surgery",
+        "link": "https://uamshealth.com/treatment/stereotactic-brain-surgery/"
+      }
+    ],
+    "providers": [
+      {
+        "name": "Gregory W. Albert, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/54319/Albert_Gregory-253x337-cc.jpg",
+        "specialty": "Neurosurgeon",
+        "link": "https://uamshealth.com/provider/gregory-w-albert/"
+      },
+      {
+        "name": "J. D. Day, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/11746/Day_John-253x337-cc.jpg",
+        "specialty": "Neurosurgeon",
+        "link": "https://uamshealth.com/provider/j-d-day/"
+      },
+      {
+        "name": "Noojan Kazemi, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/12135/Kazemi_Noojan-253x337-cc.jpg",
+        "specialty": "Neurosurgeon",
+        "link": "https://uamshealth.com/provider/noojan-kazemi/"
+      },
+      {
+        "name": "T. W. Morris\\u00a0III, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/54472/Morris_Thomas-Whitfield-III-253x337-cc.jpg",
+        "specialty": "Neurosurgeon",
+        "link": "https://uamshealth.com/provider/t-w-morris-iii/"
+      },
+      {
+        "name": "Eylem \\u00d6cal, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/56562/Ocal_Eylem-253x337-cc.jpg",
+        "specialty": "Neurosurgeon",
+        "link": "https://uamshealth.com/provider/eylem-ocal/"
+      },
+      {
+        "name": "T. Glenn Pait, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/11261/Pait_T-Glenn-253x337-cc.jpg",
+        "specialty": "Neurosurgeon",
+        "link": "https://uamshealth.com/provider/t-glenn-pait/"
+      },
+      {
+        "name": "Viktoras Palys, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/12467/Palys_Viktor-253x337-cc.jpg",
+        "specialty": "Neurosurgeon",
+        "link": "https://uamshealth.com/provider/viktoras-palys/"
+      },
+      {
+        "name": "Erika A. Petersen, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/11768/Petersen_Erika-253x337-cc.jpg",
+        "specialty": "Neurosurgeon",
+        "link": "https://uamshealth.com/provider/erika-a-petersen/"
+      },
+      {
+        "name": "Analiz Rodriguez, M.D., Ph.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/12445/Rodriguez_Analiz-253x337-cc.jpg",
+        "specialty": "Neurosurgeon",
+        "link": "https://uamshealth.com/provider/analiz-rodriguez/"
+      },
+      {
+        "name": "Tomoko Tanaka, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/58420/Tanaka_Tomoko-253x337-cc.jpg",
+        "specialty": "Neurosurgeon",
+        "link": "https://uamshealth.com/provider/tomoko-tanaka/"
+      }
+    ],
+    "locations": [
+      {
+        "name": "Arkansas Children\\u2019s Hospital",
+        "picture": "https://uamshealth.com/wp-content/uploads/2018/04/B31A3657-Edit-512x288.jpg",
+        "link": "https://uamshealth.com/location/arkansas-childrens-hospital/"
+      },
+      {
+        "name": "Neurosurgery Clinic",
+        "picture": "https://uamshealth.com/wp-content/uploads/2019/12/UAMS-Stephens-Institute-12182019-DSC_8129-512x288.jpg",
+        "link": "https://uamshealth.com/location/neurosurgery-clinic/"
+      },
+      {
+        "name": "UAMS Medical Center",
+        "picture": "https://uamshealth.com/wp-content/uploads/2019/11/Bruce-fountain-512x288.jpg",
+        "link": "https://uamshealth.com/location/uams-medical-center/"
+      }
+    ]
+  },
+  "https://uamshealth.com/expertise/newborn-infant-care/": {
+    "name": null,
+    "aka": "Also called: Neonatology; Neonatal Care",
+    "description": "\nSometimes, babies need a little extra care after they are born. At UAMS, we care for babies in our state-of-the-art neonatal intensive care unit (NICU).\nWho Is Involved in Neonatal Care?\nCaring for a baby takes a whole team of experts. The primary doctor who cares for your baby is called a neonatologist. A neonatologist is a pediatrician (children\\u2019s doctor) and has special training in caring for sick babies. At UAMS, our NICU is staffed by experienced doctors, nurses, therapists, dieticians, pharmacists, and more.\nThe neonatal care program at UAMS also includes patient education and lactation consultation so that each family leaves our care with the knowledge they need to support the health of their baby.\nWhat Sets Neonatal Care at UAMS Apart\nThe UAMS neonatal care model is designed to keep you and your loved ones connected to your baby while in the hospital. \nMany of the babies we care for are:\n\nWhen a baby stays in the NICU, UAMS keeps you connected and promotes bonding with your baby. To support your connection with your baby, we offer:\n\n\n\n",
+    "conditions_treated": [
+      {
+        "name": "Birth Defects",
+        "link": "https://uamshealth.com/condition/birth-defects/"
+      },
+      {
+        "name": "Childbirth Complications",
+        "link": "https://uamshealth.com/condition/childbirth-complications/"
+      },
+      {
+        "name": "Down Syndrome",
+        "link": "https://uamshealth.com/condition/down-syndrome/"
+      },
+      {
+        "name": "High-Risk Pregnancy",
+        "link": "https://uamshealth.com/condition/high-risk-pregnancy/"
+      },
+      {
+        "name": "Multiple Births",
+        "link": "https://uamshealth.com/condition/multiple-births/"
+      },
+      {
+        "name": "Premature Birth",
+        "link": "https://uamshealth.com/condition/premature-birth/"
+      }
+    ],
+    "treatments": [],
+    "providers": [
+      {
+        "name": "Nidhi Agarwal, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/962802/Agarwal_Nidhi-253x337-cc.jpg",
+        "specialty": "Neonatologist",
+        "link": "https://uamshealth.com/provider/nidhi-agarwal/"
+      },
+      {
+        "name": "Jennifer P. Andrews, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/962533/Andrews_Jennifer_MD_-07302020-800_8264_edit-253x337-cc.jpg",
+        "specialty": "Pediatrician",
+        "link": "https://uamshealth.com/provider/jennifer-p-andrews/"
+      },
+      {
+        "name": "Robert W. Arrington, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/11299/Arrington_Robert-253x337-cc.jpg",
+        "specialty": "Neonatologist",
+        "link": "https://uamshealth.com/provider/robert-w-arrington/"
+      },
+      {
+        "name": "Megan N. Baber, D.O.",
+        "picture": "/wp-content/plugins/UAMSWP-Find-a-Doc/assets/svg/no-image_3-4.jpg",
+        "specialty": "Pediatrician",
+        "link": "https://uamshealth.com/provider/megan-n-baber/"
+      },
+      {
+        "name": "Jared C. Beavers, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/56448/Beavers_Jared-C-1-253x337-cc.jpg",
+        "specialty": "Pediatrician",
+        "link": "https://uamshealth.com/provider/jared-c-beavers/"
+      },
+      {
+        "name": "Jessica B. Beavers, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/960279/Beavers_Jessica-Blair-Boyd-253x337-cc.jpg",
+        "specialty": "Pediatrician",
+        "link": "https://uamshealth.com/provider/jessica-b-beavers/"
+      },
+      {
+        "name": "Angela L. Chandler, M.D.",
+        "picture": "/wp-content/plugins/UAMSWP-Find-a-Doc/assets/svg/no-image_3-4.jpg",
+        "specialty": "Neonatologist",
+        "link": "https://uamshealth.com/provider/angela-l-chandler/"
+      },
+      {
+        "name": "Vikas Chowdhary, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/965231/Chowdhary_Vikas-253x337-cc.jpg",
+        "specialty": "Neonatologist",
+        "link": "https://uamshealth.com/provider/vikas-chowdhary/"
+      },
+      {
+        "name": "Sherry E. Courtney, M.D.",
+        "picture": "/wp-content/plugins/UAMSWP-Find-a-Doc/assets/svg/no-image_3-4.jpg",
+        "specialty": "Neonatologist",
+        "link": "https://uamshealth.com/provider/sherry-e-courtney/"
+      },
+      {
+        "name": "Nahed O. El-Hassan, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/54677/El-Hassan_Nahed-O-253x337-cc.jpg",
+        "specialty": "Neonatologist",
+        "link": "https://uamshealth.com/provider/nahed-o-el-hassan/"
+      },
+      {
+        "name": "R. Whit Hall, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/11312/Hall_Richard-Whit-253x337-cc.jpg",
+        "specialty": "Neonatologist",
+        "link": "https://uamshealth.com/provider/richard-whit-hall/"
+      },
+      {
+        "name": "Jessica F. Jakubowicz, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/960304/Jakubowicz_Jessica-Farrell-253x337-cc.jpg",
+        "specialty": "Neonatologist",
+        "link": "https://uamshealth.com/provider/jessica-f-jakubowicz/"
+      }
+    ],
+    "locations": [
+      {
+        "name": "Arkansas Children\\u2019s Hospital",
+        "picture": "https://uamshealth.com/wp-content/uploads/2018/04/B31A3657-Edit-512x288.jpg",
+        "link": "https://uamshealth.com/location/arkansas-childrens-hospital/"
+      },
+      {
+        "name": "Neonatal Intensive Care Unit (NICU)",
+        "picture": "https://uamshealth.com/wp-content/uploads/2019/11/Bruce-fountain-512x288.jpg",
+        "link": "https://uamshealth.com/location/uams-medical-center/neonatal-intensive-care-unit-nicu/"
+      }
+    ]
+  }
+}
