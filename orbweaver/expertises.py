@@ -25,7 +25,7 @@ def populate_exertise(url):
     e = {}
     soup = BeautifulSoup(r.text, 'html.parser')
     main = soup.main
-    e['name'] = main.article.header.string
+    e['name'] = main.article.header.text.strip()
 
     # description
     description = ""

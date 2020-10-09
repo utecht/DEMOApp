@@ -14,17 +14,69 @@ import {
   View,
   Text,
   StatusBar,
+  Image,
+  Button,
 } from 'react-native';
 
-import {
-  Header,
-  LearnMoreLinks,
-  Colors,
-  DebugInstructions,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
+import BigButton from './BigButton';
+import AreasOfExpertiseScreen from './AreasOfExpertiseScreen';
+
+const Stack = createStackNavigator();
 
 const App: () => React$Node = () => {
+  return (
+    <NavigationContainer>
+      <Stack.Navigator>
+        <Stack.Screen
+          name="Home"
+          component={HomeScreen}
+          options={{ title: 'Welcome' }}
+        />
+        <Stack.Screen name="Test" component={TestScreen} />
+        <Stack.Screen name="Areas of Expertise" component={AreasOfExpertiseScreen} />
+        <Stack.Screen name="Locations" component={LocationsScreen} />
+        <Stack.Screen name="Conditions" component={ConditionsScreen} />
+        <Stack.Screen name="Treatments" component={TreatmentsScreen} />
+      </Stack.Navigator>
+    </NavigationContainer>
+  );
+};
+
+const TestScreen = ({ navigation }) => {
+  return (
+    <View>
+      <Text>Hello</Text>
+    </View>
+    )
+}
+
+const LocationsScreen = ({ navigation }) => {
+  return (
+    <View>
+      <Text>UAMS Locations</Text>
+    </View>
+    )
+}
+
+const ConditionsScreen = ({ navigation }) => {
+  return (
+    <View>
+      <Text>Conditions Treated at UAMS</Text>
+    </View>
+    )
+}
+
+const TreatmentsScreen = ({ navigation }) => {
+  return (
+    <View>
+      <Text>Treatments Avaliable at UAMS</Text>
+    </View>
+    )
+}
+
+const HomeScreen = ({ navigation }) => {
   return (
     <>
       <StatusBar barStyle="dark-content" />
@@ -32,56 +84,39 @@ const App: () => React$Node = () => {
         <ScrollView
           contentInsetAdjustmentBehavior="automatic"
           style={styles.scrollView}>
-          <Header />
-          {global.HermesInternal == null ? null : (
-            <View style={styles.engine}>
-              <Text style={styles.footer}>Engine: Hermes</Text>
-            </View>
-          )}
           <View style={styles.body}>
-            <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Step One</Text>
-              <Text style={styles.sectionDescription}>
-                Edit <Text style={styles.highlight}>App.js</Text> to change this
-                screen and then come back to see your edits.
-              </Text>
+            <View style={styles.buttonContainer}>
+              <BigButton text="Areas of Expertise"/>
+              <BigButton text="Locations"/>
             </View>
-            <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>See Your Changes</Text>
-              <Text style={styles.sectionDescription}>
-                <ReloadInstructions />
-              </Text>
+            <View style={styles.buttonContainer}>
+              <BigButton text="Conditions"/>
+              <BigButton text="Treatments"/>
             </View>
-            <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Debug</Text>
-              <Text style={styles.sectionDescription}>
-                <DebugInstructions />
-              </Text>
-            </View>
-            <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Learn More</Text>
-              <Text style={styles.sectionDescription}>
-                Read the docs to discover what to do next:
-              </Text>
-            </View>
-            <LearnMoreLinks />
           </View>
+          <Button
+            title="Go to Test Scene"
+            onPress={() =>
+              navigation.navigate('Test')
+            }
+          />
+          <WideImage />
         </ScrollView>
       </SafeAreaView>
     </>
-  );
-};
+    )
+}
 
 const styles = StyleSheet.create({
   scrollView: {
-    backgroundColor: Colors.lighter,
+    backgroundColor: 'lightgrey',
   },
   engine: {
     position: 'absolute',
     right: 0,
   },
   body: {
-    backgroundColor: Colors.white,
+    backgroundColor: 'white',
   },
   sectionContainer: {
     marginTop: 32,
@@ -90,25 +125,29 @@ const styles = StyleSheet.create({
   sectionTitle: {
     fontSize: 24,
     fontWeight: '600',
-    color: Colors.black,
+    color: 'black',
   },
   sectionDescription: {
     marginTop: 8,
     fontSize: 18,
     fontWeight: '400',
-    color: Colors.dark,
+    color: 'grey',
   },
   highlight: {
     fontWeight: '700',
   },
-  footer: {
-    color: Colors.dark,
-    fontSize: 12,
-    fontWeight: '600',
-    padding: 4,
-    paddingRight: 12,
-    textAlign: 'right',
-  },
+  buttonContainer: {
+    display: 'flex',
+    flexDirection: 'row',
+  }
 });
+
+const WideImage = (props) => {
+  return (
+    <Image
+      source={require('./images/test.jpg')}
+    />
+    )
+}
 
 export default App;

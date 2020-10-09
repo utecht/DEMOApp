@@ -1,6 +1,6 @@
 {
   "https://uamshealth.com/expertise/behavioral-care/": {
-    "name": null,
+    "name": "Behavioral Health",
     "aka": "Also called: Psychiatry; Psychology",
     "description": "UAMS Health is committed to working within our community to reduce the stigma of mental illness for patients and their families. Behavioral health care at UAMS Health includes a wide range of outpatient and inpatient services. Our locations are staffed with some of the brightest and most qualified doctors in Arkansas.\\u00a0\nAt UAMS, we use evidence-based techniques to treat mental health and addictive diseases. With such a large staff of experts, our range of services includes treating addiction, eating disorders, anxiety, depression, PTSD, and more. We also help women who are going through postpartum depression, high-risk pregnancy, addiction, infertility or grief associated with pregnancy loss.\\u00a0\n\nCancer and Behavioral Medicine\n\n\n",
     "conditions_treated": [
@@ -205,7 +205,7 @@
     ]
   },
   "https://uamshealth.com/expertise/burn-care/": {
-    "name": null,
+    "name": "Burn Care",
     "description": "Throughout the United States, burn injuries account for more than 100,000 hospital admissions annually. While many burns are minor and have minimal consequences, some burns can be extensive or deep, resulting in significant scarring and functional impairment.",
     "conditions_treated": [
       {
@@ -268,7 +268,7 @@
     ]
   },
   "https://uamshealth.com/expertise/cancer-care/": {
-    "name": null,
+    "name": "Cancer Care",
     "aka": "Also called: Oncology",
     "description": "\n\nTechnology and Research\nSince UAMS is the only academic medical center in the state of Arkansas, we have the state-of-the-art equipment and technology to provide the best medical care. And our researchers and scientists are conducting research that translates into new procedures and treatment that are being used in hospitals around the country and the world.\n",
     "conditions_treated": [
@@ -601,7 +601,7 @@
     ]
   },
   "https://uamshealth.com/expertise/dental-care/": {
-    "name": null,
+    "name": "Dental Care",
     "description": "Oral health can often be an indicator of a person\\u2019s overall health. That\\u2019s why UAMS provides dental care to our community through our Oral Health Clinic and Dental Hygiene Student Clinic. These clinics offer different options for your oral health care needs. They are located adjacent to each other, share a common waiting area & other resources but provide unique services and offer different payment options.",
     "conditions_treated": [],
     "treatments": [],
@@ -633,7 +633,7 @@
     ]
   },
   "https://uamshealth.com/expertise/diabetes-and-endocrinology-care/": {
-    "name": null,
+    "name": "Diabetes and Endocrinology Care",
     "description": "Diabetes is a disease that affects the way the body turns sugar into energy. There are several types of diabetes, including Type 1, Type 2 and gestational diabetes.",
     "conditions_treated": [
       {
@@ -709,7 +709,7 @@
     ]
   },
   "https://uamshealth.com/expertise/digestive-health/": {
-    "name": null,
+    "name": "Digestive Health",
     "aka": "Also called: Gastroenterology",
     "description": "\nWith highly skilled and trained specialists and the latest technology, UAMS\\u2019 gastroenterology service is the most complete in the state. Our gastroenterology specialists include nationally known experts in the treatment of\\u00a0stomach ulcers, hepatitis, inflammatory bowel diseases, colitis,\\u00a0Crohn\\u2019s disease, cirrhosis and conditions affecting the bile duct cells.\nUsing the latest in diagnostic tools, we can identify and develop a treatment plan for problems in the stomach, colon, esophagus, liver, pancreas, intestines and other digestive organs.\nAbout Our Doctors\nOur hepatologists, or liver specialists, diagnose and treat hepatitis, fatty liver and non-alcoholic fatty liver disease, along with other conditions. These specialists are part of the multi-disciplinary UAMS\\u00a0liver transplant program, Arkansas\\u2019 only liver transplant program.\nHighlights\nGastroenterology program highlights include:\n\n",
     "conditions_treated": [
@@ -883,7 +883,7 @@
     ]
   },
   "https://uamshealth.com/expertise/digital-health-innovation/": {
-    "name": null,
+    "name": "Digital Health & Innovation",
     "description": "It is UAMS\\u2019 goal to eliminate health care disparities in Arkansas and beyond through innovations that embrace technology, improve quality and access to clinical care, education and research. ",
     "conditions_treated": [],
     "treatments": [],
@@ -1000,7 +1000,7 @@
     ]
   },
   "https://uamshealth.com/expertise/ear-nose-throat-care/": {
-    "name": null,
+    "name": "Ear, Nose & Throat Care",
     "aka": "Also called: Otolaryngology; ENT",
     "description": "\nOtolaryngology is the field of medicine that\nfocuses on conditions and disorders related to the ear, nose and throat (ENT)\nand related structures of the head and neck. Otolaryngologists (or ENT doctors)\nprovide both surgical and nonsurgical treatments for a wide range of\nconditions. Otolaryngologists are highly trained in both medicine and surgery. \\u00a0\nComplete Care\nThe ENT physicians at UAMS are\nfellowship-trained in their specialty and cover all the sub-specialties in the\nfield: \n\nENT doctors can treat issues that range from\nthe everyday to the complex. Our physicians treat sinus and allergy issues, hearing\nloss and ear disease, balance disorders, facial and cranial nerve disorders, voice\nand swallowing disorders, head and neck cancer and benign tumors of the head\nand neck.\\u00a0 When surgery is required, our\nexperts can provide state-of-the-art surgery to the head and neck whether the\ncause is a traumatic injury, cancer or birth deformity. Our hearing and balance\nteam is internationally known and has one of the highest surgical volumes in\nthe country. People with vascular anomalies come from throughout the world to\nUAMS for treatment.\nTop 50 Nationwide\n\n",
     "conditions_treated": [
@@ -1224,7 +1224,7 @@
     ]
   },
   "https://uamshealth.com/expertise/emergency-care/": {
-    "name": null,
+    "name": "Emergency Care",
     "description": "You can\\u2019t predict an emergency, but when one strikes, UAMS Medical Center is the only Adult Level 1 Trauma Center in Arkansas, as recognized by the American College of Surgeons. UAMS is also home to the first and only Comprehensive Stroke Center in Arkansas.",
     "conditions_treated": [
       {
@@ -1369,7 +1369,7 @@
     ]
   },
   "https://uamshealth.com/expertise/eye-care/": {
-    "name": null,
+    "name": "Eye Care",
     "aka": "Also called: Ophthalmology; Optometry",
     "description": "\nWhether you need a general eye exam or complex care, the professionals at UAMS can help.\nThe UAMS Harvey & Bernice Jones Eye Institute is equipped with operating rooms and laser treatment suites with the latest technology, allowing our skills physicians to provide progressive eye treatment for a number of eye conditions, such as glaucoma,\\u00a0retina and\\u00a0cornea disorders,\\u00a0low vision\\u00a0and eye injuries. We also offer plastic and reconstructive eyelid surgeries.\nUAMS also offers complete optical services in our Optical Shop, including eyeglasses and contact lenses.\nOur Jones Eye Institute is one of a small number of freestanding comprehensive centers in the nation dedicated to the treatment and study of the eye. UAMS is proud to provide this level of comprehensive eye care in Arkansas.\n",
     "conditions_treated": [
@@ -1523,7 +1523,7 @@
     ]
   },
   "https://uamshealth.com/expertise/hearing-and-balance/": {
-    "name": null,
+    "name": "Hearing and Balance",
     "description": "At UAMS, we have state-of-the-art equipment and technology to provide the best treatment for your hearing issues, and we subspecialize in more than a dozen areas. Our team of audiologists, advance nurse practitioners and surgeons work closely together to meet your hearing and balance needs.",
     "conditions_treated": [
       {
@@ -1735,7 +1735,7 @@
     ]
   },
   "https://uamshealth.com/expertise/heart-and-vascular-care/": {
-    "name": null,
+    "name": "Heart and Vascular Care",
     "description": "At UAMS, our multidisciplinary team in heart and vascular care includes cardiologists, interventional radiologists, vascular surgeons and cardiothoracic surgeons. They collaborate to provide you with comprehensive care that covers all areas of cardiovascular medicine, from hypertension to heart disease to heart failure.",
     "conditions_treated": [
       {
@@ -1859,6 +1859,12 @@
         "link": "https://uamshealth.com/provider/thomas-h-best/"
       },
       {
+        "name": "Rupal T. Bhakta-Grammer, M.D.",
+        "picture": "/wp-content/plugins/UAMSWP-Find-a-Doc/assets/svg/no-image_3-4.jpg",
+        "specialty": "Pediatric Cardiac Intensivist",
+        "link": "https://uamshealth.com/provider/rupal-t-bhakta-grammer/"
+      },
+      {
         "name": "Jay K. Bhama, M.D.",
         "picture": "https://uamshealth.com/wp-content/uploads/fly-images/56832/Bhama_Jay-K-1-253x337-cc.jpg",
         "specialty": "Cardiovascular Surgeon",
@@ -1887,12 +1893,6 @@
         "picture": "/wp-content/plugins/UAMSWP-Find-a-Doc/assets/svg/no-image_3-4.jpg",
         "specialty": "Nurse Practitioner",
         "link": "https://uamshealth.com/provider/kiley-r-branch/"
-      },
-      {
-        "name": "Joshua A. Daily, M.D.",
-        "picture": "/wp-content/plugins/UAMSWP-Find-a-Doc/assets/svg/no-image_3-4.jpg",
-        "specialty": "Pediatric Cardiologist",
-        "link": "https://uamshealth.com/provider/joshua-a-daily/"
       }
     ],
     "locations": [
@@ -1914,7 +1914,7 @@
     ]
   },
   "https://uamshealth.com/expertise/neurology/": {
-    "name": null,
+    "name": "Neurology",
     "description": "UAMS provides some of the best care in Arkansas for adult patients with neurological disorders, including disorders of the brain, spinal cord, peripheral nerves, immune system and muscles.",
     "conditions_treated": [
       {
@@ -2211,7 +2211,7 @@
     ]
   },
   "https://uamshealth.com/expertise/neurosurgery/": {
-    "name": null,
+    "name": "Neurosurgery",
     "description": "UAMS is the center of innovative neurosurgery in Arkansas. More physicians refer patients to UAMS for neurosurgical procedures than elsewhere in the state. Our neurosurgeons perform research, multiple clinical trials and are the leaders for simple and complex surgeries not available at other centers in Arkansas. ",
     "conditions_treated": [
       {
@@ -2445,121 +2445,99 @@
       }
     ]
   },
-  "https://uamshealth.com/expertise/newborn-infant-care/": {
-    "name": null,
-    "aka": "Also called: Neonatology; Neonatal Care",
-    "description": "\nSometimes, babies need a little extra care after they are born. At UAMS, we care for babies in our state-of-the-art neonatal intensive care unit (NICU).\nWho Is Involved in Neonatal Care?\nCaring for a baby takes a whole team of experts. The primary doctor who cares for your baby is called a neonatologist. A neonatologist is a pediatrician (children\\u2019s doctor) and has special training in caring for sick babies. At UAMS, our NICU is staffed by experienced doctors, nurses, therapists, dieticians, pharmacists, and more.\nThe neonatal care program at UAMS also includes patient education and lactation consultation so that each family leaves our care with the knowledge they need to support the health of their baby.\nWhat Sets Neonatal Care at UAMS Apart\nThe UAMS neonatal care model is designed to keep you and your loved ones connected to your baby while in the hospital. \nMany of the babies we care for are:\n\nWhen a baby stays in the NICU, UAMS keeps you connected and promotes bonding with your baby. To support your connection with your baby, we offer:\n\n\n\n",
-    "conditions_treated": [
-      {
-        "name": "Birth Defects",
-        "link": "https://uamshealth.com/condition/birth-defects/"
-      },
-      {
-        "name": "Childbirth Complications",
-        "link": "https://uamshealth.com/condition/childbirth-complications/"
-      },
-      {
-        "name": "Down Syndrome",
-        "link": "https://uamshealth.com/condition/down-syndrome/"
-      },
-      {
-        "name": "High-Risk Pregnancy",
-        "link": "https://uamshealth.com/condition/high-risk-pregnancy/"
-      },
-      {
-        "name": "Multiple Births",
-        "link": "https://uamshealth.com/condition/multiple-births/"
-      },
-      {
-        "name": "Premature Birth",
-        "link": "https://uamshealth.com/condition/premature-birth/"
-      }
-    ],
+  "https://uamshealth.com/expertise/organ-transplant/": {
+    "name": "Organ Transplant",
+    "description": "UAMS is the home of Arkansas\\u2019 only adult kidney and liver transplant center, with transplants beginning in 1964 with the state\\u2019s first kidney transplant.\\u00a0 UAMS also performed the state\\u2019s first liver transplant in 2005.\\u00a0 The UAMS Organ Transplant team has performed over 1,800 kidney transplants and over 400 liver transplants.",
+    "conditions_treated": [],
     "treatments": [],
     "providers": [
       {
-        "name": "Nidhi Agarwal, M.D.",
-        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/962802/Agarwal_Nidhi-253x337-cc.jpg",
-        "specialty": "Neonatologist",
-        "link": "https://uamshealth.com/provider/nidhi-agarwal/"
+        "name": "Gary W. Barone, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/11393/Barone_Gary-253x337-cc.jpg",
+        "specialty": "Transplant Surgeon",
+        "link": "https://uamshealth.com/provider/gary-w-barone/"
       },
       {
-        "name": "Jennifer P. Andrews, M.D.",
-        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/962533/Andrews_Jennifer_MD_-07302020-800_8264_edit-253x337-cc.jpg",
-        "specialty": "Pediatrician",
-        "link": "https://uamshealth.com/provider/jennifer-p-andrews/"
+        "name": "Sushma Bhusal, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/12426/Bhusal_Sushma-1-253x337-cc.jpg",
+        "specialty": "Nephrologist",
+        "link": "https://uamshealth.com/provider/sushma-bhusal/"
       },
       {
-        "name": "Robert W. Arrington, M.D.",
-        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/11299/Arrington_Robert-253x337-cc.jpg",
-        "specialty": "Neonatologist",
-        "link": "https://uamshealth.com/provider/robert-w-arrington/"
+        "name": "Lyle J. Burdine, M.D., Ph.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/12454/Burdine_Lyle-253x337-cc.jpg",
+        "specialty": "Transplant Surgeon",
+        "link": "https://uamshealth.com/provider/lyle-j-burdine/"
       },
       {
-        "name": "Megan N. Baber, D.O.",
-        "picture": "/wp-content/plugins/UAMSWP-Find-a-Doc/assets/svg/no-image_3-4.jpg",
-        "specialty": "Pediatrician",
-        "link": "https://uamshealth.com/provider/megan-n-baber/"
+        "name": "Matthew G. Deneke, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/12159/Deneke_Matthew-Gordin-253x337-cc.jpg",
+        "specialty": "Gastroenterologist",
+        "link": "https://uamshealth.com/provider/matthew-g-deneke/"
       },
       {
-        "name": "Jared C. Beavers, M.D.",
-        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/56448/Beavers_Jared-C-1-253x337-cc.jpg",
-        "specialty": "Pediatrician",
-        "link": "https://uamshealth.com/provider/jared-c-beavers/"
+        "name": "Emmanouil Giorgakis, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/54457/Giorgakis_Emmanouil-253x337-cc.jpg",
+        "specialty": "Transplant Surgeon",
+        "link": "https://uamshealth.com/provider/emmanouil-giorgakis/"
       },
       {
-        "name": "Jessica B. Beavers, M.D.",
-        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/960279/Beavers_Jessica-Blair-Boyd-253x337-cc.jpg",
-        "specialty": "Pediatrician",
-        "link": "https://uamshealth.com/provider/jessica-b-beavers/"
+        "name": "Manuel Ernesto  Gonzalez, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/920084/Gonzalez_Manuel-Ernesto-253x337-cc.jpg",
+        "specialty": "Nephrologist",
+        "link": "https://uamshealth.com/provider/manuel-ernesto-gonzalez/"
       },
       {
-        "name": "Angela L. Chandler, M.D.",
-        "picture": "/wp-content/plugins/UAMSWP-Find-a-Doc/assets/svg/no-image_3-4.jpg",
-        "specialty": "Neonatologist",
-        "link": "https://uamshealth.com/provider/angela-l-chandler/"
+        "name": "Nasir Khan, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/917387/Khan_Nasir_2-253x337-cc.jpg",
+        "specialty": "Nephrologist",
+        "link": "https://uamshealth.com/provider/nasir-khan/"
       },
       {
-        "name": "Vikas Chowdhary, M.D.",
-        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/965231/Chowdhary_Vikas-253x337-cc.jpg",
-        "specialty": "Neonatologist",
-        "link": "https://uamshealth.com/provider/vikas-chowdhary/"
+        "name": "Raj B. Patel, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/968821/Patel_Raj-Babu-253x337-cc.jpg",
+        "specialty": "Transplant Surgeon",
+        "link": "https://uamshealth.com/provider/raj-b-patel/"
       },
       {
-        "name": "Sherry E. Courtney, M.D.",
-        "picture": "/wp-content/plugins/UAMSWP-Find-a-Doc/assets/svg/no-image_3-4.jpg",
-        "specialty": "Neonatologist",
-        "link": "https://uamshealth.com/provider/sherry-e-courtney/"
+        "name": "Mary Katherine Rude, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/12227/Rude_Mary-Katherine-253x337-cc.jpg",
+        "specialty": "Hepatologist",
+        "link": "https://uamshealth.com/provider/mary-katherine-rude/"
       },
       {
-        "name": "Nahed O. El-Hassan, M.D.",
-        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/54677/El-Hassan_Nahed-O-253x337-cc.jpg",
-        "specialty": "Neonatologist",
-        "link": "https://uamshealth.com/provider/nahed-o-el-hassan/"
+        "name": "Aparna Sharma, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/12455/Sharma_Aparna-253x337-cc.jpg",
+        "specialty": "Nephrologist",
+        "link": "https://uamshealth.com/provider/aparna-sharma/"
       },
       {
-        "name": "R. Whit Hall, M.D.",
-        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/11312/Hall_Richard-Whit-253x337-cc.jpg",
-        "specialty": "Neonatologist",
-        "link": "https://uamshealth.com/provider/richard-whit-hall/"
-      },
-      {
-        "name": "Jessica F. Jakubowicz, M.D.",
-        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/960304/Jakubowicz_Jessica-Farrell-253x337-cc.jpg",
-        "specialty": "Neonatologist",
-        "link": "https://uamshealth.com/provider/jessica-f-jakubowicz/"
+        "name": "Ragesh B. Thandassery, M.D.",
+        "picture": "https://uamshealth.com/wp-content/uploads/fly-images/55211/Thandassery_Ragesh-253x337-cc.jpg",
+        "specialty": "Hepatologist",
+        "link": "https://uamshealth.com/provider/ragesh-b-thandassery/"
       }
     ],
     "locations": [
       {
-        "name": "Arkansas Children\\u2019s Hospital",
-        "picture": "https://uamshealth.com/wp-content/uploads/2018/04/B31A3657-Edit-512x288.jpg",
-        "link": "https://uamshealth.com/location/arkansas-childrens-hospital/"
+        "name": "Family Medical Center\\u00a0\\u2014 Fayetteville",
+        "picture": "https://uamshealth.com/wp-content/uploads/2019/12/H6A8918-512x288.jpg",
+        "link": "https://uamshealth.com/location/family-medical-center-fayetteville/"
       },
       {
-        "name": "Neonatal Intensive Care Unit (NICU)",
-        "picture": "https://uamshealth.com/wp-content/uploads/2019/11/Bruce-fountain-512x288.jpg",
-        "link": "https://uamshealth.com/location/uams-medical-center/neonatal-intensive-care-unit-nicu/"
+        "name": "Kidney Transplant Clinic",
+        "picture": "https://uamshealth.com/wp-content/uploads/2019/12/UAMS-Outpatient-Center-12182019-DSC_8127-512x288.jpg",
+        "link": "https://uamshealth.com/location/kidney-transplant-clinic/"
+      },
+      {
+        "name": "Liver Transplant Clinic",
+        "picture": "https://uamshealth.com/wp-content/uploads/2019/12/UAMS-Outpatient-Center-12182019-DSC_8127-512x288.jpg",
+        "link": "https://uamshealth.com/location/liver-transplant-clinic/"
+      },
+      {
+        "name": "Transplant Clinic \\u2014 Freeway Medical",
+        "picture": "https://uamshealth.com/wp-content/uploads/2018/04/freeway-medical-tower-512x288.jpg",
+        "link": "https://uamshealth.com/location/transplant-clinic-freeway-medical/"
       }
     ]
   }
