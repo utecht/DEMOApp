@@ -16,12 +16,14 @@ import {
   StatusBar,
   Image,
   Button,
+  Linking,
 } from 'react-native';
 
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import BigButton from './BigButton';
 import AreasOfExpertiseScreen from './AreasOfExpertiseScreen';
+import { WebView } from 'react-native-webview';
 
 const Stack = createStackNavigator();
 
@@ -70,9 +72,11 @@ const ConditionsScreen = ({ navigation }) => {
 
 const TreatmentsScreen = ({ navigation }) => {
   return (
-    <View>
-      <Text>Treatments Avaliable at UAMS</Text>
-    </View>
+    <WebView
+      source={{ uri: 'https://uamshealth.com/treatment' }}
+      style={{ marginBottom: 0 }}
+      allowsBackForwardNavigationGestures={true}
+    />
     )
 }
 
@@ -95,9 +99,9 @@ const HomeScreen = ({ navigation }) => {
             </View>
           </View>
           <Button
-            title="Go to Test Scene"
+            title="Open MyChart"
             onPress={() =>
-              navigation.navigate('Test')
+              Linking.openURL('https://mychart.uamshealth.com').catch(err => console.error('An error occurred', err))
             }
           />
           <WideImage />
