@@ -20,32 +20,47 @@ import {
 const styles = StyleSheet.create({
   card: {
     display: 'flex',
-    justifyContent: 'center',
-    paddingLeft: 20,
-    paddingRight: 20,
-    textAlign: 'center'
+    marginLeft: 20,
+    marginRight: 20,
+    marginBottom: 10,
+    borderRadius: 10,
+    backgroundColor: 'white',
+    borderColor: 'black',
+    borderStyle: 'solid',
+    borderWidth: 1,
   },
   picture: {
     width: '100%',
     height: 200,
-    flex: 1
+    flex: 1,
+    borderTopLeftRadius: 10,
+    borderTopRightRadius: 10,
+  },
+  cardContents: {
+    padding: 10,
+    textAlign: 'center',
+    justifyContent: 'center',
   },
   buttonBox: {
     display: 'flex',
     flexDirection: 'row',
     width: '100%',
-    justifyContent: 'space-between'
+    justifyContent: 'space-between',
+    marginTop: 10,
   },
   title: {
     fontSize: 20,
-    fontWeight: 'bold'
+    fontWeight: 'bold',
+    textAlign: 'center'
   },
   subtitle: {
     fontSize: 15,
+    textAlign: 'center',
     fontWeight: 'bold'
   },
   phoneLink: {
-    color: 'blue'
+    color: 'blue',
+    textAlign: 'center'
   }
 });
 
@@ -72,13 +87,15 @@ const LocationPreview = (props) => {
         style={styles.picture}
         source={{uri: picture}}
       />
-      <Text style={styles.title}>{name}</Text>
-      <Text>{props.location.address}</Text>
-      <Text style={styles.subtitle}>Appointment Phone Number</Text>
-      <Text onPress={() => Linking.openURL('tel:'+phoneNumber)} style={styles.phoneLink}>{phoneNumber}</Text>
-      <View style={styles.buttonBox}>
-        <Button title="View Location" onPress={() => props.navigateTo(props.location)}/>
-        <Button title="Get Directions" onPress={() => Linking.openURL(url)}/>
+      <View style={styles.cardContents}>
+        <Text style={styles.title}>{name}</Text>
+        <Text>{props.location.address}</Text>
+        <Text style={styles.subtitle}>Appointment Phone Number</Text>
+        <Text onPress={() => Linking.openURL('tel:'+phoneNumber)} style={styles.phoneLink}>{phoneNumber}</Text>
+        <View style={styles.buttonBox}>
+          <Button title="View Location" onPress={() => props.navigateTo(props.location)}/>
+          <Button title="Get Directions" onPress={() => Linking.openURL(url)}/>
+        </View>
       </View>
     </View>
     )

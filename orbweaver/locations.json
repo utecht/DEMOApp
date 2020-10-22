@@ -1,7 +1,8 @@
 [
   {
     "url": "https://uamshealth.com/location/family-medical-center-fayetteville/adult-genetics-clinic-nw/",
-    "name": "Adult Genetics Clinic — Northwest\t\t\t\t\t\t\t\t\t\t(Part of Family Medical Center — Fayetteville)",
+    "name": "Adult Genetics Clinic — Northwest",
+    "subtitle": "(Part of Family Medical Center — Fayetteville)",
     "address": "1125 N. College Ave. Fayetteville, AR 72703",
     "contact_sections": [
       {
@@ -64,7 +65,8 @@
   },
   {
     "url": "https://uamshealth.com/location/uams-neighborhood-clinic-rahling-road/adult-genetics-clinic-rahling-road/",
-    "name": "Adult Genetics Clinic — Rahling Road\t\t\t\t\t\t\t\t\t\t(Part of Neighborhood Clinic — Rahling Road)",
+    "name": "Adult Genetics Clinic — Rahling Road",
+    "subtitle": "(Part of Neighborhood Clinic — Rahling Road)",
     "address": "1811 Rahling Road Little Rock, AR 72223",
     "contact_sections": [
       {
@@ -1699,7 +1701,8 @@
   },
   {
     "url": "https://uamshealth.com/location/pulmonary-clinic/cystic-fibrosis-clinic/",
-    "name": "Cystic Fibrosis Clinic\t\t\t\t\t\t\t\t\t\t(Part of Pulmonary Clinic)",
+    "name": "Cystic Fibrosis Clinic",
+    "subtitle": "(Part of Pulmonary Clinic)",
     "address": "4110 Outpatient Circle Outpatient Center, Second Floor, Room 2H Little Rock, AR 72205",
     "contact_sections": [
       {
@@ -7370,7 +7373,8 @@
   },
   {
     "url": "https://uamshealth.com/location/uams-medical-center/neonatal-intensive-care-unit-nicu/",
-    "name": "Neonatal Intensive Care Unit (NICU)\t\t\t\t\t\t\t\t\t\t(Part of UAMS Medical Center)",
+    "name": "Neonatal Intensive Care Unit (NICU)",
+    "subtitle": "(Part of UAMS Medical Center)",
     "address": "4301 W. Markham St. Little Rock, AR 72205",
     "contact_sections": [
       {
@@ -7796,7 +7800,8 @@
   },
   {
     "url": "https://uamshealth.com/location/neighborhood-clinic-north-street/north-street-marshallese-clinic/",
-    "name": "North Street Marshallese Clinic\t\t\t\t\t\t\t\t\t\t(Part of Neighborhood Clinic — North Street)",
+    "name": "North Street Marshallese Clinic",
+    "subtitle": "(Part of Neighborhood Clinic — North Street)",
     "address": "1125 N. College Ave. Fayetteville, AR 72703",
     "contact_sections": [
       {
@@ -13342,7 +13347,8 @@
   },
   {
     "url": "https://uamshealth.com/location/plastics-and-reconstructive-clinic/wound-clinic/",
-    "name": "Wound Care Clinic\t\t\t\t\t\t\t\t\t\t(Part of Plastic and Reconstructive Surgery Clinic)",
+    "name": "Wound Care Clinic",
+    "subtitle": "(Part of Plastic and Reconstructive Surgery Clinic)",
     "address": "4110 Outpatient Circle Outpatient Center, Second Floor Little Rock, AR 72205",
     "contact_sections": [
       {

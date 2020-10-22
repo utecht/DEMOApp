@@ -6,7 +6,7 @@
  * @flow strict-local
  */
 
-import React from 'react';
+import React, {useEffect} from 'react';
 import {
   StyleSheet,
   View,
@@ -27,7 +27,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     paddingLeft: 20,
     paddingRight: 20,
-    textAlign: 'center'
+    textAlign: 'center',
   },
   picture: {
     width: '100%',
@@ -55,7 +55,12 @@ const styles = StyleSheet.create({
 
 const LocationDetail = ({ route, navigation }) => {
   const { location } = route.params;
+
   const name = location.name;
+  useEffect(() => {
+    navigation.setOptions({title: name});
+  });
+
   const picture = location.picture;
   const fullAddress = location.address;
 
@@ -87,6 +92,8 @@ const LocationDetail = ({ route, navigation }) => {
         <View style={styles.buttonBox}>
           <Button title="Get Directions" onPress={() => Linking.openURL(url)}/>
         </View>
+        <Text>{location.parking}</Text>
+        <Text>{location.appointment_info}</Text>
       </View>
     </ScrollView>
     )

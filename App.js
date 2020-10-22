@@ -44,7 +44,7 @@ const App: () => React$Node = () => {
         <Stack.Screen name="Locations" component={LocationsScreen} />
         <Stack.Screen name="Conditions" component={ConditionsScreen} />
         <Stack.Screen name="Treatments" component={TreatmentsScreen} />
-        <Stack.Screen name="Location Detail" component={LocationDetail} />
+        <Stack.Screen name="Location Detail" component={LocationDetail}/>
       </Stack.Navigator>
     </NavigationContainer>
   );
