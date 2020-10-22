@@ -17,6 +17,7 @@ import {
   Image,
   Button,
   Linking,
+  FlatList,
 } from 'react-native';
 
 import { NavigationContainer } from '@react-navigation/native';
@@ -64,15 +65,17 @@ const LocationsScreen = ({ navigation }) => {
         location:location
       });
   }
-  const locations = LOCATIONS.map((location) =>
-    <LocationPreview key={location.url} location={location} navigateTo={navTo}/>
-  );
+
+  const renderItem = ({item, index, separators}) =>
+      <LocationPreview location={item} navigateTo={navTo}/>;
+
   return (
-    <ScrollView
-      contentInsetAdjustmentBehavior="automatic"
-      style={styles.scrollView}>
-      {locations}
-    </ScrollView>
+    <FlatList
+      style={styles.scrollView}
+      data={LOCATIONS}
+      renderItem={renderItem}
+      keyExtractor={(item)=>item.url}>
+    </FlatList>
   )
 }
 

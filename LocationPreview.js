@@ -16,6 +16,7 @@ import {
   Button,
   Linking
 } from 'react-native';
+import LocationImages from './LocationImages';
 
 const styles = StyleSheet.create({
   card: {
@@ -68,6 +69,7 @@ const LocationPreview = (props) => {
   const name = props.location.name;
   const picture = props.location.picture;
   const fullAddress = props.location.address;
+  const image_source = LocationImages[props.location.url];
 
   const url = Platform.select({
     ios: `maps:0,0?q=${fullAddress}`,
@@ -75,7 +77,7 @@ const LocationPreview = (props) => {
   });
 
   let phoneNumber = ''
-  if(props.location.contact_sections.length > 0){
+  if(props.location.contact_sections && props.location.contact_sections.length > 0){
     if(props.location.contact_sections[0].numbers.length > 0){
       phoneNumber = props.location.contact_sections[0].numbers[0].phone;
     }
@@ -85,7 +87,7 @@ const LocationPreview = (props) => {
     <View style={styles.card}>
       <Image
         style={styles.picture}
-        source={{uri: picture}}
+        source={image_source}
       />
       <View style={styles.cardContents}>
         <Text style={styles.title}>{name}</Text>

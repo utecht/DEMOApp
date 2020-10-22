@@ -17,6 +17,7 @@ import {
   Button,
   Linking
 } from 'react-native';
+import LocationImages from './LocationImages';
 
 const styles = StyleSheet.create({
   scrollView: {
@@ -63,6 +64,7 @@ const LocationDetail = ({ route, navigation }) => {
 
   const picture = location.picture;
   const fullAddress = location.address;
+  const image_source = LocationImages[location.url];
 
   const url = Platform.select({
     ios: `maps:0,0?q=${fullAddress}`,
@@ -83,7 +85,7 @@ const LocationDetail = ({ route, navigation }) => {
       <View style={styles.card}>
         <Image
           style={styles.picture}
-          source={{uri: picture}}
+          source={image_source}
         />
         <Text style={styles.title}>{name}</Text>
         <Text>{location.address}</Text>
