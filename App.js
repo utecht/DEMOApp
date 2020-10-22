@@ -23,7 +23,10 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import BigButton from './BigButton';
 import AreasOfExpertiseScreen from './AreasOfExpertiseScreen';
+import LocationPreview from './LocationPreview';
+import LocationDetail from './LocationDetail';
 import { WebView } from 'react-native-webview';
+import LOCATIONS from './orbweaver/locations.json';
 
 const Stack = createStackNavigator();
 
@@ -41,6 +44,7 @@ const App: () => React$Node = () => {
         <Stack.Screen name="Locations" component={LocationsScreen} />
         <Stack.Screen name="Conditions" component={ConditionsScreen} />
         <Stack.Screen name="Treatments" component={TreatmentsScreen} />
+        <Stack.Screen name="Location Detail" component={LocationDetail} />
       </Stack.Navigator>
     </NavigationContainer>
   );
@@ -55,11 +59,21 @@ const TestScreen = ({ navigation }) => {
 }
 
 const LocationsScreen = ({ navigation }) => {
+  function navTo(location){
+    navigation.navigate('Location Detail', {
+        location:location
+      });
+  }
+  const locations = LOCATIONS.map((location) =>
+    <LocationPreview key={location.url} location={location} navigateTo={navTo}/>
+  );
   return (
-    <View>
-      <Text>UAMS Locations</Text>
-    </View>
-    )
+    <ScrollView
+      contentInsetAdjustmentBehavior="automatic"
+      style={styles.scrollView}>
+      {locations}
+    </ScrollView>
+  )
 }
 
 const ConditionsScreen = ({ navigation }) => {

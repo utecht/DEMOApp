@@ -27,6 +27,7 @@ def populate_location(url):
     soup = BeautifulSoup(r.text, 'html.parser')
     main = soup.main
     name = main.find('h1', class_='page-title').text
+    l['url'] = url
     l['name'] = name.strip()
     address_bad = main.find('h2', class_='sr-only', string='Address').find_next('p').text
     l['address'] = " ".join(address_bad.split())
@@ -49,6 +50,13 @@ def populate_location(url):
             pass
     l['contact_sections'].append(current_section)
 
+    # picture
+    l['picture'] = 'http://uamshealth.com/wp-content/uploads/2019/11/Bruce-fountain-1024x576.jpg'
+    picture = main.find('picture')
+    if(picture):
+        l['picture'] = picture.find_next('img')['src']
+        print(l['picture'])
+
     # clinic hours
     hours_tag = main.find('dl', class_='hours')
     try:
@@ -61,13 +69,13 @@ def populate_location(url):
         pass
     about_tag = main.find('h2', string=f"About {name}")
     if about_tag:
-        l['about'] = about_tag.find_next('div').string
+        l['about'] = about_tag.find_next('div').text
     parking_tag = main.find('h2', string='Parking Information')
     if parking_tag:
-        l['parking'] = parking_tag.find_next('div').string
+        l['parking'] = parking_tag.parent.text.strip()
     appointment_info_tag = main.find('h2', string='Appointment Information')
     if appointment_info_tag:
-        l['appointment_info'] = appointment_info_tag.next_sibling.string
+        l['appointment_info'] = appointment_info_tag.find_next_sibling('div').text.strip()
     l['conditions_treated'] = find_conditions(main)
     l['treatments'] = find_treatments(main)
     l['providers'] = find_providers(main)
@@ -80,9 +88,9 @@ for i in range(1, NUMBER_OF_PAGES + 1):
     url = f'https://uamshealth.com/location/?_paged={i}'
     location_urls += find_all_locations_on_page(url)
 
-locations = {}
+locations = []
 for url in location_urls:
-    locations[url] = populate_location(url)
+    locations.append(populate_location(url))
 
 with open('locations.json', 'w') as fp:
     json.dump(locations, fp)
