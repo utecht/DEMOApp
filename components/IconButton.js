@@ -13,8 +13,8 @@ import {
   Text,
   TouchableHighlight,
 } from 'react-native';
-import { UAMSRed } from './UAMSColors';
-import Icons from './Icons';
+import { UAMSRed } from '../UAMSColors';
+import Icons from '../Icons';
 
 const IconButton = ({ label, onPress, icon, iconColor, size }) => {
   const Icon = Icons[icon];

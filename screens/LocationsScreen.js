@@ -3,8 +3,8 @@ import {
   FlatList,
 } from 'react-native';
 
-import LocationPreview from './LocationPreview';
-import LOCATIONS from './orbweaver/locations.json';
+import LocationPreview from '../components/LocationPreview';
+import LOCATIONS from '../orbweaver/locations.json';
 
 const LocationsScreen = ({ navigation }) => {
   function navTo(location){

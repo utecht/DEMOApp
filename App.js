@@ -23,14 +23,17 @@ import {
 
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import AreasOfExpertiseScreen from './AreasOfExpertiseScreen';
-import LocationPreview from './LocationPreview';
-import LocationDetail from './LocationDetail';
+import AreasOfExpertiseScreen from './screens/AreasOfExpertiseScreen';
+import LocationPreview from './components/LocationPreview';
+import LocationDetail from './components/LocationDetail';
 import { WebView } from 'react-native-webview';
 import { UAMSRed } from './UAMSColors';
 import UAMSLogo from './UAMSLogo';
-import IconButton from './IconButton';
-import LocationsScreen from './LocationsScreen';
+import IconButton from './components/IconButton';
+import LocationsScreen from './screens/LocationsScreen';
+import DinningScreen from './screens/DinningScreen';
+import ContactScreen from './screens/ContactScreen';
+import DirectionScreen from './screens/DirectionScreen';
 
 const Stack = createStackNavigator();
 
@@ -45,21 +48,15 @@ const App: () => React$Node = () => {
         />
         <Stack.Screen name="Areas of Expertise" component={AreasOfExpertiseScreen} />
         <Stack.Screen name="Locations" component={LocationsScreen} />
-        <Stack.Screen name="Conditions" component={ConditionsScreen} />
+        <Stack.Screen name="Dinning" component={DinningScreen} />
+        <Stack.Screen name="Directions" component={DirectionScreen} />
+        <Stack.Screen name="Contact" component={ContactScreen} />
         <Stack.Screen name="Treatments" component={TreatmentsScreen} />
         <Stack.Screen name="Location Detail" component={LocationDetail}/>
       </Stack.Navigator>
     </NavigationContainer>
   );
 };
-
-const ConditionsScreen = ({ navigation }) => {
-  return (
-    <View>
-      <Text>Conditions Treated at UAMS</Text>
-    </View>
-    )
-}
 
 const TreatmentsScreen = ({ navigation }) => {
   return (
@@ -99,7 +96,7 @@ const HomeScreen = ({ navigation }) => {
               size={25}
               icon="fork"
               onPress={() =>
-                Linking.openURL('https://uamshealth.com/patients-and-guests/food-and-lodging/dining/').catch(err => console.error('An error occurred', err))
+                navigation.navigate("Dinning")
               }
             />
             <IconButton
@@ -108,7 +105,7 @@ const HomeScreen = ({ navigation }) => {
               size={25}
               icon="traffic_sign"
               onPress={() =>
-                Linking.openURL('https://uamshealth.com/maps-and-directions/').catch(err => console.error('An error occurred', err))
+                navigation.navigate("Directions")
               }
             />
             <IconButton
@@ -117,7 +114,7 @@ const HomeScreen = ({ navigation }) => {
               icon="phone"
               size={25}
               onPress={() =>
-                Linking.openURL('https://uamshealth.com/contact-us/').catch(err => console.error('An error occurred', err))
+                navigation.navigate("Contact")
               }
             />
           </View>
@@ -242,7 +239,7 @@ const styles = StyleSheet.create({
   },
   darkButton: {
     color: 'white',
-    backgroundColor: 'darkgrey',
+    backgroundColor: '#6b6869',
     height: 120,
     width: 120,
     marginTop: 20,
