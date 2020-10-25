@@ -10,7 +10,7 @@
 
 ### Build the production version for an ios simulator or device plugged into your computer
 
-`npx react-native run-ios  --variant=release`
+`npx react-native run-ios  --configuration=Release`
 
 
 # Notes
