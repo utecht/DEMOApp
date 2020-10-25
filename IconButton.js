@@ -45,11 +45,13 @@ const buttonStyle = StyleSheet.create({
   text: {
     fontWeight: '600',
     textAlign: 'center',
-    color: 'white'
+    color: 'white',
   },
   iconContainer: {
     display: 'flex',
     alignItems: 'center',
+    flexDirection: 'column',
+    justifyContent: 'space-evenly'
   }
 });
 

@@ -8,5 +8,6 @@ Icons['hospital'] = require('./images/icons/Hospital').default;
 Icons['provider'] = require('./images/icons/Provider').default;
 Icons['bill'] = require('./images/icons/Bill').default;
 Icons['calendar'] = require('./images/icons/Calendar').default;
+Icons['doctor_bag'] = require('./images/icons/DoctorBag').default;
 
 export default Icons

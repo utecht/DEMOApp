@@ -169,7 +169,7 @@ const HomeScreen = ({ navigation }) => {
               </View>
               <View style={styles.darkButton}>
                 <IconButton
-                  icon="hospital"
+                  icon="doctor_bag"
                   iconColor="white"
                   size={50}
                   onPress={() =>
