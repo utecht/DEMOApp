@@ -34,6 +34,7 @@ import LocationsScreen from './screens/LocationsScreen';
 import DinningScreen from './screens/DinningScreen';
 import ContactScreen from './screens/ContactScreen';
 import DirectionScreen from './screens/DirectionScreen';
+import RecordScreen from './screens/RecordScreen';
 
 const Stack = createStackNavigator();
 
@@ -51,6 +52,7 @@ const App: () => React$Node = () => {
         <Stack.Screen name="Dinning" component={DinningScreen} />
         <Stack.Screen name="Directions" component={DirectionScreen} />
         <Stack.Screen name="Contact" component={ContactScreen} />
+        <Stack.Screen name="Records" component={RecordScreen} />
         <Stack.Screen name="Treatments" component={TreatmentsScreen} />
         <Stack.Screen name="Location Detail" component={LocationDetail}/>
       </Stack.Navigator>
@@ -87,7 +89,7 @@ const HomeScreen = ({ navigation }) => {
               size={25}
               icon="medical_record"
               onPress={() =>
-                Linking.openURL('https://mychart.uamshealth.com').catch(err => console.error('An error occurred', err))
+                navigation.navigate("Records")
               }
             />
             <IconButton
