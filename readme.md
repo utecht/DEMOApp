@@ -12,3 +12,8 @@
 
 `npx react-native run-ios  --variant=release`
 
+
+# Notes
+
+SVGs currently need to be converted to JSX and use the react native svg element. See the main logo in App.js for an example.
+https://react-svgr.com/playground/?native=true

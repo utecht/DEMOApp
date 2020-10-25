@@ -13,18 +13,21 @@ import {
   Text,
   TouchableHighlight,
 } from 'react-native';
-import { useNavigation } from '@react-navigation/native';
+import { UAMSRed } from './UAMSColors';
+import Icons from './Icons';
 
-const BigButton = ({ text }) => {
-  const navigation = useNavigation();
-  const onPress = () => navigation.navigate(text);
+const IconButton = ({ label, onPress, icon, iconColor, size }) => {
+  const Icon = Icons[icon];
   return (
     <View style={buttonStyle.container}>
       <TouchableHighlight
         onPress={onPress}
         style={buttonStyle.button}
-        underlayColor="red">
-        <Text style={buttonStyle.text}>{text}</Text>
+        underlayColor='#43414259'>
+        <View style={buttonStyle.iconContainer}>
+          <Icon style={{color: iconColor, width: size, height: size}}/>
+          <Text style={buttonStyle.text}>{label}</Text>
+        </View>
       </TouchableHighlight>
     </View>
   );
@@ -32,25 +35,22 @@ const BigButton = ({ text }) => {
 
 const buttonStyle = StyleSheet.create({
   container: {
-    borderColor: 'grey',
-    borderStyle: 'solid',
-    borderWidth: 1,
-    borderRadius: 2,
-    height: 60,
     flex: 1,
-    margin: 5,
   },
   button: {
     flex: 1,
-    padding: 5,
     justifyContent: 'center',
     alignItems: 'center',
   },
   text: {
-    fontSize: 22,
     fontWeight: '600',
     textAlign: 'center',
+    color: 'white'
+  },
+  iconContainer: {
+    display: 'flex',
+    alignItems: 'center',
   }
 });
 
-export default BigButton;
+export default IconButton;
