@@ -1,4 +1,4 @@
-<html>
+export const template = () => `<html>
   <head>
     <meta charset="UTF-8">
     <style>
@@ -69,4 +69,4 @@
       <p>The staff at the information desk can provide a list of nearby restaurants.</p>
     </div>
   </body>
-</html>
+</html>`

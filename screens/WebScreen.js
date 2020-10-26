@@ -15,14 +15,14 @@ import {
 } from 'react-native';
 import { WebView } from 'react-native-webview';
 
-const RecordHTML = require('./html/Record.html');
+const WebScreen = ({ route, navigation }) => {
+  const { html } = route.params;
 
-const RecordScreen = ({ navigation }) => {
   return (
     <WebView
-      source={RecordHTML}
-      style={{flex: 1}}
+      source={{html: html}}
+      style={{flex: 1, paddingTop: 25}}
     />
     )
 }
-export default RecordScreen;
+export default WebScreen;

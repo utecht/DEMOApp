@@ -19,11 +19,13 @@ const ProvidersScreen = ({ navigation }) => {
 
   const styles = StyleSheet.create({
     filterBox: {
-      height: 30,
-      width: '100%',
+      height: 40,
+      width: '90%',
       backgroundColor: 'white',
       borderRadius: 25,
-      margin: 5,
+      margin: 20,
+      backgroundColor: 'white',
+      borderRadius: 25,
       paddingLeft: 5,
     }
   });

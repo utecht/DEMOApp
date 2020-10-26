@@ -31,12 +31,9 @@ import { UAMSRed } from './UAMSColors';
 import UAMSLogo from './UAMSLogo';
 import IconButton from './components/IconButton';
 import LocationsScreen from './screens/LocationsScreen';
-import DinningScreen from './screens/DinningScreen';
-import ContactScreen from './screens/ContactScreen';
-import DirectionScreen from './screens/DirectionScreen';
-import RecordScreen from './screens/RecordScreen';
 import ProvidersScreen from './screens/ProvidersScreen';
 import ProviderDetails from './components/ProviderDetails';
+import WebScreen from './screens/WebScreen';
 
 const Stack = createStackNavigator();
 
@@ -51,10 +48,10 @@ const App: () => React$Node = () => {
         />
         <Stack.Screen name="Areas of Expertise" component={AreasOfExpertiseScreen} />
         <Stack.Screen name="Locations" component={LocationsScreen} />
-        <Stack.Screen name="Dinning" component={DinningScreen} />
-        <Stack.Screen name="Directions" component={DirectionScreen} />
-        <Stack.Screen name="Contact" component={ContactScreen} />
-        <Stack.Screen name="Records" component={RecordScreen} />
+        <Stack.Screen name="Dinning" component={WebScreen} />
+        <Stack.Screen name="Directions" component={WebScreen} />
+        <Stack.Screen name="Contact" component={WebScreen} />
+        <Stack.Screen name="Records" component={WebScreen} />
         <Stack.Screen name="Treatments" component={TreatmentsScreen} />
         <Stack.Screen name="Providers" component={ProvidersScreen} />
         <Stack.Screen name="Location Detail" component={LocationDetail}/>
@@ -93,7 +90,9 @@ const HomeScreen = ({ navigation }) => {
               size={25}
               icon="medical_record"
               onPress={() =>
-                navigation.navigate("Records")
+                navigation.navigate("Records",
+                  {html: require('./screens/html/Record').template()}
+                )
               }
             />
             <IconButton
@@ -102,7 +101,9 @@ const HomeScreen = ({ navigation }) => {
               size={25}
               icon="fork"
               onPress={() =>
-                navigation.navigate("Dinning")
+                navigation.navigate("Dinning",
+                  {html: require('./screens/html/Dinning').template()}
+                )
               }
             />
             <IconButton
@@ -111,7 +112,9 @@ const HomeScreen = ({ navigation }) => {
               size={25}
               icon="traffic_sign"
               onPress={() =>
-                navigation.navigate("Directions")
+                navigation.navigate("Directions",
+                  {html: require('./screens/html/Directions').template()}
+                )
               }
             />
             <IconButton
@@ -120,7 +123,9 @@ const HomeScreen = ({ navigation }) => {
               icon="phone"
               size={25}
               onPress={() =>
-                navigation.navigate("Contact")
+                navigation.navigate("Contact",
+                  {html: require('./screens/html/Contact').template()}
+                )
               }
             />
           </View>

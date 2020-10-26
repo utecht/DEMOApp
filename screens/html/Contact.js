@@ -1,4 +1,4 @@
-<html>
+export const template = () => `<html>
   <head>
     <meta charset="UTF-8">
     <style>
@@ -43,4 +43,4 @@
       <p>University of Arkansas for Medical Sciences<br>4301 W. Markham Street<br>Little Rock, Arkansas 72205</p>
     </div>
   </body>
-</html>
+</html>`

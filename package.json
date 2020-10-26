@@ -1,11 +1,12 @@
 {
   "name": "UAMSApp",
-  "version": "0.0.1",
+  "version": "1.5.2",
   "private": true,
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
+    "bundle": "react-native bundle --entry-file='index.js' --bundle-output='./ios/main.jsbundle' --dev=false --platform='ios'",
     "test": "jest",
     "lint": "eslint ."
   },

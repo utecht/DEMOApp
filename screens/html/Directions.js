@@ -1,4 +1,4 @@
-<html>
+export const template = () => `<html>
   <head>
     <meta charset="UTF-8">
     <style>
@@ -45,4 +45,4 @@
     <p><a rel="noopener noreferrer" href="http://www.uams.edu/campusop/depts/PO/ParkOptions.aspx?ListID=Visitor" target="_blank">Patient and Guest Parking Information</a>&nbsp;— main UAMS campus in midtown Little Rock</p>
     </div>
   </body>
-</html>
+</html>`
