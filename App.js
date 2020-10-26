@@ -35,6 +35,8 @@ import DinningScreen from './screens/DinningScreen';
 import ContactScreen from './screens/ContactScreen';
 import DirectionScreen from './screens/DirectionScreen';
 import RecordScreen from './screens/RecordScreen';
+import ProvidersScreen from './screens/ProvidersScreen';
+import ProviderDetails from './components/ProviderDetails';
 
 const Stack = createStackNavigator();
 
@@ -54,7 +56,9 @@ const App: () => React$Node = () => {
         <Stack.Screen name="Contact" component={ContactScreen} />
         <Stack.Screen name="Records" component={RecordScreen} />
         <Stack.Screen name="Treatments" component={TreatmentsScreen} />
+        <Stack.Screen name="Providers" component={ProvidersScreen} />
         <Stack.Screen name="Location Detail" component={LocationDetail}/>
+        <Stack.Screen name="Provider Detail" component={ProviderDetails}/>
       </Stack.Navigator>
     </NavigationContainer>
   );
@@ -149,7 +153,7 @@ const HomeScreen = ({ navigation }) => {
                   iconColor="white"
                   size={50}
                   onPress={() =>
-                    navigation.navigate("Locations")
+                    navigation.navigate("Providers")
                   }
                   label="Find a Provider"/>
               </View>
