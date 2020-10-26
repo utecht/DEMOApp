@@ -14,7 +14,7 @@ import {
   TouchableHighlight,
 } from 'react-native';
 
-import aoes from './orbweaver/expertise.json';
+import aoes from '../orbweaver/expertise.json';
 
 const AreasOfExpertiseScreen = ({ navigation }) => {
   return (

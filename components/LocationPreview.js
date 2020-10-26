@@ -16,7 +16,7 @@ import {
   Button,
   Linking
 } from 'react-native';
-import LocationImages from './LocationImages';
+import LocationImages from '../LocationImages';
 
 const styles = StyleSheet.create({
   card: {
