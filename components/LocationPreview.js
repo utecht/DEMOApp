@@ -14,7 +14,9 @@ import {
   TouchableHighlight,
   Image,
   Button,
-  Linking
+  Linking,
+  Platform,
+  PlatformColor,
 } from 'react-native';
 import LocationImages from '../LocationImages';
 
@@ -41,6 +43,8 @@ const styles = StyleSheet.create({
     padding: 10,
     textAlign: 'center',
     justifyContent: 'center',
+    display: 'flex',
+    flexDirection: 'column'
   },
   buttonBox: {
     display: 'flex',
@@ -54,14 +58,31 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     textAlign: 'center'
   },
-  subtitle: {
+  phone_numbers: {
     fontSize: 15,
     textAlign: 'center',
-    fontWeight: 'bold'
+    fontWeight: 'bold',
+    marginTop: 15,
   },
   phoneLink: {
-    color: 'blue',
-    textAlign: 'center'
+    textAlign: 'center',
+    ...Platform.select({
+     ios: { color: PlatformColor('link') },
+     android: {
+       color: PlatformColor('?attr/textColorLink')
+     },
+     default: { color: 'blue' }
+   })
+  },
+  day: {
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    marginLeft: 10,
+    marginRight: 10,
+  },
+  address: {
+    margin: 10,
   }
 });
 
@@ -83,6 +104,18 @@ const LocationPreview = (props) => {
     }
   }
 
+  const DAYS = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+  const d = new Date();
+  const today_string = DAYS[d.getDay()];
+  const hours = props.location.hours.filter(day =>
+    day.day == today_string
+  ).map((day, i) =>
+    <View key={i} style={styles.day}>
+      <Text>Hours Today</Text>
+      <Text>{day.hour}</Text>
+    </View>
+  );
+
   return (
     <View style={styles.card}>
       <Image
@@ -91,8 +124,9 @@ const LocationPreview = (props) => {
       />
       <View style={styles.cardContents}>
         <Text style={styles.title}>{name}</Text>
-        <Text>{props.location.address}</Text>
-        <Text style={styles.subtitle}>Appointment Phone Number</Text>
+        <Text style={styles.address}>{props.location.address}</Text>
+        {hours}
+        <Text style={styles.phone_numbers}>Appointment Phone Number</Text>
         <Text onPress={() => Linking.openURL('tel:'+phoneNumber)} style={styles.phoneLink}>{phoneNumber}</Text>
         <View style={styles.buttonBox}>
           <Button title="View Location" onPress={() => props.navigateTo(props.location)}/>

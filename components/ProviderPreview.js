@@ -42,18 +42,20 @@ const styles = StyleSheet.create({
     padding: 10,
     display: 'flex',
     flexDirection: 'column',
-    flex: 1
+    flex: 1,
   },
   title: {
     fontSize: 20,
     fontWeight: 'bold',
-    textAlign: 'center'
   },
   subtitle: {
     fontSize: 15,
-    textAlign: 'center',
     fontWeight: 'bold',
-    color: '#6b6869'
+    color: '#6b6869',
+    flexGrow: 1,
+  },
+  button: {
+    width: '100%',
   }
 });
 
@@ -71,7 +73,7 @@ const ProviderPreview = (props) => {
       <View style={styles.cardContents}>
         <Text style={styles.title}>{name}</Text>
         <Text style={styles.subtitle}>{subtitle}</Text>
-        <Button title="View Profile" onPress={() => props.navigateTo(props.provider)}/>
+        <Button style={styles.button} title="View Profile" onPress={() => props.navigateTo(props.provider)}/>
       </View>
     </View>
     )
