@@ -60,7 +60,7 @@ const styles = StyleSheet.create({
     ...Platform.select({
      ios: { color: PlatformColor('link') },
      android: {
-       color: PlatformColor('?attr/textColorLink')
+       color: 16842907
      },
      default: { color: 'blue' }
    })

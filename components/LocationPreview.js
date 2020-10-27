@@ -67,11 +67,15 @@ const styles = StyleSheet.create({
   phoneLink: {
     textAlign: 'center',
     ...Platform.select({
-     ios: { color: PlatformColor('link') },
-     android: {
-       color: PlatformColor('?attr/textColorLink')
+     ios: {
+       color: PlatformColor('link')
      },
-     default: { color: 'blue' }
+     android: {
+       color: 16842907
+     },
+     default: {
+       color: 'blue'
+     }
    })
   },
   day: {
