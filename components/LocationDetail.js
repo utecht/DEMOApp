@@ -20,6 +20,8 @@ import {
   PlatformColor,
 } from 'react-native';
 import LocationImages from '../LocationImages';
+import ConditionList from './ConditionList';
+import TreatmentList from './TreatmentList';
 
 const styles = StyleSheet.create({
   scrollView: {
@@ -36,7 +38,9 @@ const styles = StyleSheet.create({
     flex: 1
   },
   buttonBox: {
-    margin: 15
+    marginLeft: 15,
+    marginRight: 15,
+    marginTop: 15,
   },
   title: {
     fontSize: 25,
@@ -152,6 +156,18 @@ const LocationDetail = ({ route, navigation }) => {
       <Text style={styles.text_box}>{location.appointment_info}</Text>
     </> : <></>;
 
+  const conditions_treated = location.conditions_treated.length > 0 ?
+    <>
+      <Text style={styles.section_title}>Conditions Treated</Text>
+      <ConditionList navigation={navigation} conditions={location.conditions_treated}/>
+    </> : <></>;
+
+  const treatments = location.treatments.length > 0 ?
+    <>
+      <Text style={styles.section_title}>Treatments</Text>
+      <TreatmentList navigation={navigation} treatments={location.treatments}/>
+    </> : <></>;
+
   return (
     <ScrollView
       contentInsetAdjustmentBehavior="automatic"
@@ -173,6 +189,8 @@ const LocationDetail = ({ route, navigation }) => {
         <View style={styles.hour_box}>{hours}</View>
         {parking_info}
         {appointment}
+        {conditions_treated}
+        {treatments}
       </View>
     </ScrollView>
     )

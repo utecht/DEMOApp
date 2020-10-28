@@ -8,8 +8,9 @@ import {
 import ProviderPreview from '../components/ProviderPreview';
 import PROVIDERS from '../orbweaver/providers.json';
 
-const ProvidersScreen = ({ navigation }) => {
+const ProvidersScreen = ({ route, navigation }) => {
   const [text, setText] = useState('');
+  const { filters } = route.params;
 
   function navTo(provider){
     navigation.navigate('Provider Detail', {
@@ -36,7 +37,18 @@ const ProvidersScreen = ({ navigation }) => {
   const providers = PROVIDERS.filter(row =>
     text.length === 0 ||
     row.name.toLowerCase().indexOf(text.toLowerCase()) >= 0
-  );
+  ).filter(row => {
+    let ret = true;
+    for(let f of filters){
+      ret = false;
+      for(let v of row[f.filter]){
+        if(v.link === f.value){
+          ret = true;
+        }
+      }
+    }
+    return ret
+  });
 
   return (
     <>

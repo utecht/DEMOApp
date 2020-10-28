@@ -30,33 +30,46 @@ import { WebView } from 'react-native-webview';
 import { UAMSRed } from './UAMSColors';
 import UAMSLogo from './UAMSLogo';
 import IconButton from './components/IconButton';
+import ConditionModal from './components/ConditionModal';
+import TreatmentModal from './components/TreatmentModal';
 import LocationsScreen from './screens/LocationsScreen';
 import ProvidersScreen from './screens/ProvidersScreen';
 import ProviderDetails from './components/ProviderDetails';
 import WebScreen from './screens/WebScreen';
 
 const Stack = createStackNavigator();
+const RootStack = createStackNavigator();
+
+function MainStackScreen() {
+  return (
+    <Stack.Navigator>
+      <Stack.Screen
+        name="Home"
+        component={HomeScreen}
+        options={{ title: 'Welcome' }}
+      />
+      <Stack.Screen name="Areas of Expertise" component={AreasOfExpertiseScreen} />
+      <Stack.Screen name="Locations" component={LocationsScreen} />
+      <Stack.Screen name="Dinning" component={WebScreen} />
+      <Stack.Screen name="Directions" component={WebScreen} />
+      <Stack.Screen name="Contact" component={WebScreen} />
+      <Stack.Screen name="Records" component={WebScreen} />
+      <Stack.Screen name="Treatments" component={TreatmentsScreen} />
+      <Stack.Screen name="Providers" component={ProvidersScreen} />
+      <Stack.Screen name="Location Detail" component={LocationDetail}/>
+      <Stack.Screen name="Provider Detail" component={ProviderDetails}/>
+    </Stack.Navigator>
+  );
+}
 
 const App: () => React$Node = () => {
   return (
     <NavigationContainer>
-      <Stack.Navigator>
-        <Stack.Screen
-          name="Home"
-          component={HomeScreen}
-          options={{ title: 'Welcome' }}
-        />
-        <Stack.Screen name="Areas of Expertise" component={AreasOfExpertiseScreen} />
-        <Stack.Screen name="Locations" component={LocationsScreen} />
-        <Stack.Screen name="Dinning" component={WebScreen} />
-        <Stack.Screen name="Directions" component={WebScreen} />
-        <Stack.Screen name="Contact" component={WebScreen} />
-        <Stack.Screen name="Records" component={WebScreen} />
-        <Stack.Screen name="Treatments" component={TreatmentsScreen} />
-        <Stack.Screen name="Providers" component={ProvidersScreen} />
-        <Stack.Screen name="Location Detail" component={LocationDetail}/>
-        <Stack.Screen name="Provider Detail" component={ProviderDetails}/>
-      </Stack.Navigator>
+      <RootStack.Navigator mode="modal" headerMode="none">
+        <RootStack.Screen name="main" component={MainStackScreen}/>
+        <RootStack.Screen name="ConditionModal" component={ConditionModal}/>
+        <RootStack.Screen name="TreatmentModal" component={TreatmentModal}/>
+      </RootStack.Navigator>
     </NavigationContainer>
   );
 };
@@ -158,7 +171,7 @@ const HomeScreen = ({ navigation }) => {
                   iconColor="white"
                   size={50}
                   onPress={() =>
-                    navigation.navigate("Providers")
+                    navigation.navigate("Providers", {filters: []})
                   }
                   label="Find a Provider"/>
               </View>

@@ -2,7 +2,7 @@
   "https://uamshealth.com/expertise/behavioral-care/": {
     "name": "Behavioral Health",
     "aka": "Also called: Psychiatry; Psychology",
-    "description": "UAMS Health is committed to working within our community to reduce the stigma of mental illness for patients and their families. Behavioral health care at UAMS Health includes a wide range of outpatient and inpatient services. Our locations are staffed with some of the brightest and most qualified doctors in Arkansas.\\u00a0\nAt UAMS, we use evidence-based techniques to treat mental health and addictive diseases. With such a large staff of experts, our range of services includes treating addiction, eating disorders, anxiety, depression, PTSD, and more. We also help women who are going through postpartum depression, high-risk pregnancy, addiction, infertility or grief associated with pregnancy loss.\\u00a0\n\nCancer and Behavioral Medicine\n\n\n",
+    "description": "UAMS Health is committed to working within our community to reduce the stigma of mental illness for patients and their families. Behavioral health care at UAMS Health includes a wide range of outpatient and inpatient services. Our locations are staffed with some of the brightest and most qualified doctors in Arkansas.\nAt UAMS, we use evidence-based techniques to treat mental health and addictive diseases. With such a large staff of experts, our range of services includes treating addiction, eating disorders, anxiety, depression, PTSD, and more. We also help women who are going through postpartum depression, high-risk pregnancy, addiction, infertility or grief associated with pregnancy loss.",
     "conditions_treated": [
       {
         "name": "Addiction",
@@ -198,7 +198,7 @@
         "link": "https://uamshealth.com/location/walker-family-clinic/"
       },
       {
-        "name": "Women\\u2019s Mental Health Clinic",
+        "name": "Womens Mental Health Clinic",
         "picture": "https://uamshealth.com/wp-content/uploads/2018/04/Psychiatric-Research-Institute-512x288.jpg",
         "link": "https://uamshealth.com/location/womens-mental-health-clinic/"
       }
@@ -261,7 +261,7 @@
     ],
     "locations": [
       {
-        "name": "Arkansas Children\\u2019s Hospital",
+        "name": "Arkansas Childrens Hospital",
         "picture": "https://uamshealth.com/wp-content/uploads/2018/04/B31A3657-Edit-512x288.jpg",
         "link": "https://uamshealth.com/location/arkansas-childrens-hospital/"
       }
@@ -602,7 +602,7 @@
   },
   "https://uamshealth.com/expertise/dental-care/": {
     "name": "Dental Care",
-    "description": "Oral health can often be an indicator of a person\\u2019s overall health. That\\u2019s why UAMS provides dental care to our community through our Oral Health Clinic and Dental Hygiene Student Clinic. These clinics offer different options for your oral health care needs. They are located adjacent to each other, share a common waiting area & other resources but provide unique services and offer different payment options.",
+    "description": "Oral health can often be an indicator of a persons overall health. Thats why UAMS provides dental care to our community through our Oral Health Clinic and Dental Hygiene Student Clinic. These clinics offer different options for your oral health care needs. They are located adjacent to each other, share a common waiting area & other resources but provide unique services and offer different payment options.",
     "conditions_treated": [],
     "treatments": [],
     "providers": [
@@ -711,7 +711,7 @@
   "https://uamshealth.com/expertise/digestive-health/": {
     "name": "Digestive Health",
     "aka": "Also called: Gastroenterology",
-    "description": "\nWith highly skilled and trained specialists and the latest technology, UAMS\\u2019 gastroenterology service is the most complete in the state. Our gastroenterology specialists include nationally known experts in the treatment of\\u00a0stomach ulcers, hepatitis, inflammatory bowel diseases, colitis,\\u00a0Crohn\\u2019s disease, cirrhosis and conditions affecting the bile duct cells.\nUsing the latest in diagnostic tools, we can identify and develop a treatment plan for problems in the stomach, colon, esophagus, liver, pancreas, intestines and other digestive organs.\nAbout Our Doctors\nOur hepatologists, or liver specialists, diagnose and treat hepatitis, fatty liver and non-alcoholic fatty liver disease, along with other conditions. These specialists are part of the multi-disciplinary UAMS\\u00a0liver transplant program, Arkansas\\u2019 only liver transplant program.\nHighlights\nGastroenterology program highlights include:\n\n",
+    "description": "\nWith highly skilled and trained specialists and the latest technology, UAMS gastroenterology service is the most complete in the state. Our gastroenterology specialists include nationally known experts in the treatment ofstomach ulcers, hepatitis, inflammatory bowel diseases, colitis,Crohns disease, cirrhosis and conditions affecting the bile duct cells.\nUsing the latest in diagnostic tools, we can identify and develop a treatment plan for problems in the stomach, colon, esophagus, liver, pancreas, intestines and other digestive organs.\nAbout Our Doctors\nOur hepatologists, or liver specialists, diagnose and treat hepatitis, fatty liver and non-alcoholic fatty liver disease, along with other conditions. These specialists are part of the multi-disciplinary UAMSliver transplant program, Arkansas only liver transplant program.\nHighlights\nGastroenterology program highlights include:\n\n",
     "conditions_treated": [
       {
         "name": "Bile Duct Disease",
@@ -884,12 +884,12 @@
   },
   "https://uamshealth.com/expertise/digital-health-innovation/": {
     "name": "Digital Health & Innovation",
-    "description": "It is UAMS\\u2019 goal to eliminate health care disparities in Arkansas and beyond through innovations that embrace technology, improve quality and access to clinical care, education and research. ",
+    "description": "It is UAMS goal to eliminate health care disparities in Arkansas and beyond through innovations that embrace technology, improve quality and access to clinical care, education and research. ",
     "conditions_treated": [],
     "treatments": [],
     "providers": [
       {
-        "name": "John  W.  Bracey\\u00a0Jr., M.D.",
+        "name": "John  W.  BraceyJr., M.D.",
         "picture": "https://uamshealth.com/wp-content/uploads/fly-images/12352/Bracey_John-253x337-cc.jpg",
         "specialty": "Orthopaedic Surgeon",
         "link": "https://uamshealth.com/provider/john-w-bracey-jr/"
@@ -907,7 +907,7 @@
         "link": "https://uamshealth.com/provider/nafisa-k-dajani/"
       },
       {
-        "name": "G. Thomas Frazier\\u00a0Jr., M.D.",
+        "name": "G. Thomas FrazierJr., M.D.",
         "picture": "https://uamshealth.com/wp-content/uploads/fly-images/12391/Frazier_G-Thomas-Jr-253x337-cc.jpg",
         "specialty": "Orthopaedic Surgeon",
         "link": "https://uamshealth.com/provider/g-thomas-frazier-jr/"
@@ -1002,7 +1002,7 @@
   "https://uamshealth.com/expertise/ear-nose-throat-care/": {
     "name": "Ear, Nose & Throat Care",
     "aka": "Also called: Otolaryngology; ENT",
-    "description": "\nOtolaryngology is the field of medicine that\nfocuses on conditions and disorders related to the ear, nose and throat (ENT)\nand related structures of the head and neck. Otolaryngologists (or ENT doctors)\nprovide both surgical and nonsurgical treatments for a wide range of\nconditions. Otolaryngologists are highly trained in both medicine and surgery. \\u00a0\nComplete Care\nThe ENT physicians at UAMS are\nfellowship-trained in their specialty and cover all the sub-specialties in the\nfield: \n\nENT doctors can treat issues that range from\nthe everyday to the complex. Our physicians treat sinus and allergy issues, hearing\nloss and ear disease, balance disorders, facial and cranial nerve disorders, voice\nand swallowing disorders, head and neck cancer and benign tumors of the head\nand neck.\\u00a0 When surgery is required, our\nexperts can provide state-of-the-art surgery to the head and neck whether the\ncause is a traumatic injury, cancer or birth deformity. Our hearing and balance\nteam is internationally known and has one of the highest surgical volumes in\nthe country. People with vascular anomalies come from throughout the world to\nUAMS for treatment.\nTop 50 Nationwide\n\n",
+    "description": "\nOtolaryngology is the field of medicine that\nfocuses on conditions and disorders related to the ear, nose and throat (ENT)\nand related structures of the head and neck. Otolaryngologists (or ENT doctors)\nprovide both surgical and nonsurgical treatments for a wide range of\nconditions. Otolaryngologists are highly trained in both medicine and surgery. \nComplete Care\nThe ENT physicians at UAMS are\nfellowship-trained in their specialty and cover all the sub-specialties in the\nfield: \n\nENT doctors can treat issues that range from\nthe everyday to the complex. Our physicians treat sinus and allergy issues, hearing\nloss and ear disease, balance disorders, facial and cranial nerve disorders, voice\nand swallowing disorders, head and neck cancer and benign tumors of the head\nand neck. When surgery is required, our\nexperts can provide state-of-the-art surgery to the head and neck whether the\ncause is a traumatic injury, cancer or birth deformity. Our hearing and balance\nteam is internationally known and has one of the highest surgical volumes in\nthe country. People with vascular anomalies come from throughout the world to\nUAMS for treatment.\nTop 50 Nationwide\n\n",
     "conditions_treated": [
       {
         "name": "Acoustic Neuroma",
@@ -1049,7 +1049,7 @@
         "link": "https://uamshealth.com/condition/hyperparathyroidism/"
       },
       {
-        "name": "Meniere\\u2019s Disease",
+        "name": "Menieres Disease",
         "link": "https://uamshealth.com/condition/menieres-disease/"
       },
       {
@@ -1187,12 +1187,12 @@
     ],
     "locations": [
       {
-        "name": "Arkansas Children\\u2019s Hospital",
+        "name": "Arkansas Childrens Hospital",
         "picture": "https://uamshealth.com/wp-content/uploads/2018/04/B31A3657-Edit-512x288.jpg",
         "link": "https://uamshealth.com/location/arkansas-childrens-hospital/"
       },
       {
-        "name": "Arkansas Children\\u2019s Northwest",
+        "name": "Arkansas Childrens Northwest",
         "picture": "https://uamshealth.com/wp-content/uploads/2019/04/ACH-Northwest-512x288.jpg",
         "link": "https://uamshealth.com/location/arkansas-childrens-northwest/"
       },
@@ -1225,7 +1225,7 @@
   },
   "https://uamshealth.com/expertise/emergency-care/": {
     "name": "Emergency Care",
-    "description": "You can\\u2019t predict an emergency, but when one strikes, UAMS Medical Center is the only Adult Level 1 Trauma Center in Arkansas, as recognized by the American College of Surgeons. UAMS is also home to the first and only Comprehensive Stroke Center in Arkansas.",
+    "description": "You cant predict an emergency, but when one strikes, UAMS Medical Center is the only Adult Level 1 Trauma Center in Arkansas, as recognized by the American College of Surgeons. UAMS is also home to the first and only Comprehensive Stroke Center in Arkansas.",
     "conditions_treated": [
       {
         "name": "Abnormal Bleeding",
@@ -1371,7 +1371,7 @@
   "https://uamshealth.com/expertise/eye-care/": {
     "name": "Eye Care",
     "aka": "Also called: Ophthalmology; Optometry",
-    "description": "\nWhether you need a general eye exam or complex care, the professionals at UAMS can help.\nThe UAMS Harvey & Bernice Jones Eye Institute is equipped with operating rooms and laser treatment suites with the latest technology, allowing our skills physicians to provide progressive eye treatment for a number of eye conditions, such as glaucoma,\\u00a0retina and\\u00a0cornea disorders,\\u00a0low vision\\u00a0and eye injuries. We also offer plastic and reconstructive eyelid surgeries.\nUAMS also offers complete optical services in our Optical Shop, including eyeglasses and contact lenses.\nOur Jones Eye Institute is one of a small number of freestanding comprehensive centers in the nation dedicated to the treatment and study of the eye. UAMS is proud to provide this level of comprehensive eye care in Arkansas.\n",
+    "description": "\nWhether you need a general eye exam or complex care, the professionals at UAMS can help.\nThe UAMS Harvey & Bernice Jones Eye Institute is equipped with operating rooms and laser treatment suites with the latest technology, allowing our skills physicians to provide progressive eye treatment for a number of eye conditions, such as glaucoma,retina andcornea disorders,low visionand eye injuries. We also offer plastic and reconstructive eyelid surgeries.\nUAMS also offers complete optical services in our Optical Shop, including eyeglasses and contact lenses.\nOur Jones Eye Institute is one of a small number of freestanding comprehensive centers in the nation dedicated to the treatment and study of the eye. UAMS is proud to provide this level of comprehensive eye care in Arkansas.\n",
     "conditions_treated": [
       {
         "name": "Cataracts",
@@ -1571,7 +1571,7 @@
         "link": "https://uamshealth.com/condition/hearing-loss/"
       },
       {
-        "name": "Meniere\\u2019s Disease",
+        "name": "Menieres Disease",
         "link": "https://uamshealth.com/condition/menieres-disease/"
       },
       {
@@ -1637,7 +1637,7 @@
         "link": "https://uamshealth.com/treatment/hearing-aid-evaluations/"
       },
       {
-        "name": "Hearing aid\\u00a0fittings",
+        "name": "Hearing aidfittings",
         "link": "https://uamshealth.com/treatment/hearing-aid-fittings/"
       },
       {
@@ -1897,7 +1897,7 @@
     ],
     "locations": [
       {
-        "name": "Arkansas Children\\u2019s Hospital",
+        "name": "Arkansas Childrens Hospital",
         "picture": "https://uamshealth.com/wp-content/uploads/2018/04/B31A3657-Edit-512x288.jpg",
         "link": "https://uamshealth.com/location/arkansas-childrens-hospital/"
       },
@@ -2184,7 +2184,7 @@
     ],
     "locations": [
       {
-        "name": "Arkansas Children\\u2019s Hospital",
+        "name": "Arkansas Childrens Hospital",
         "picture": "https://uamshealth.com/wp-content/uploads/2018/04/B31A3657-Edit-512x288.jpg",
         "link": "https://uamshealth.com/location/arkansas-childrens-hospital/"
       },
@@ -2385,13 +2385,13 @@
         "link": "https://uamshealth.com/provider/noojan-kazemi/"
       },
       {
-        "name": "T. W. Morris\\u00a0III, M.D.",
+        "name": "T. W. MorrisIII, M.D.",
         "picture": "https://uamshealth.com/wp-content/uploads/fly-images/54472/Morris_Thomas-Whitfield-III-253x337-cc.jpg",
         "specialty": "Neurosurgeon",
         "link": "https://uamshealth.com/provider/t-w-morris-iii/"
       },
       {
-        "name": "Eylem \\u00d6cal, M.D.",
+        "name": "Eylem cal, M.D.",
         "picture": "https://uamshealth.com/wp-content/uploads/fly-images/56562/Ocal_Eylem-253x337-cc.jpg",
         "specialty": "Neurosurgeon",
         "link": "https://uamshealth.com/provider/eylem-ocal/"
@@ -2429,7 +2429,7 @@
     ],
     "locations": [
       {
-        "name": "Arkansas Children\\u2019s Hospital",
+        "name": "Arkansas Childrens Hospital",
         "picture": "https://uamshealth.com/wp-content/uploads/2018/04/B31A3657-Edit-512x288.jpg",
         "link": "https://uamshealth.com/location/arkansas-childrens-hospital/"
       },
@@ -2447,7 +2447,7 @@
   },
   "https://uamshealth.com/expertise/organ-transplant/": {
     "name": "Organ Transplant",
-    "description": "UAMS is the home of Arkansas\\u2019 only adult kidney and liver transplant center, with transplants beginning in 1964 with the state\\u2019s first kidney transplant.\\u00a0 UAMS also performed the state\\u2019s first liver transplant in 2005.\\u00a0 The UAMS Organ Transplant team has performed over 1,800 kidney transplants and over 400 liver transplants.",
+    "description": "UAMS is the home of Arkansas only adult kidney and liver transplant center, with transplants beginning in 1964 with the states first kidney transplant. UAMS also performed the states first liver transplant in 2005. The UAMS Organ Transplant team has performed over 1,800 kidney transplants and over 400 liver transplants.",
     "conditions_treated": [],
     "treatments": [],
     "providers": [
@@ -2520,7 +2520,7 @@
     ],
     "locations": [
       {
-        "name": "Family Medical Center\\u00a0\\u2014 Fayetteville",
+        "name": "Family Medical Center Fayetteville",
         "picture": "https://uamshealth.com/wp-content/uploads/2019/12/H6A8918-512x288.jpg",
         "link": "https://uamshealth.com/location/family-medical-center-fayetteville/"
       },
@@ -2535,7 +2535,7 @@
         "link": "https://uamshealth.com/location/liver-transplant-clinic/"
       },
       {
-        "name": "Transplant Clinic \\u2014 Freeway Medical",
+        "name": "Transplant Clinic  Freeway Medical",
         "picture": "https://uamshealth.com/wp-content/uploads/2018/04/freeway-medical-tower-512x288.jpg",
         "link": "https://uamshealth.com/location/transplant-clinic-freeway-medical/"
       }
