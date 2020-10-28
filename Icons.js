@@ -9,6 +9,7 @@ Icons['provider'] = require('./images/icons/Provider').default;
 Icons['bill'] = require('./images/icons/Bill').default;
 Icons['calendar'] = require('./images/icons/Calendar').default;
 Icons['doctor_bag'] = require('./images/icons/DoctorBag').default;
+Icons['burn'] = require('./images/icons/Burn').default;
 Icons['ambulance'] = require('./images/icons/Ambulance').default;
 Icons['ear'] = require('./images/icons/Ear').default;
 Icons['eye'] = require('./images/icons/Eye').default;

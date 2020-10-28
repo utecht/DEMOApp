@@ -74,7 +74,7 @@ const TreatmentsScreen = ({ navigation }) => {
 const HomeScreen = ({ navigation }) => {
   return (
     <>
-      <StatusBar barStyle="dark-content" />
+      <StatusBar barStyle="dark-content" backgroundColor="white"/>
       <SafeAreaView style={styles.safeArea}>
         <ScrollView
           contentInsetAdjustmentBehavior="automatic"

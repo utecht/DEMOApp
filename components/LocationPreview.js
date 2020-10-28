@@ -23,21 +23,24 @@ import LocationImages from '../LocationImages';
 const styles = StyleSheet.create({
   card: {
     display: 'flex',
-    marginLeft: 20,
-    marginRight: 20,
-    marginBottom: 10,
-    borderRadius: 10,
+    width: '100%',
     backgroundColor: 'white',
-    borderColor: 'black',
-    borderStyle: 'solid',
-    borderWidth: 1,
+    marginBottom: 5,
+    shadowColor: "#000",
+    shadowOffset: {
+    	width: 0,
+    	height: 1,
+    },
+    shadowOpacity: 0.18,
+    shadowRadius: 1.00,
+
+    elevation: 1,
+
   },
   picture: {
     width: '100%',
     height: 200,
     flex: 1,
-    borderTopLeftRadius: 10,
-    borderTopRightRadius: 10,
   },
   cardContents: {
     padding: 10,
@@ -131,7 +134,7 @@ const LocationPreview = (props) => {
         <Text style={styles.address}>{props.location.address}</Text>
         {hours}
         <Text style={styles.phone_numbers}>Appointment Phone Number</Text>
-        <Text onPress={() => Linking.openURL('tel:'+phoneNumber)} style={styles.phoneLink}>{phoneNumber}</Text>
+        <Text onPress={() => Linking.openURL('tel:'+phoneNumber)} style={styles.phoneLink}>📞 {phoneNumber}</Text>
         <View style={styles.buttonBox}>
           <Button title="View Location" onPress={() => props.navigateTo(props.location)}/>
           <Button title="Get Directions" onPress={() => Linking.openURL(url)}/>

@@ -28,8 +28,6 @@ const styles = StyleSheet.create({
   card: {
     display: 'flex',
     justifyContent: 'center',
-    paddingLeft: 20,
-    paddingRight: 20,
     textAlign: 'center',
   },
   picture: {
@@ -38,23 +36,27 @@ const styles = StyleSheet.create({
     flex: 1
   },
   buttonBox: {
-    display: 'flex',
-    flexDirection: 'row',
-    width: '100%',
-    justifyContent: 'space-between'
+    margin: 15
   },
   title: {
-    fontSize: 20,
-    fontWeight: 'bold'
+    fontSize: 25,
+    fontWeight: 'bold',
+    padding: 15,
+    paddingBottom: 0,
   },
   subtitle: {
     fontSize: 15,
-    fontWeight: 'bold'
+    fontWeight: 'bold',
+    paddingTop: 15,
   },
   section_title: {
     marginTop: 15,
-    fontSize: 25,
-    fontWeight: 'bold'
+    fontSize: 20,
+    fontWeight: 'bold',
+    backgroundColor: '#c6c4c4',
+    padding: 10,
+    paddingLeft: 15,
+    marginBottom: 15,
   },
   phoneLink: {
     ...Platform.select({
@@ -66,7 +68,9 @@ const styles = StyleSheet.create({
    })
   },
   phone_box: {
-    margin: 15,
+    marginTop: -15,
+    marginLeft: 15,
+    marginRight: 15,
   },
   address_box: {
     marginLeft: 15,
@@ -75,8 +79,8 @@ const styles = StyleSheet.create({
   hour_box: {
     display: 'flex',
     flexDirection: 'column',
-    width: '90%',
-    margin: 15,
+    paddingLeft: 15,
+    paddingRight: 15,
   },
   day: {
     display: 'flex',
@@ -87,6 +91,14 @@ const styles = StyleSheet.create({
   today: {
     color: 'green',
     fontWeight: 'bold'
+  },
+  subtext: {
+    color: '#5d5b5c',
+    fontSize: 12
+  },
+  text_box: {
+    paddingLeft: 15,
+    paddingRight: 15,
   }
 });
 
@@ -112,8 +124,8 @@ const LocationDetail = ({ route, navigation }) => {
       <Text style={styles.subtitle}>{section.name}</Text>
       {section.numbers.map((number, inum) =>
         <View key={inum}>
-          <Text onPress={() => Linking.openURL('tel:'+number.phone)} style={styles.phoneLink}>{number.phone}</Text>
-          <Text>{number.subtitle}</Text>
+          <Text onPress={() => Linking.openURL('tel:'+number.phone)} style={styles.phoneLink}>📞 {number.phone}</Text>
+          {number.subtitle ? <Text style={styles.subtext}>{number.subtitle}</Text> : <></>}
         </View>
       )}
     </View>
@@ -131,13 +143,13 @@ const LocationDetail = ({ route, navigation }) => {
   const parking_info = location.parking !== undefined ?
     <>
       <Text style={styles.section_title}>Parking Info</Text>
-      <Text>{location.parking}</Text>
+      <Text style={styles.text_box}>{location.parking}</Text>
     </> : <></>;
 
   const appointment = location.appointment_info !== undefined ?
     <>
       <Text style={styles.section_title}>Appointment Information</Text>
-      <Text>{location.appointment_info}</Text>
+      <Text style={styles.text_box}>{location.appointment_info}</Text>
     </> : <></>;
 
   return (
@@ -150,7 +162,9 @@ const LocationDetail = ({ route, navigation }) => {
       />
       <View style={styles.card}>
         <Text style={styles.title}>{name}</Text>
+        <Text style={styles.section_title}>Contact</Text>
         <View style={styles.phone_box}>{contact}</View>
+        <Text style={styles.section_title}>Address</Text>
         <Text style={styles.address_box}>{location.address}</Text>
         <View style={styles.buttonBox}>
           <Button title="Get Directions" onPress={() => Linking.openURL(url)}/>

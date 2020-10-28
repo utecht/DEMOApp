@@ -24,13 +24,16 @@ const AreasOfExpertiseScreen = ({ navigation }) => {
       backgroundColor: UAMSRed,
       display: 'flex',
       flexDirection: 'row',
-      flexWrap: 'wrap'
+      flexWrap: 'wrap',
+      justifyContent: 'space-evenly'
     },
     button: {
-      width: 100,
-      height: 100
+      width: 90,
+      height: 90
     }
   });
+
+  const icon_size = 40;
 
   return (
     <View style={styles.container}>
@@ -38,7 +41,7 @@ const AreasOfExpertiseScreen = ({ navigation }) => {
         <IconButton
           label="Psychiatry"
           iconColor="red"
-          size={50}
+          size={icon_size}
           icon="mental_health"
           onPress={() =>
             navigation.navigate("Providers")
@@ -49,8 +52,8 @@ const AreasOfExpertiseScreen = ({ navigation }) => {
         <IconButton
           label="Burn Care"
           iconColor="red"
-          size={50}
-          icon="ambulance"
+          size={icon_size}
+          icon="burn"
           onPress={() =>
             navigation.navigate("Providers")
           }
@@ -60,7 +63,7 @@ const AreasOfExpertiseScreen = ({ navigation }) => {
         <IconButton
           label="Cancer Care"
           iconColor="red"
-          size={50}
+          size={icon_size}
           icon="tomography"
           onPress={() =>
             navigation.navigate("Providers")
@@ -71,7 +74,7 @@ const AreasOfExpertiseScreen = ({ navigation }) => {
         <IconButton
           label="Dentile Care"
           iconColor="red"
-          size={50}
+          size={icon_size}
           icon="tooth"
           onPress={() =>
             navigation.navigate("Providers")
@@ -82,7 +85,7 @@ const AreasOfExpertiseScreen = ({ navigation }) => {
         <IconButton
           label="Diabetes and Endocrinology Care"
           iconColor="red"
-          size={50}
+          size={icon_size}
           icon="diabetes"
           onPress={() =>
             navigation.navigate("Providers")
@@ -93,7 +96,7 @@ const AreasOfExpertiseScreen = ({ navigation }) => {
         <IconButton
           label="Digestive Health"
           iconColor="red"
-          size={50}
+          size={icon_size}
           icon="stomach"
           onPress={() =>
             navigation.navigate("Providers")
@@ -104,7 +107,7 @@ const AreasOfExpertiseScreen = ({ navigation }) => {
         <IconButton
           label="Ear Nose and Throat Care"
           iconColor="red"
-          size={50}
+          size={icon_size}
           icon="ear"
           onPress={() =>
             navigation.navigate("Providers")
@@ -115,7 +118,7 @@ const AreasOfExpertiseScreen = ({ navigation }) => {
         <IconButton
           label="Emergency Care"
           iconColor="red"
-          size={50}
+          size={icon_size}
           icon="ambulance"
           onPress={() =>
             navigation.navigate("Providers")
@@ -126,7 +129,7 @@ const AreasOfExpertiseScreen = ({ navigation }) => {
         <IconButton
           label="Eye Care"
           iconColor="red"
-          size={50}
+          size={icon_size}
           icon="eye"
           onPress={() =>
             navigation.navigate("Providers")
@@ -137,7 +140,7 @@ const AreasOfExpertiseScreen = ({ navigation }) => {
         <IconButton
           label="Hearing and Balance"
           iconColor="red"
-          size={50}
+          size={icon_size}
           icon="hearing"
           onPress={() =>
             navigation.navigate("Providers")
@@ -148,7 +151,7 @@ const AreasOfExpertiseScreen = ({ navigation }) => {
         <IconButton
           label="Heart and Vascular Care"
           iconColor="red"
-          size={50}
+          size={icon_size}
           icon="heart"
           onPress={() =>
             navigation.navigate("Providers")
@@ -159,7 +162,7 @@ const AreasOfExpertiseScreen = ({ navigation }) => {
         <IconButton
           label="Neurology"
           iconColor="red"
-          size={50}
+          size={icon_size}
           icon="brain"
           onPress={() =>
             navigation.navigate("Providers")
@@ -170,7 +173,7 @@ const AreasOfExpertiseScreen = ({ navigation }) => {
         <IconButton
           label="Neurosurgery"
           iconColor="red"
-          size={50}
+          size={icon_size}
           icon="neurosurgery"
           onPress={() =>
             navigation.navigate("Providers")
@@ -181,7 +184,7 @@ const AreasOfExpertiseScreen = ({ navigation }) => {
         <IconButton
           label="Organ Transplant"
           iconColor="red"
-          size={50}
+          size={icon_size}
           icon="kidney"
           onPress={() =>
             navigation.navigate("Providers")

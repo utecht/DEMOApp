@@ -27,8 +27,6 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
-    paddingLeft: 20,
-    paddingRight: 20,
     textAlign: 'center',
   },
   picture: {
@@ -64,10 +62,17 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     alignSelf: 'flex-start',
     marginTop: 10,
+    backgroundColor: '#c6c4c4',
+    width: '100%',
+    marginBottom: 10,
+    padding: 10,
+    paddingLeft: 15,
   },
   textContent: {
     alignSelf: 'flex-start',
     fontSize: 15,
+    paddingLeft: 15,
+    paddingRight: 15,
   }
 });
 

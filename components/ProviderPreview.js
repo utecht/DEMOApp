@@ -14,29 +14,50 @@ import {
   TouchableHighlight,
   Image,
   Button,
-  Linking
+  Linking,
+  Platform
 } from 'react-native';
 
 const styles = StyleSheet.create({
   card: {
     display: 'flex',
     flexDirection: 'row',
-    marginLeft: 20,
-    marginRight: 20,
-    marginBottom: 10,
-    borderRadius: 10,
     backgroundColor: 'white',
-    borderColor: 'black',
-    borderStyle: 'solid',
-    borderWidth: 1,
-    width: '90%'
+    width: '100%',
+    marginBottom: 3,
+    shadowColor: "#000",
+    shadowOffset: {
+    	width: 0,
+    	height: 1,
+    },
+    shadowOpacity: 0.18,
+    shadowRadius: 1.00,
+
+    elevation: 1,
+
   },
   picture: {
-    width: 100,
-    height: 200,
-    borderTopLeftRadius: 10,
-    borderBottomLeftRadius: 10,
-    backgroundColor: 'grey'
+    width: 70,
+    height: 70,
+    ...Platform.select({
+     ios: {
+       marginTop: "10%",
+       overflow: 'visible'
+     },
+     android: {
+       marginTop: 0
+     },
+     default: {
+       marginTop: "10%"
+     }
+  })},
+  cropper: {
+    width: 70,
+    backgroundColor: 'grey',
+    height: 70,
+    marginTop: 15,
+    borderRadius: 100,
+    overflow: 'hidden'
   },
   cardContents: {
     padding: 10,
@@ -45,12 +66,11 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   title: {
-    fontSize: 20,
+    fontSize: 15,
     fontWeight: 'bold',
   },
   subtitle: {
     fontSize: 15,
-    fontWeight: 'bold',
     color: '#6b6869',
     flexGrow: 1,
   },
@@ -66,10 +86,12 @@ const ProviderPreview = (props) => {
 
   return (
     <View style={styles.card}>
-      <Image
-        style={styles.picture}
-        source={{uri:picture}}
-      />
+      <View style={styles.cropper}>
+        <Image
+          style={styles.picture}
+          source={{uri:picture}}
+        />
+      </View>
       <View style={styles.cardContents}>
         <Text style={styles.title}>{name}</Text>
         <Text style={styles.subtitle}>{subtitle}</Text>
