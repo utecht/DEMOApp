@@ -12,6 +12,20 @@
 
 `npx react-native run-ios  --configuration=Release`
 
+### Deploying to ios app store
+`cd ios
+open UAMSApp.xcworkspace`
+
+Update the version number in the project, select generic ARM device from device list and archive, then upload using organizer.
+
+### Deploying to google play store
+Update the version number in `android/app/build.gradle`.
+
+`cd android
+./gradlew bundleRelease`
+
+Upload `android/app/build/outputs/bundle/release/app.aab` to the play store.
+
 
 # Notes
 
