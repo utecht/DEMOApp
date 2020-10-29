@@ -12,7 +12,7 @@ with open('markers.json') as f:
     for marker in markers:
         address = {}
         address['type'] = 'Feature'
-        address_id = str(uuid.uuid1())
+        address_id = str(uuid.uuid4())
         address['id'] = address_id
         address['feature_type'] = 'address'
         props = {}
@@ -27,7 +27,7 @@ with open('markers.json') as f:
         address['geometry'] = None
         address_features.append(address)
         anchor = {}
-        anchor['id'] = str(uuid.uuid1())
+        anchor['id'] = str(uuid.uuid4())
         anchor['feature_type'] = 'anchor'
         props = {}
         props['address_id'] = address_id
@@ -59,7 +59,7 @@ with open('polys.json') as f:
         building = {}
         building['type'] = 'Feature'
         building['feature_type'] = 'building'
-        building_id = str(uuid.uuid1())
+        building_id = str(uuid.uuid4())
         building['id'] = building_id
         props = {}
         props['category'] = 'parking'
@@ -69,7 +69,7 @@ with open('polys.json') as f:
         building_features.append(building)
         footprint = {}
         footprint['type'] = 'Feature'
-        footprint_id = str(uuid.uuid1())
+        footprint_id = str(uuid.uuid4())
         footprint['id'] = footprint_id
         footprint['feature_type'] = 'footprint'
         props = {}

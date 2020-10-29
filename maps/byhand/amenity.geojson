@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "de3bbca8-546c-46d1-9def-a9d22aa4e7d3",
+      "feature_type": "amenity",
+      "properties": {
+        "category": "elevator",
+        "unit_ids": ["3c9e3424-75da-42ca-a0b7-919d944b2f68"],
+        "accessibility": null,
+        "address_id": null,
+        "alt_name": null,
+        "correlation_id": null,
+        "hours": null,
+        "name": null,
+        "phone": null,
+        "website": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-92.3182158, 34.7474233]
+      }
+    }
+  ]
+}

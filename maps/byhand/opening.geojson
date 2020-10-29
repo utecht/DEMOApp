@@ -1,0 +1,29 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "59cfc989-3942-45d8-b4d0-845fad56da82",
+      "feature_type": "opening",
+      "properties": {
+        "category": "pedestrian",
+        "accessibility": ["wheelchair"],
+        "door": {"automatic": true, "material": "glass", "type": "sliding"},
+        "name": {"en": "JTS Walkway Door"},
+        "alt_name": null,
+        "display_point": null,
+        "level_id": "9ab546c7-3338-492f-b53d-475757d0f8de",
+        "access_control": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-92.3182815, 34.7476999],
+          [-92.3182795, 34.7477008],
+          [-92.3182766, 34.7477021],
+          [-92.3182426, 34.7477175]
+        ]
+      }
+    }
+  ]
+}

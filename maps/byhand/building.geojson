@@ -1,0 +1,33 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "45a6c7ab-796d-4a3e-ad01-75301db6b3e7",
+      "feature_type": "building",
+      "properties": {
+        "category": "unspecified",
+        "name": {"en": "Jackson T. Stephens Spine and Neurosciences Institute"},
+        "address_id": "fc3bb72f-4770-4567-ba0a-c43165a4617b",
+        "alt_name": null,
+        "display_point": null,
+        "restriction": null
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "id": "a5af5c4d-2fe4-4179-a5d3-1563e2563f58",
+      "feature_type": "building",
+      "properties": {
+        "category": "parking",
+        "name": {"en": "Parking 3"},
+        "address_id": null,
+        "alt_name": null,
+        "display_point": null,
+        "restriction": null
+      },
+      "geometry": null
+    }
+  ]
+}

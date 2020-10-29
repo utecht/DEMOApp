@@ -1,0 +1,36 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "c4e8ecd8-f82c-43b5-9558-33c6b9a3f1a5",
+      "feature_type": "venue",
+      "properties": {
+        "category": "healthcarefacility",
+        "restriction": null,
+        "name": {"en": "University of Arkansas for Medical Sciences"},
+        "hours": "24/7",
+        "website": "https://uamshealth.com",
+        "display_point": {
+          "type": "Point",
+          "coordinates": [-92.3198318, 34.7478894]
+        },
+        "address_id": "d5cd020c-035f-40c5-ae66-a7953c1c4201",
+        "alt_name": null,
+        "phone": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-92.3129654, 34.7439752],
+            [-92.3129654, 34.7516976],
+            [-92.3273849, 34.7516976],
+            [-92.3273849, 34.7439752],
+            [-92.3129654, 34.7439752]
+          ]
+        ]
+      }
+    }
+  ]
+}

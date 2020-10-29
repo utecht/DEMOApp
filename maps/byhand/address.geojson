@@ -1,0 +1,37 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "fc3bb72f-4770-4567-ba0a-c43165a4617b",
+      "feature_type": "address",
+      "properties": {
+        "address": "4301 W. Markham St.",
+        "unit": "Slot 826",
+        "locality": "Little Rock",
+        "province": "US-AR",
+        "country": "US",
+        "postal_code": "72205",
+        "postal_code_ext": null,
+        "postal_code_vanity": null
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "id": "d5cd020c-035f-40c5-ae66-a7953c1c4201",
+      "feature_type": "address",
+      "properties": {
+        "address": "4301 W. Markham St.",
+        "unit": null,
+        "locality": "Little Rock",
+        "province": "US-AR",
+        "country": "US",
+        "postal_code": "72205",
+        "postal_code_ext": null,
+        "postal_code_vanity": null
+      },
+      "geometry": null
+    }
+  ]
+}

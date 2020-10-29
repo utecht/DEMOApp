@@ -1,0 +1,21 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "b065759c-5aa7-49cf-9116-a010fa93bbe5",
+      "feature_type": "occupant",
+      "properties": {
+        "category": "clinic",
+        "name": {"en": "Neurology Clinic"},
+        "anchor_id": "394bfde2-366c-42bc-af50-0676777ed5d7",
+        "correlation_id": null,
+        "hours": null,
+        "phone": null,
+        "validity": null,
+        "website": null
+      },
+      "geometry": null
+    }
+  ]
+}
