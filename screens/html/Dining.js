@@ -44,7 +44,7 @@ export const template = () => `<html>
       <p>Start your morning with a jolt! Try our wonderful specialty coffee drinks made with Westrock Coffee or fill up on a breakfast burrito. We also offer sandwiches and salads. Come see us on the 1st Floor of the Ward Tower near the College of Medicine offices.</p>
       <p>Monday – Friday from 7:00 a.m. – 3:00 p.m.</p>
       <h2>The Atrium – Outpatient Center</h2>
-      <p>Need a break from your appointments Grab a hot breakfast or lunch items, including soups, salads and sandwiches. Then wash it all down with a coffee or soda! Our “hot” spot is located on the 1st Floor of the Outpatient Center across from the Pharmacy.</p>
+      <p>Need a break from your appointments grab a hot breakfast or lunch items, including soups, salads and sandwiches. Then wash it all down with a coffee or soda! Our “hot” spot is located on the 1st Floor of the Outpatient Center across from the Pharmacy.</p>
       <p>Monday – Friday<br>Breakfast from 7 – 10 a.m.<br>Hot lunch from 11 a.m. – 2 p.m.</p>
       <h2>The Gathering Place</h2>
       <p>Located on the 1st floor of the Cancer Institute, The Gathering Place offers a full selection of Starbucks beverages along with a wide selection of breakfast and lunch items. Our breakfast selections include biscuits, turkey bacon, hot cereals and made-to-order omelets.&nbsp; Lunch provides a hot burger and sandwiches, salads and grab-and-go items. We also offer GLUTEN FREE products in our dessert case as well as sandwiches.</p>

@@ -147,8 +147,8 @@ android {
         applicationId "com.uamsapp"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 2
-        versionName "1.7"
+        versionCode 3
+        versionName "1.7.2"
     }
     splits {
         abi {

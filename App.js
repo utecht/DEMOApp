@@ -50,7 +50,7 @@ function MainStackScreen() {
       />
       <Stack.Screen name="Areas of Expertise" component={AreasOfExpertiseScreen} />
       <Stack.Screen name="Locations" component={LocationsScreen} />
-      <Stack.Screen name="Dinning" component={WebScreen} />
+      <Stack.Screen name="Dining" component={WebScreen} />
       <Stack.Screen name="Directions" component={WebScreen} />
       <Stack.Screen name="Contact" component={WebScreen} />
       <Stack.Screen name="Records" component={WebScreen} />
@@ -114,8 +114,8 @@ const HomeScreen = ({ navigation }) => {
               size={25}
               icon="fork"
               onPress={() =>
-                navigation.navigate("Dinning",
-                  {html: require('./screens/html/Dinning').template()}
+                navigation.navigate("Dining",
+                  {html: require('./screens/html/Dining').template()}
                 )
               }
             />

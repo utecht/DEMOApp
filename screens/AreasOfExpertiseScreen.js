@@ -149,7 +149,7 @@ const AreasOfExpertiseScreen = ({ navigation }) => {
         </View>
         <View style={styles.button}>
           <IconButton
-            label="Dentile Care"
+            label="Dentale Care"
             iconColor="red"
             size={icon_size}
             icon="tooth"
