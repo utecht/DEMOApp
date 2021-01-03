@@ -14,13 +14,10 @@ import {
   TouchableHighlight,
 } from 'react-native';
 
-import CONDITIONS from '../orbweaver/conditions.json';
-
 const ConditionButton = ({ condition, navigation }) => {
   function onPress() {
     navigation.navigate('ConditionModal',
-        {condition: CONDITIONS[condition.link],
-         url: condition.link});
+        {url: condition.link});
   }
   const style = StyleSheet.create({
     container: {

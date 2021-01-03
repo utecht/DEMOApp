@@ -18,6 +18,7 @@
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* UAMSAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* UAMSAppTests.m */; };
 		4E7B87F5F573758B4D5C20C7 /* libPods-UAMSApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D2798D2CD5AB0EE31C5D66C /* libPods-UAMSApp.a */; };
+		7C249B0F25A278D200556993 /* www in Resources */ = {isa = PBXBuildFile; fileRef = 7C249B0E25A278D200556993 /* www */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		AC0EC0C10E4AD6DA25BD25B9 /* libPods-UAMSApp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A92511773A21C73B921B9419 /* libPods-UAMSApp-tvOSTests.a */; };
 /* End PBXBuildFile section */
@@ -56,6 +57,7 @@
 		2D02E47B1E0B4A5D006451C7 /* UAMSApp-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UAMSApp-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* UAMSApp-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UAMSApp-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		650376961BFEF78477D04A0A /* Pods-UAMSApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UAMSApp.release.xcconfig"; path = "Target Support Files/Pods-UAMSApp/Pods-UAMSApp.release.xcconfig"; sourceTree = "<group>"; };
+		7C249B0E25A278D200556993 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../www; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = UAMSApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B0387410086D2B96660AC8F /* Pods-UAMSApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UAMSApp.debug.xcconfig"; path = "Target Support Files/Pods-UAMSApp/Pods-UAMSApp.debug.xcconfig"; sourceTree = "<group>"; };
 		9DCE412CD25932420BEDA878 /* Pods-UAMSApp-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UAMSApp-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-UAMSApp-tvOS/Pods-UAMSApp-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 		13B07FAE1A68108700A75B9A /* UAMSApp */ = {
 			isa = PBXGroup;
 			children = (
+				7C249B0E25A278D200556993 /* www */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -340,6 +343,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C249B0F25A278D200556993 /* www in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);

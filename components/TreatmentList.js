@@ -14,13 +14,10 @@ import {
   TouchableHighlight,
 } from 'react-native';
 
-import TREATMENTS from '../orbweaver/treatments.json';
-
 const TreatmentButton = ({ treatment, navigation }) => {
   function onPress() {
     navigation.navigate('TreatmentModal',
-        {treatment: TREATMENTS[treatment.link],
-         url: treatment.link});
+        {url: treatment.link});
   }
   const style = StyleSheet.create({
     container: {

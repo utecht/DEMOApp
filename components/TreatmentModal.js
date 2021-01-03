@@ -16,6 +16,7 @@ import {
   SafeAreaView,
   ScrollView
 } from 'react-native';
+import { useDescription } from '../hooks/useDescription';
 
 const style = StyleSheet.create({
   container: {
@@ -30,8 +31,9 @@ const style = StyleSheet.create({
 });
 
 const TreatmentModal = ({ route, navigation }) => {
-  const { treatment, url } = route.params;
-  if(treatment == undefined) {
+  const { url } = route.params;
+  const { description } = useDescription(url);
+  if(description == undefined) {
     return (
       <SafeAreaView>
         <Text>Treatment Not Found</Text>
@@ -40,7 +42,7 @@ const TreatmentModal = ({ route, navigation }) => {
     )
   }
 
-  const name = treatment.name.replace("Treatment: ", "");
+  const name = description.name.replace("Treatment: ", "");
 
   const styles = StyleSheet.create({
     title: {
@@ -75,7 +77,7 @@ const TreatmentModal = ({ route, navigation }) => {
       <ScrollView
         contentInsetAdjustmentBehavior="automatic">
         <Text style={styles.title}>{name}</Text>
-        <Text style={styles.subtitle}>{treatment.aka}</Text>
+        <Text style={styles.subtitle}>{description.aka}</Text>
         <Button
           onPress={() =>
             navigation.navigate("Providers", {
@@ -84,7 +86,7 @@ const TreatmentModal = ({ route, navigation }) => {
             })
           }
           title={"View Providers Specializing in " + name} />
-        <Text style={styles.text_box}>{treatment.description}</Text>
+        <Text style={styles.text_box}>{description.description}</Text>
       </ScrollView>
       <Button onPress={() => navigation.goBack()} title="Dismiss" />
     </SafeAreaView>

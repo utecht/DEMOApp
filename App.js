@@ -6,7 +6,7 @@
  * @flow strict-local
  */
 
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import {
   SafeAreaView,
   StyleSheet,
@@ -36,6 +36,7 @@ import LocationsScreen from './screens/LocationsScreen';
 import ProvidersScreen from './screens/ProvidersScreen';
 import ProviderDetails from './components/ProviderDetails';
 import WebScreen from './screens/WebScreen';
+import { DatabaseProvider } from './database/DatabaseContext';
 
 const Stack = createStackNavigator();
 const RootStack = createStackNavigator();
@@ -65,11 +66,13 @@ function MainStackScreen() {
 const App: () => React$Node = () => {
   return (
     <NavigationContainer>
-      <RootStack.Navigator mode="modal" headerMode="none">
-        <RootStack.Screen name="main" component={MainStackScreen}/>
-        <RootStack.Screen name="ConditionModal" component={ConditionModal}/>
-        <RootStack.Screen name="TreatmentModal" component={TreatmentModal}/>
-      </RootStack.Navigator>
+      <DatabaseProvider>
+        <RootStack.Navigator mode="modal" headerMode="none">
+          <RootStack.Screen name="main" component={MainStackScreen}/>
+          <RootStack.Screen name="ConditionModal" component={ConditionModal}/>
+          <RootStack.Screen name="TreatmentModal" component={TreatmentModal}/>
+        </RootStack.Navigator>
+      </DatabaseProvider>
     </NavigationContainer>
   );
 };
