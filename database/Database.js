@@ -17,14 +17,14 @@ async function getAOE(uid) {
         throw new Error("[db] incorrect number of AOEs");
       }
       aoe = results.rows.item(0);
-      return getConditions(aoe.id);
+      return getConditions(aoe.description_id);
     })
     .then((conditions) => {
       if(aoe === undefined){
         return undefined;
       }
       aoe.conditions_treated = conditions;
-      return getTreatments(aoe.id);
+      return getTreatments(aoe.description_id);
     })
     .then((treatments) => {
       if(aoe === undefined){
@@ -39,7 +39,7 @@ async function getConditions(id) {
   return getDatabase()
     .then((db) => db.executeSql(`select name, uid as link
       from relations
-      join descriptions where relations."to" = descriptions.id
+      join descriptions where relations."to" = descriptions.description_id
       and type = "condition"
       and relations."from" = ?`, [id]))
     .then(([results]) => {
@@ -58,7 +58,7 @@ async function getTreatments(id) {
   return getDatabase()
     .then((db) => db.executeSql(`select name, uid as link
       from relations
-      join descriptions where relations."to" = descriptions.id
+      join descriptions where relations."to" = descriptions.description_id
       and type = "treatment"
       and relations."from" = ?`, [id]))
     .then(([results]) => {
@@ -71,6 +71,57 @@ async function getTreatments(id) {
       }
       return conditions;
     });
+}
+
+async function getProviders() {
+  return getDatabase()
+    .then((db) => db.executeSql(`select provider_id, name, subtitle, picture from providers order by name;`, []))
+    .then(([results]) => {
+      let ret = [];
+      for(let i = 0; i < results.rows.length; i++){
+        ret.push(results.rows.item(i));
+      }
+      return ret;
+    })
+}
+
+async function getProvider(provider_id) {
+  return getDatabase()
+    .then((db) => db.executeSql(`select
+                                   providers.name, subtitle, picture, about,
+                                   descriptions.name as description_name, type, descriptions.uid
+                                 from providers
+                                 left join provider_descriptions on
+                                   providers.provider_id = provider_descriptions.provider_id
+                                 left join descriptions on
+                                   provider_descriptions.description_id = descriptions.description_id
+                                 where providers.provider_id = ?;`, [provider_id]))
+    .then(([results]) => {
+      if(results.rows.length === 0){
+        return undefined;
+      }
+      let provider = results.rows.item(0);
+      provider.conditions = [];
+      provider.languages = [];
+      provider.treatments = [];
+      provider.expertises = [];
+      for(let i = 0; i < results.rows.length; i++){
+        let row = results.rows.item(i);
+        if(row.type === 'condition'){
+          provider.conditions.push({name: row.description_name, link: row.uid})
+        }
+        if(row.type === 'language'){
+          provider.languages.push(row.description_name)
+        }
+        if(row.type === 'expertise'){
+          provider.expertises.push({name: row.description_name, link: row.uid})
+        }
+        if(row.type === 'treatment'){
+          provider.treatments.push({name: row.description_name, link: row.uid})
+        }
+      }
+      return provider;
+    })
 }
 
 async function getDescription(uid) {
@@ -139,4 +190,6 @@ function handleAppStateChange(nextAppState){
 export const sqliteDatabase = {
   getAOE,
   getDescription,
+  getProviders,
+  getProvider
 };

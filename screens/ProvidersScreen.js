@@ -6,7 +6,7 @@ import {
 } from 'react-native';
 
 import ProviderPreview from '../components/ProviderPreview';
-import PROVIDERS from '../orbweaver/providers.json';
+import { useProviderList } from '../hooks/useProviderList';
 
 const ProvidersScreen = ({ route, navigation }) => {
   const [text, setText] = useState('');
@@ -14,7 +14,7 @@ const ProvidersScreen = ({ route, navigation }) => {
 
   function navTo(provider){
     navigation.navigate('Provider Detail', {
-        provider:provider
+        provider_id: provider.provider_id
       });
   }
 
@@ -34,7 +34,8 @@ const ProvidersScreen = ({ route, navigation }) => {
   const renderItem = ({item, index, separators}) =>
     <ProviderPreview provider={item} navigateTo={navTo}/>;
 
-  const providers = PROVIDERS.filter(row =>
+  const { providers } = useProviderList();
+  /*const providers = PROVIDERS.filter(row =>
     text.length === 0 ||
     row.name.toLowerCase().indexOf(text.toLowerCase()) >= 0
   ).filter(row => {
@@ -48,7 +49,8 @@ const ProvidersScreen = ({ route, navigation }) => {
       }
     }
     return ret
-  });
+  });*/
+
 
   return (
     <>
@@ -62,7 +64,7 @@ const ProvidersScreen = ({ route, navigation }) => {
         style={{height: '100%'}}
         data={providers}
         renderItem={renderItem}
-        keyExtractor={(item)=>item.url}>
+        keyExtractor={(item)=>item.provider_id.toString()}>
       </FlatList>
     </>
   )

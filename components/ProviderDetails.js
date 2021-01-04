@@ -17,6 +17,8 @@ import {
   Button,
   Linking
 } from 'react-native';
+import DescriptionList from '../components/DescriptionList';
+import { useProviderDetails } from '../hooks/useProviderDetails';
 
 const styles = StyleSheet.create({
   scrollView: {
@@ -73,16 +75,26 @@ const styles = StyleSheet.create({
     fontSize: 15,
     paddingLeft: 15,
     paddingRight: 15,
+  },
+  list_box: {
   }
 });
 
 const ProviderDetails = ({ route, navigation }) => {
-  const { provider } = route.params;
-
-  const name = provider.name;
+  const { provider_id } = route.params;
+  const { provider } = useProviderDetails(provider_id);
   useEffect(() => {
-    navigation.setOptions({title: name});
-  });
+    navigation.setOptions({title: provider === undefined ? '' : provider.name});
+  }, [provider]);
+  if(provider === undefined){
+    return <ScrollView
+      contentInsetAdjustmentBehavior="automatic"
+      style={styles.scrollView}>
+      <View style={styles.card}>
+      </View>
+    </ScrollView>
+  }
+
 
   const picture = provider.picture;
   const languages = provider.languages.join(', ');
@@ -96,12 +108,24 @@ const ProviderDetails = ({ route, navigation }) => {
           style={styles.picture}
           source={{uri: picture}}
         />
-        <Text style={styles.title}>{name}</Text>
+        <Text style={styles.title}>{provider.name}</Text>
         <Text style={styles.subtitle}>{provider.subtitle}</Text>
         <Text style={styles.header}>Languages</Text>
         <Text style={styles.textContent}>{languages}</Text>
         <Text style={styles.header}>About</Text>
         <Text style={styles.textContent}>{provider.about}</Text>
+        {provider.expertises.length > 0 ? <>
+        <Text style={styles.header}>Areas of Expertise</Text>
+        <DescriptionList style={styles.list_box} items={provider.expertises} navigation={navigation}/>
+        </>: <></>}
+        {provider.conditions.length > 0 ? <>
+        <Text style={styles.header}>Conditions Treated</Text>
+        <DescriptionList style={styles.list_box} items={provider.conditions} navigation={navigation}/>
+        </>: <></>}
+        {provider.treatments.length > 0 ? <>
+        <Text style={styles.header}>Treatments</Text>
+        <DescriptionList style={styles.list_box} items={provider.treatments} navigation={navigation}/>
+        </>: <></>}
       </View>
     </ScrollView>
     )

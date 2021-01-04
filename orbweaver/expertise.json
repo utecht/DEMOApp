@@ -2540,5 +2540,119 @@
         "link": "https://uamshealth.com/location/transplant-clinic-freeway-medical/"
       }
     ]
+  },
+  "https://uamshealth.com/expertise/primary-care/": {
+    "name": "Primary Care",
+    "description": "",
+    "conditions_treated": [],
+    "treatments": []
+  },
+  "https://uamshealth.com/expertise/orthopaedics/": {
+    "name": "Orthopaedics",
+    "description": "",
+    "conditions_treated": [],
+    "treatments": []
+  },
+  "https://uamshealth.com/expertise/orthopaedics/shoulder-and-elbow-orthopaedics/": {
+    "name": "Shoulder and Elbow Orthopaedics",
+    "description": "",
+    "conditions_treated": [],
+    "treatments": []
+  },
+  "https://uamshealth.com/expertise/stroke-care/": {
+    "name": "Stroke Care",
+    "description": "",
+    "conditions_treated": [],
+    "treatments": []
+  },
+  "https://uamshealth.com/expertise/pediatric-care/": {
+    "name": "Pediatric Care",
+    "description": "",
+    "conditions_treated": [],
+    "treatments": []
+  },
+  "https://uamshealth.com/expertise/senior-care/": {
+    "name": "Senior Care",
+    "description": "",
+    "conditions_treated": [],
+    "treatments": []
+  },
+  "https://uamshealth.com/expertise/orthopaedics/sports-medicine/": {
+    "name": "Sports Medicine",
+    "description": "",
+    "conditions_treated": [],
+    "treatments": []
+  },
+  "https://uamshealth.com/expertise/orthopaedics/hip-and-knee-orthopaedics/": {
+    "name": "Hip and Knee Orthopaedics",
+    "description": "",
+    "conditions_treated": [],
+    "treatments": []
+  },
+  "https://uamshealth.com/expertise/trauma/": {
+    "name": "Trauma",
+    "description": "",
+    "conditions_treated": [],
+    "treatments": []
+  },
+  "https://uamshealth.com/expertise/orthopaedics/hand-and-upper-extremity-orthopaedics/": {
+    "name": "Hand and Upper Extremity Orthopaedics",
+    "description": "",
+    "conditions_treated": [],
+    "treatments": []
+  },
+  "https://uamshealth.com/expertise/spine-care/": {
+    "name": "Spine Care",
+    "description": "",
+    "conditions_treated": [],
+    "treatments": []
+  },
+  "https://uamshealth.com/expertise/womens-health/": {
+    "name": "Women’s Health",
+    "description": "",
+    "conditions_treated": [],
+    "treatments": []
+  },
+  "https://uamshealth.com/expertise/womens-health/gynecology/": {
+    "name": "Gynecology",
+    "description": "",
+    "conditions_treated": [],
+    "treatments": []
+  },
+  "https://uamshealth.com/expertise/pain-management/": {
+    "name": "Pain Management",
+    "description": "",
+    "conditions_treated": [],
+    "treatments": []
+  },
+  "https://uamshealth.com/expertise/womens-health/obstetrics/": {
+    "name": "Obstetrics",
+    "description": "",
+    "conditions_treated": [],
+    "treatments": []
+  },
+  "https://uamshealth.com/expertise/urology/": {
+    "name": "Urology",
+    "description": "",
+    "conditions_treated": [],
+    "treatments": []
+  },
+  "https://uamshealth.com/expertise/womens-health/centering-pregnancy/": {
+    "name": "Centering Pregnancy Program",
+    "description": "",
+    "conditions_treated": [],
+    "treatments": []
+  },
+  "https://uamshealth.com/expertise/orthopaedics/foot-and-ankle/": {
+    "name": "Foot and Ankle Orthopaedics",
+    "description": "",
+    "conditions_treated": [],
+    "treatments": []
+  },
+  "https://uamshealth.com/expertise/neurosurgery/epilepsy-care/": {
+    "name": "Epilepsy Care",
+    "description": "",
+    "conditions_treated": [],
+    "treatments": []
   }
 }
