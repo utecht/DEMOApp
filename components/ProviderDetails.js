@@ -28,13 +28,13 @@ const styles = StyleSheet.create({
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'center',
-    alignItems: 'center',
     textAlign: 'center',
   },
   picture: {
     width: '80%',
     height: 400,
-    flex: 1
+    flex: 1,
+    alignSelf: 'center'
   },
   buttonBox: {
     display: 'flex',
@@ -44,7 +44,8 @@ const styles = StyleSheet.create({
   },
   title: {
     fontSize: 25,
-    fontWeight: 'bold'
+    fontWeight: 'bold',
+    alignSelf: 'center'
   },
   subtitle: {
     fontSize: 20,
@@ -75,8 +76,6 @@ const styles = StyleSheet.create({
     fontSize: 15,
     paddingLeft: 15,
     paddingRight: 15,
-  },
-  list_box: {
   }
 });
 
@@ -116,15 +115,15 @@ const ProviderDetails = ({ route, navigation }) => {
         <Text style={styles.textContent}>{provider.about}</Text>
         {provider.expertises.length > 0 ? <>
         <Text style={styles.header}>Areas of Expertise</Text>
-        <DescriptionList style={styles.list_box} items={provider.expertises} navigation={navigation}/>
+        <DescriptionList items={provider.expertises} navigation={navigation}/>
         </>: <></>}
         {provider.conditions.length > 0 ? <>
         <Text style={styles.header}>Conditions Treated</Text>
-        <DescriptionList style={styles.list_box} items={provider.conditions} navigation={navigation}/>
+        <DescriptionList items={provider.conditions} navigation={navigation}/>
         </>: <></>}
         {provider.treatments.length > 0 ? <>
         <Text style={styles.header}>Treatments</Text>
-        <DescriptionList style={styles.list_box} items={provider.treatments} navigation={navigation}/>
+        <DescriptionList items={provider.treatments} navigation={navigation}/>
         </>: <></>}
       </View>
     </ScrollView>

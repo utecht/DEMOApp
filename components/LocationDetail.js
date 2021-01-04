@@ -20,8 +20,7 @@ import {
   PlatformColor,
 } from 'react-native';
 import LocationImages from '../LocationImages';
-import ConditionList from './ConditionList';
-import TreatmentList from './TreatmentList';
+import DescriptionList from './DescriptionList';
 
 const styles = StyleSheet.create({
   scrollView: {
@@ -159,13 +158,13 @@ const LocationDetail = ({ route, navigation }) => {
   const conditions_treated = location.conditions_treated.length > 0 ?
     <>
       <Text style={styles.section_title}>Conditions Treated</Text>
-      <ConditionList navigation={navigation} conditions={location.conditions_treated}/>
+      <DescriptionList navigation={navigation} items={location.conditions_treated}/>
     </> : <></>;
 
   const treatments = location.treatments.length > 0 ?
     <>
       <Text style={styles.section_title}>Treatments</Text>
-      <TreatmentList navigation={navigation} treatments={location.treatments}/>
+      <DescriptionList navigation={navigation} items={location.treatments}/>
     </> : <></>;
 
   return (

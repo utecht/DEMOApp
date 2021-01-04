@@ -87,8 +87,8 @@ const TreatmentModal = ({ route, navigation }) => {
           }
           title={"View Providers Specializing in " + name} />
         <Text style={styles.text_box}>{description.description}</Text>
+        <Button onPress={() => navigation.goBack()} title="Dismiss" />
       </ScrollView>
-      <Button onPress={() => navigation.goBack()} title="Dismiss" />
     </SafeAreaView>
   )
 }
