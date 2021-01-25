@@ -34,7 +34,7 @@ const ProvidersScreen = ({ route, navigation }) => {
   const renderItem = ({item, index, separators}) =>
     <ProviderPreview provider={item} navigateTo={navTo}/>;
 
-  const { providers } = useProviderList();
+  const { providers } = useProviderList(text, filters);
   /*const providers = PROVIDERS.filter(row =>
     text.length === 0 ||
     row.name.toLowerCase().indexOf(text.toLowerCase()) >= 0

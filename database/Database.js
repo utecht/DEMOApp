@@ -73,9 +73,35 @@ async function getTreatments(id) {
     });
 }
 
-async function getProviders() {
+async function getProviders(searchString) {
+  let likeClause = '%' + searchString + '%';
   return getDatabase()
-    .then((db) => db.executeSql(`select provider_id, name, subtitle, picture from providers order by name;`, []))
+    .then((db) => db.executeSql(`select provider_id, name, subtitle, picture from providers where name like ? order by name;`, [likeClause]))
+    .then(([results]) => {
+      let ret = [];
+      for(let i = 0; i < results.rows.length; i++){
+        ret.push(results.rows.item(i));
+      }
+      return ret;
+    })
+}
+
+async function filterProviders(searchString, filter) {
+  let likeClause = '%' + searchString + '%';
+  console.log(filter);
+  let filterValue = filter[0]['value'];
+  console.log(filterValue);
+  return getDatabase()
+    .then((db) => db.executeSql(`select
+        providers.provider_id, providers.name, subtitle, picture
+      FROM providers
+      JOIN provider_descriptions on
+        providers.provider_id = provider_descriptions.provider_id
+      JOIN descriptions on
+        provider_descriptions.description_id = descriptions.description_id
+      WHERE descriptions.uid = ?
+        AND providers.name like ?
+      ORDER BY providers.name;`, [filterValue, likeClause]))
     .then(([results]) => {
       let ret = [];
       for(let i = 0; i < results.rows.length; i++){
@@ -155,7 +181,7 @@ async function open(){
   }
 
   const db = await SQLite.openDatabase({
-      name: "uamsDB",
+      name: "uamsDBv1",
       createFromLocation: 1
   });
   console.log('[db] database open');
@@ -191,5 +217,6 @@ export const sqliteDatabase = {
   getAOE,
   getDescription,
   getProviders,
-  getProvider
+  getProvider,
+  filterProviders
 };

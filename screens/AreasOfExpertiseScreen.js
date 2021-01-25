@@ -18,7 +18,6 @@ import IconButton from '../components/IconButton';
 import ConditionList from '../components/ConditionList';
 import TreatmentList from '../components/TreatmentList';
 import { UAMSRed } from '../UAMSColors';
-import AOES from '../orbweaver/expertise.json';
 import { useAOE } from '../hooks/useAOE';
 
 
