@@ -193,6 +193,16 @@ async function open(){
   return db;
 }
 
+async function update(){
+  if(databaseInstance === undefined){
+    console.log('[db] not opened, unable to update.')
+    return;
+  }
+  // call fetch here
+
+  // process all update statements
+}
+
 async function close(){
   if(databaseInstance === undefined){
     console.log('[db] already closed no need to close again');

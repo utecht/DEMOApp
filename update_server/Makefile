@@ -1,5 +1,5 @@
 last_built: Dockerfile
-	docker build . -t tcia/prism-sapi
+	docker build . -t tcia/app-api
 
 push:
-	docker push tcia/prism-sapi
+	docker push tcia/app-api
