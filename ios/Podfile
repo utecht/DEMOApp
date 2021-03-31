@@ -6,8 +6,11 @@ platform :ios, '10.0'
 target 'UAMSApp' do
   config = use_native_modules!
 
-  use_react_native!(:path => config["reactNativePath"])
-
+  use_react_native!(
+    :path => config[:reactNativePath],
+    # to enable hermes on iOS, change `false` to `true` and then install pods
+    :hermes_enabled => false
+  )
 
   target 'UAMSAppTests' do
     inherit! :complete
@@ -18,17 +21,9 @@ target 'UAMSApp' do
   #
   # Note that if you have use_frameworks! enabled, Flipper will not work and
   # you should disable these next few lines.
-  use_flipper!
+  use_flipper!()
+
   post_install do |installer|
-    flipper_post_install(installer)
-  end
-end
-
-target 'UAMSApp-tvOS' do
-  # Pods for UAMSApp-tvOS
-
-  target 'UAMSApp-tvOSTests' do
-    inherit! :search_paths
-    # Pods for testing
+    react_native_post_install(installer)
   end
 end

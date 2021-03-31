@@ -11,7 +11,6 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		1D587BBBFF370031806E89DE /* libPods-UAMSApp-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B18C4ACDA9F6AE7B7BBB94B0 /* libPods-UAMSApp-tvOS.a */; };
 		2BD4D38C7F1D3E6B29BAEE16 /* libPods-UAMSApp-UAMSAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A2AEA371600CD17CED62EF0E /* libPods-UAMSApp-UAMSAppTests.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -20,7 +19,6 @@
 		4E7B87F5F573758B4D5C20C7 /* libPods-UAMSApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D2798D2CD5AB0EE31C5D66C /* libPods-UAMSApp.a */; };
 		7C249B0F25A278D200556993 /* www in Resources */ = {isa = PBXBuildFile; fileRef = 7C249B0E25A278D200556993 /* www */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		AC0EC0C10E4AD6DA25BD25B9 /* libPods-UAMSApp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A92511773A21C73B921B9419 /* libPods-UAMSApp-tvOSTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +50,6 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = UAMSApp/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = UAMSApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = UAMSApp/main.m; sourceTree = "<group>"; };
-		163739B9F0C5AFD7ADA6D86D /* Pods-UAMSApp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UAMSApp-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-UAMSApp-tvOSTests/Pods-UAMSApp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		1B0AF0DB8057D0BC65F548AC /* Pods-UAMSApp-UAMSAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UAMSApp-UAMSAppTests.release.xcconfig"; path = "Target Support Files/Pods-UAMSApp-UAMSAppTests/Pods-UAMSApp-UAMSAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* UAMSApp-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UAMSApp-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* UAMSApp-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UAMSApp-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,12 +57,7 @@
 		7C249B0E25A278D200556993 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../www; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = UAMSApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B0387410086D2B96660AC8F /* Pods-UAMSApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UAMSApp.debug.xcconfig"; path = "Target Support Files/Pods-UAMSApp/Pods-UAMSApp.debug.xcconfig"; sourceTree = "<group>"; };
-		9DCE412CD25932420BEDA878 /* Pods-UAMSApp-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UAMSApp-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-UAMSApp-tvOS/Pods-UAMSApp-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		A2AEA371600CD17CED62EF0E /* libPods-UAMSApp-UAMSAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UAMSApp-UAMSAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A92511773A21C73B921B9419 /* libPods-UAMSApp-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UAMSApp-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B1695EC75781C803E15CE150 /* Pods-UAMSApp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UAMSApp-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-UAMSApp-tvOSTests/Pods-UAMSApp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		B18C4ACDA9F6AE7B7BBB94B0 /* libPods-UAMSApp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UAMSApp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E5457E40AFB6ECCD183FC185 /* Pods-UAMSApp-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UAMSApp-tvOS.release.xcconfig"; path = "Target Support Files/Pods-UAMSApp-tvOS/Pods-UAMSApp-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		F3B9F6E10FC1570B0CE92B85 /* Pods-UAMSApp-UAMSAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UAMSApp-UAMSAppTests.debug.xcconfig"; path = "Target Support Files/Pods-UAMSApp-UAMSAppTests/Pods-UAMSApp-UAMSAppTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -92,7 +84,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D587BBBFF370031806E89DE /* libPods-UAMSApp-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,7 +91,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC0EC0C10E4AD6DA25BD25B9 /* libPods-UAMSApp-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,8 +136,6 @@
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
 				0D2798D2CD5AB0EE31C5D66C /* libPods-UAMSApp.a */,
 				A2AEA371600CD17CED62EF0E /* libPods-UAMSApp-UAMSAppTests.a */,
-				B18C4ACDA9F6AE7B7BBB94B0 /* libPods-UAMSApp-tvOS.a */,
-				A92511773A21C73B921B9419 /* libPods-UAMSApp-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -192,10 +180,6 @@
 				650376961BFEF78477D04A0A /* Pods-UAMSApp.release.xcconfig */,
 				F3B9F6E10FC1570B0CE92B85 /* Pods-UAMSApp-UAMSAppTests.debug.xcconfig */,
 				1B0AF0DB8057D0BC65F548AC /* Pods-UAMSApp-UAMSAppTests.release.xcconfig */,
-				9DCE412CD25932420BEDA878 /* Pods-UAMSApp-tvOS.debug.xcconfig */,
-				E5457E40AFB6ECCD183FC185 /* Pods-UAMSApp-tvOS.release.xcconfig */,
-				B1695EC75781C803E15CE150 /* Pods-UAMSApp-tvOSTests.debug.xcconfig */,
-				163739B9F0C5AFD7ADA6D86D /* Pods-UAMSApp-tvOSTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -212,6 +196,7 @@
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
 				3A78F752858F19909590199B /* [CP] Copy Pods Resources */,
+				D4CC67CB44F504FF66D32D89 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,6 +219,7 @@
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				FC582A0542910354AA70C6DD /* [CP] Copy Pods Resources */,
+				9768119BF854174E099EF27F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -248,7 +234,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "UAMSApp-tvOS" */;
 			buildPhases = (
-				985D1F5EED713E921F1534F9 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -268,7 +253,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "UAMSApp-tvOSTests" */;
 			buildPhases = (
-				A717B9E1503FF8F1B25CD274 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -413,48 +397,22 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UAMSApp-UAMSAppTests/Pods-UAMSApp-UAMSAppTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		985D1F5EED713E921F1534F9 /* [CP] Check Pods Manifest.lock */ = {
+		9768119BF854174E099EF27F /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
+				"${PODS_ROOT}/Target Support Files/Pods-UAMSApp/Pods-UAMSApp-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL/OpenSSL.framework/OpenSSL",
 			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-UAMSApp-tvOS-checkManifestLockResult.txt",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A717B9E1503FF8F1B25CD274 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-UAMSApp-tvOSTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UAMSApp/Pods-UAMSApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BCC3CA9D4DE805C3E975513D /* [CP] Check Pods Manifest.lock */ = {
@@ -477,6 +435,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4CC67CB44F504FF66D32D89 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UAMSApp-UAMSAppTests/Pods-UAMSApp-UAMSAppTests-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL/OpenSSL.framework/OpenSSL",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UAMSApp-UAMSAppTests/Pods-UAMSApp-UAMSAppTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E6D367F5F523C750AB74377F /* [CP] Check Pods Manifest.lock */ = {
@@ -703,7 +679,6 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9DCE412CD25932420BEDA878 /* Pods-UAMSApp-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -731,7 +706,6 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5457E40AFB6ECCD183FC185 /* Pods-UAMSApp-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -759,7 +733,6 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B1695EC75781C803E15CE150 /* Pods-UAMSApp-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -786,7 +759,6 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 163739B9F0C5AFD7ADA6D86D /* Pods-UAMSApp-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -843,6 +815,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -903,6 +876,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
