@@ -182,7 +182,10 @@ async function open(){
 
   const db = await SQLite.openDatabase({
       name: "uamsDBv1",
-      createFromLocation: 1
+      location: 'default',
+      createFromLocation: '~www/uamsDBv1',
+
+      //createFromLocation: 1
   });
   console.log('[db] database open');
 
