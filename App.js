@@ -88,6 +88,19 @@ const TreatmentsScreen = ({ navigation }) => {
 }
 
 const HomeScreen = ({ navigation }) => {
+  /*
+  const [isLoading, setLoading] = useState(true);
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+    fetch('http://localhost:8000/status')
+      .then((response) => response.json())
+      .then((json) => setData(json.latest_version))
+      .catch((error) => console.error(error))
+      .finally(() => setLoading(false));
+  }, []);
+  */
+
   return (
     <>
       <StatusBar barStyle="dark-content" backgroundColor="white"/>
