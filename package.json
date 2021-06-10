@@ -1,6 +1,6 @@
 {
   "name": "UAMSApp",
-  "version": "1.9.0",
+  "version": "1.10",
   "private": true,
   "scripts": {
     "android": "react-native run-android",
@@ -16,7 +16,7 @@
     "@react-navigation/stack": "^5.9.3",
     "nodegit": "^0.27.0",
     "react": "17.0.1",
-    "react-native": "0.64.0",
+    "react-native": "0.64.1",
     "react-native-gesture-handler": "^1.8.0",
     "react-native-reanimated": "^1.13.1",
     "react-native-safe-area-context": "^3.1.8",

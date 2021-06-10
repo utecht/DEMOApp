@@ -74,8 +74,7 @@ const AreasOfExpertiseView = ({ aoe, navigation }) => {
   return (
     <View>
       <Text style={styles.title}>{aoe.name}</Text>
-      <Text style={styles.subtitle}>{aoe.aka}</Text>
-      <Text style={styles.text}>{aoe.description}</Text>
+      <Text style={styles.text}>{aoe.content}</Text>
       {aoe.conditions_treated.length > 0 ? <Text style={styles.section_title}>Conditions Treated</Text> : <></>}
       <ConditionList style={styles.list_box} conditions={aoe.conditions_treated} navigation={navigation}/>
       {aoe.treatments.length > 0 ? <Text style={styles.section_title}>Treatments</Text> : <></>}
@@ -122,7 +121,7 @@ const AreasOfExpertiseScreen = ({ navigation }) => {
             size={icon_size}
             icon="mental_health"
             onPress={() =>
-              setAoeUID('https://uamshealth.com/expertise/behavioral-care/')
+              setAoeUID(10823)
             }
           />
         </View>
@@ -133,7 +132,7 @@ const AreasOfExpertiseScreen = ({ navigation }) => {
             size={icon_size}
             icon="burn"
             onPress={() =>
-              setAoeUID('https://uamshealth.com/expertise/burn-care/')
+              setAoeUID(10683)
             }
           />
         </View>
@@ -144,18 +143,18 @@ const AreasOfExpertiseScreen = ({ navigation }) => {
             size={icon_size}
             icon="tomography"
             onPress={() =>
-              setAoeUID('https://uamshealth.com/expertise/cancer-care/')
+              setAoeUID(10684)
             }
           />
         </View>
         <View style={styles.button}>
           <IconButton
-            label="Dentale Care"
+            label="Dental Care"
             iconColor="red"
             size={icon_size}
             icon="tooth"
             onPress={() =>
-              setAoeUID('https://uamshealth.com/expertise/dental-care/')
+              setAoeUID(11063)
             }
           />
         </View>
@@ -166,7 +165,7 @@ const AreasOfExpertiseScreen = ({ navigation }) => {
             size={icon_size}
             icon="diabetes"
             onPress={() =>
-              setAoeUID('https://uamshealth.com/expertise/diabetes-and-endocrinology-care/')
+              setAoeUID(11026)
             }
           />
         </View>
@@ -177,7 +176,7 @@ const AreasOfExpertiseScreen = ({ navigation }) => {
             size={icon_size}
             icon="stomach"
             onPress={() =>
-              setAoeUID('https://uamshealth.com/expertise/digestive-health/')
+              setAoeUID(10723)
             }
           />
         </View>
@@ -188,7 +187,7 @@ const AreasOfExpertiseScreen = ({ navigation }) => {
             size={icon_size}
             icon="ear"
             onPress={() =>
-              setAoeUID('https://uamshealth.com/expertise/ear-nose-throat-care/')
+              setAoeUID(10724)
             }
           />
         </View>
@@ -199,7 +198,7 @@ const AreasOfExpertiseScreen = ({ navigation }) => {
             size={icon_size}
             icon="ambulance"
             onPress={() =>
-              setAoeUID('https://uamshealth.com/expertise/emergency-care/')
+              setAoeUID(10725)
             }
           />
         </View>
@@ -210,7 +209,7 @@ const AreasOfExpertiseScreen = ({ navigation }) => {
             size={icon_size}
             icon="eye"
             onPress={() =>
-              setAoeUID('https://uamshealth.com/expertise/eye-care/')
+              setAoeUID(11043)
             }
           />
         </View>
@@ -221,7 +220,7 @@ const AreasOfExpertiseScreen = ({ navigation }) => {
             size={icon_size}
             icon="hearing"
             onPress={() =>
-              setAoeUID('https://uamshealth.com/expertise/hearing-and-balance/')
+              setAoeUID(10791)
             }
           />
         </View>
@@ -232,7 +231,7 @@ const AreasOfExpertiseScreen = ({ navigation }) => {
             size={icon_size}
             icon="heart"
             onPress={() =>
-              setAoeUID('https://uamshealth.com/expertise/heart-and-vascular-care/')
+              setAoeUID(10761)
             }
           />
         </View>
@@ -243,7 +242,7 @@ const AreasOfExpertiseScreen = ({ navigation }) => {
             size={icon_size}
             icon="brain"
             onPress={() =>
-              setAoeUID('https://uamshealth.com/expertise/neurology/')
+              setAoeUID(10799)
             }
           />
         </View>
@@ -254,7 +253,7 @@ const AreasOfExpertiseScreen = ({ navigation }) => {
             size={icon_size}
             icon="neurosurgery"
             onPress={() =>
-              setAoeUID('https://uamshealth.com/expertise/neurosurgery/')
+              setAoeUID(58429)
             }
           />
         </View>
@@ -265,7 +264,7 @@ const AreasOfExpertiseScreen = ({ navigation }) => {
             size={icon_size}
             icon="kidney"
             onPress={() =>
-              setAoeUID('https://uamshealth.com/expertise/organ-transplant/')
+              setAoeUID(10754)
             }
           />
         </View>

@@ -83,7 +83,7 @@ const ProviderDetails = ({ route, navigation }) => {
   const { provider_id } = route.params;
   const { provider } = useProviderDetails(provider_id);
   useEffect(() => {
-    navigation.setOptions({title: provider === undefined ? '' : provider.name});
+    navigation.setOptions({title: provider === undefined ? '' : provider.full_name});
   }, [provider]);
   if(provider === undefined){
     return <ScrollView
@@ -95,7 +95,7 @@ const ProviderDetails = ({ route, navigation }) => {
   }
 
 
-  const picture = provider.picture;
+  const picture = provider.photo;
   const languages = provider.languages.join(', ');
 
   return (
@@ -107,12 +107,16 @@ const ProviderDetails = ({ route, navigation }) => {
           style={styles.picture}
           source={{uri: picture}}
         />
-        <Text style={styles.title}>{provider.name}</Text>
-        <Text style={styles.subtitle}>{provider.subtitle}</Text>
-        <Text style={styles.header}>Languages</Text>
-        <Text style={styles.textContent}>{languages}</Text>
+        <Text style={styles.title}>{provider.full_name}</Text>
+        <Text style={styles.subtitle}>{provider.title}</Text>
+        {provider.bio ? <>
         <Text style={styles.header}>About</Text>
-        <Text style={styles.textContent}>{provider.about}</Text>
+        <Text style={styles.textContent}>{provider.bio}</Text>
+        </>: <></>}
+        {provider.languages.length > 0 ? <>
+        <Text style={styles.header}>Languages</Text>
+        <DescriptionList items={provider.languages} navigation={navigation}/>
+        </>: <></>}
         {provider.expertises.length > 0 ? <>
         <Text style={styles.header}>Areas of Expertise</Text>
         <DescriptionList items={provider.expertises} navigation={navigation}/>
@@ -124,6 +128,10 @@ const ProviderDetails = ({ route, navigation }) => {
         {provider.treatments.length > 0 ? <>
         <Text style={styles.header}>Treatments</Text>
         <DescriptionList items={provider.treatments} navigation={navigation}/>
+        </>: <></>}
+        {provider.locations.length > 0 ? <>
+        <Text style={styles.header}>Location</Text>
+        <DescriptionList items={provider.locations} navigation={navigation}/>
         </>: <></>}
       </View>
     </ScrollView>

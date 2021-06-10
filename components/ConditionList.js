@@ -16,7 +16,7 @@ import {
 
 const ConditionButton = ({ condition, navigation }) => {
   function onPress() {
-    navigation.navigate('ConditionModal',
+    navigation.navigate('AttributeModal',
         {url: condition.link});
   }
   const style = StyleSheet.create({

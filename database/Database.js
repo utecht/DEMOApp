@@ -6,7 +6,7 @@ let databaseInstance;
 async function getAOE(uid) {
   let aoe = {};
   return getDatabase()
-    .then((db) => db.executeSql(`select * from descriptions where type = 'expertise' and uid = ?;`, [uid]))
+    .then((db) => db.executeSql(`select * from attributes where atype = 'expertise' and id = ?;`, [uid]))
     .then(([results]) => {
       if(results === undefined || results.rows.length === 0){
         aoe = undefined;
@@ -17,14 +17,21 @@ async function getAOE(uid) {
         throw new Error("[db] incorrect number of AOEs");
       }
       aoe = results.rows.item(0);
-      return getConditions(aoe.description_id);
+      return getAttributeRelations(aoe.id, 'condition');
     })
     .then((conditions) => {
       if(aoe === undefined){
         return undefined;
       }
       aoe.conditions_treated = conditions;
-      return getTreatments(aoe.description_id);
+      return getAttributeRelations(aoe.id, 'location');
+    })
+    .then((locations) => {
+      if(aoe === undefined){
+        return undefined;
+      }
+      aoe.locations = locations;
+      return getAttributeRelations(aoe.id, 'treatment');
     })
     .then((treatments) => {
       if(aoe === undefined){
@@ -35,13 +42,32 @@ async function getAOE(uid) {
     });
 }
 
+async function getAttributeRelations(id, atype) {
+  return getDatabase()
+    .then((db) => db.executeSql(`select name, id
+      from attributes
+      join attribute_relations on right_id = attributes.id
+      where atype = ?
+        and left_id = ?`, [atype, id]))
+    .then(([results]) => {
+      if(results === undefined){
+        return [];
+      }
+      let attributes = [];
+      for(let i = 0; i < results.rows.length; i++){
+        attributes.push(results.rows.item(i));
+      }
+      return attributes;
+    });
+}
+
 async function getConditions(id) {
   return getDatabase()
-    .then((db) => db.executeSql(`select name, uid as link
-      from relations
-      join descriptions where relations."to" = descriptions.description_id
-      and type = "condition"
-      and relations."from" = ?`, [id]))
+    .then((db) => db.executeSql(`select name, id
+      from attributes
+      join provider_attributes on provider_attributes.attribute_id = attributes.id
+      where atype = "condition"
+        and provider_id = ?`, [id]))
     .then(([results]) => {
       if(results === undefined){
         return [];
@@ -56,11 +82,11 @@ async function getConditions(id) {
 
 async function getTreatments(id) {
   return getDatabase()
-    .then((db) => db.executeSql(`select name, uid as link
-      from relations
-      join descriptions where relations."to" = descriptions.description_id
-      and type = "treatment"
-      and relations."from" = ?`, [id]))
+    .then((db) => db.executeSql(`select name, id
+      from attributes
+      join provider_attributes on provider_attributes.attribute_id = attributes.id
+      where atype = "treatment"
+        and provider_id = ?`, [id]))
     .then(([results]) => {
       if(results === undefined){
         return [];
@@ -76,7 +102,7 @@ async function getTreatments(id) {
 async function getProviders(searchString) {
   let likeClause = '%' + searchString + '%';
   return getDatabase()
-    .then((db) => db.executeSql(`select provider_id, name, subtitle, picture from providers where name like ? order by name;`, [likeClause]))
+    .then((db) => db.executeSql(`select id, full_name, title, photo from providers where full_name like ? order by full_name;`, [likeClause]))
     .then(([results]) => {
       let ret = [];
       for(let i = 0; i < results.rows.length; i++){
@@ -88,20 +114,18 @@ async function getProviders(searchString) {
 
 async function filterProviders(searchString, filter) {
   let likeClause = '%' + searchString + '%';
-  console.log(filter);
   let filterValue = filter[0]['value'];
-  console.log(filterValue);
   return getDatabase()
     .then((db) => db.executeSql(`select
-        providers.provider_id, providers.name, subtitle, picture
+        providers.id, providers.full_name, title, photo
       FROM providers
-      JOIN provider_descriptions on
-        providers.provider_id = provider_descriptions.provider_id
-      JOIN descriptions on
-        provider_descriptions.description_id = descriptions.description_id
-      WHERE descriptions.uid = ?
-        AND providers.name like ?
-      ORDER BY providers.name;`, [filterValue, likeClause]))
+      JOIN provider_attributes on
+        provider_attributes.provider_id = providers.id
+      JOIN attributes on
+        provider_attributes.attribute_id = attributes.id
+      WHERE attributes.id = ?
+        AND providers.full_name like ?
+      ORDER BY providers.full_name;`, [filterValue, likeClause]))
     .then(([results]) => {
       let ret = [];
       for(let i = 0; i < results.rows.length; i++){
@@ -114,14 +138,14 @@ async function filterProviders(searchString, filter) {
 async function getProvider(provider_id) {
   return getDatabase()
     .then((db) => db.executeSql(`select
-                                   providers.name, subtitle, picture, about,
-                                   descriptions.name as description_name, type, descriptions.uid
+                                   full_name, title, photo, bio,
+                                   name as description_name, atype as type, attributes.id as uid
                                  from providers
-                                 left join provider_descriptions on
-                                   providers.provider_id = provider_descriptions.provider_id
-                                 left join descriptions on
-                                   provider_descriptions.description_id = descriptions.description_id
-                                 where providers.provider_id = ?;`, [provider_id]))
+                                JOIN provider_attributes on
+                                  provider_attributes.provider_id = providers.id
+                                JOIN attributes on
+                                  provider_attributes.attribute_id = attributes.id
+                                 where providers.id = ?;`, [provider_id]))
     .then(([results]) => {
       if(results.rows.length === 0){
         return undefined;
@@ -131,13 +155,21 @@ async function getProvider(provider_id) {
       provider.languages = [];
       provider.treatments = [];
       provider.expertises = [];
+      provider.locations = [];
+      provider.patient_types = [];
       for(let i = 0; i < results.rows.length; i++){
         let row = results.rows.item(i);
         if(row.type === 'condition'){
           provider.conditions.push({name: row.description_name, link: row.uid})
         }
+        if(row.type === 'location'){
+          provider.locations.push({name: row.description_name, link: row.uid})
+        }
+        if(row.type === 'patient_types'){
+          provider.patient_types.push({name: row.description_name, link: row.uid})
+        }
         if(row.type === 'language'){
-          provider.languages.push(row.description_name)
+          provider.languages.push({name: row.description_name, link: row.uid})
         }
         if(row.type === 'expertise'){
           provider.expertises.push({name: row.description_name, link: row.uid})
@@ -152,7 +184,21 @@ async function getProvider(provider_id) {
 
 async function getDescription(uid) {
   return getDatabase()
-    .then((db) => db.executeSql(`select * from descriptions where uid = ?;`, [uid]))
+    .then((db) => db.executeSql(`select * from attributes where id = ?;`, [uid]))
+    .then(([results]) => {
+      if(results === undefined || results.rows.length === 0){
+        return undefined;
+      }
+      if(results.rows.length !== 1){
+        throw new Error("[db] incorrect number of AOEs");
+      }
+      return results.rows.item(0);
+    });
+}
+
+async function getAttributeFromLink(link) {
+  return getDatabase()
+    .then((db) => db.executeSql(`select * from attributes where link = ?;`, [link]))
     .then(([results]) => {
       if(results === undefined || results.rows.length === 0){
         return undefined;
@@ -181,9 +227,9 @@ async function open(){
   }
 
   const db = await SQLite.openDatabase({
-      name: "uamsDBv1",
+      name: "uamsDBv2",
       location: 'default',
-      createFromLocation: '~www/uamsDBv1',
+      createFromLocation: '~www/uamsDBv2',
 
       //createFromLocation: 1
   });
@@ -231,5 +277,6 @@ export const sqliteDatabase = {
   getDescription,
   getProviders,
   getProvider,
+  getAttributeFromLink,
   filterProviders
 };

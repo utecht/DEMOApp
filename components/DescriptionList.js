@@ -16,7 +16,7 @@ import {
 
 const ItemButton = ({ item, navigation }) => {
   function onPress() {
-    navigation.navigate('TreatmentModal',
+    navigation.navigate('AttributeModal',
         {url: item.link});
   }
   const style = StyleSheet.create({

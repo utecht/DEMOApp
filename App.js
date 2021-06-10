@@ -30,8 +30,7 @@ import { WebView } from 'react-native-webview';
 import { UAMSRed } from './UAMSColors';
 import UAMSLogo from './UAMSLogo';
 import IconButton from './components/IconButton';
-import ConditionModal from './components/ConditionModal';
-import TreatmentModal from './components/TreatmentModal';
+import AttributeModal from './components/AttributeModal';
 import LocationsScreen from './screens/LocationsScreen';
 import ProvidersScreen from './screens/ProvidersScreen';
 import ProviderDetails from './components/ProviderDetails';
@@ -69,8 +68,7 @@ const App: () => React$Node = () => {
       <DatabaseProvider>
         <RootStack.Navigator mode="modal" headerMode="none">
           <RootStack.Screen name="main" component={MainStackScreen}/>
-          <RootStack.Screen name="ConditionModal" component={ConditionModal}/>
-          <RootStack.Screen name="TreatmentModal" component={TreatmentModal}/>
+          <RootStack.Screen name="AttributeModal" component={AttributeModal}/>
         </RootStack.Navigator>
       </DatabaseProvider>
     </NavigationContainer>

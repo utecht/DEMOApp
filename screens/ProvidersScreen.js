@@ -14,7 +14,7 @@ const ProvidersScreen = ({ route, navigation }) => {
 
   function navTo(provider){
     navigation.navigate('Provider Detail', {
-        provider_id: provider.provider_id
+        provider_id: provider.id
       });
   }
 
@@ -64,7 +64,7 @@ const ProvidersScreen = ({ route, navigation }) => {
         style={{height: '100%'}}
         data={providers}
         renderItem={renderItem}
-        keyExtractor={(item)=>item.provider_id.toString()}>
+        keyExtractor={(item)=>item.id.toString()}>
       </FlatList>
     </>
   )

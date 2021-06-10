@@ -16,7 +16,7 @@ import {
   SafeAreaView,
   ScrollView
 } from 'react-native';
-import { useDescription } from '../hooks/useDescription';
+import { useAttribute } from '../hooks/useAttribute';
 
 const style = StyleSheet.create({
   container: {
@@ -30,19 +30,17 @@ const style = StyleSheet.create({
   },
 });
 
-const ConditionModal = ({ route, navigation }) => {
+const AttributeModal = ({ route, navigation }) => {
   const { url } = route.params;
-  const { description } = useDescription(url);
-  if(description == undefined) {
+  const { attribute } = useAttribute(url);
+  if(attribute == undefined) {
     return (
       <SafeAreaView>
-        <Text>Condition Not Found</Text>
+        <Text>Attribute Not Found</Text>
         <Button onPress={() => navigation.goBack()} title="Dismiss" />
       </SafeAreaView>
     )
   }
-
-  const name = description.name.replace("Condition: ", "");
 
   const styles = StyleSheet.create({
     title: {
@@ -76,22 +74,21 @@ const ConditionModal = ({ route, navigation }) => {
     <SafeAreaView>
       <ScrollView
         contentInsetAdjustmentBehavior="automatic">
-        <Text style={styles.title}>{name}</Text>
-        <Text style={styles.subtitle}>{description.aka}</Text>
+        <Text style={styles.title}>{attribute.name}</Text>
         <Button
           onPress={() =>
             navigation.navigate("Providers", {
-              filters: [{filter: 'conditions_treated', value: url}]
+              filters: [{filter: attribute.atype, value: attribute.id}]
 
             })
           }
-          title={"View Providers Specializing in " + name} />
-        <Text style={styles.text_box}>{description.description}</Text>
+          title={"View Providers Specializing in " + attribute.name} />
+        <Text style={styles.text_box}>{attribute.content}</Text>
+        <Button onPress={() => navigation.goBack()} title="Dismiss" />
       </ScrollView>
-      <Button onPress={() => navigation.goBack()} title="Dismiss" />
     </SafeAreaView>
   )
 }
 
 
-export default ConditionModal;
+export default AttributeModal;

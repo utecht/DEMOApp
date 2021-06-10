@@ -80,9 +80,9 @@ const styles = StyleSheet.create({
 });
 
 const ProviderPreview = (props) => {
-  const name = props.provider.name;
-  const subtitle = props.provider.subtitle;
-  const picture = props.provider.picture;
+  const name = props.provider.full_name;
+  const subtitle = props.provider.title;
+  const picture = props.provider.photo;
 
   return (
     <View style={styles.card}>
