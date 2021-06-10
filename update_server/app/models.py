@@ -14,6 +14,7 @@ class Change(Base):
     __tablename__ = "changes"
 
     wpid = Column(Integer, primary_key=True, index=True)
+    atype = Column(String, primary_key=True)
     last_update = Column(DateTime)
 
 class ProviderAttribute(Base):

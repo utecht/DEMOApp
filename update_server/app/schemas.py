@@ -5,7 +5,6 @@ from pydantic import BaseModel
 
 
 class Update(BaseModel):
-    id: int
     statement: str
 
     class Config:
@@ -13,7 +12,8 @@ class Update(BaseModel):
 
 class Change(BaseModel):
     wpid: int
-    last_update: datetime.datetime
+    atype: str
+    last_update: Optional[datetime.datetime]
 
     class Config:
         orm_mode = True

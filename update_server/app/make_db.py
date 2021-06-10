@@ -1,9 +1,7 @@
 #!/usr/bin/env python
 
 from sqlalchemy.orm import Session
-from sqlalchemy.dialects import sqlite
 import requests
-from datetime import datetime
 
 from . import crud, models, schemas
 from .database import SessionLocal, engine
@@ -14,13 +12,6 @@ models.Base.metadata.create_all(bind=engine)
 
 def clean_text(text):
     return BeautifulSoup(text, "lxml").text
-
-def more_recent(id, time, atype, db):
-    old = db.query(models.Change).filter(models.Change.wpid == id).filter(models.Change.atype == atype).first()
-    if(hasattr(old, 'last_update') == False):
-        return False
-    return time > old.last_update
-
 
 def handle_detailed(item):
     id = item["id"]
@@ -117,37 +108,29 @@ def get_listings(endpoint, handler, save_handler, db):
 def save_attributes(data, atype, db):
     for attr in data:
         row = schemas.Attribute(atype=atype, **attr)
-        if(attr['updated'] != None and more_recent(row.id, datetime.fromisoformat(attr['updated']), atype, db)):
-            q = models.Attribute(**row.dict())
-            # TODO: figure out how to prepare sql properly
-            # this is a problem because of using the ORM mode
-            # the scanner script probably wants to run outside of ORM mode somehow
-            # thus allowing better access to the underlying SQL
-            # pattern should be....
-            # delete from attribute where id = THIS_ID
-            # <generated insert statement>
-            # both of these go as a single block into the update table and hopefully the autoincrement works
-            # then the API reports that the most recent change is higher than what the app sees
-            # it asks for all statements since N, and then runs them
-            # since the relation tables lack foreign key constraints the tables can be deleted/inserted
+        db.add(models.Attribute(**row.dict()))
+        update = schemas.Change(wpid=attr['id'], last_update=attr['updated'], atype=atype)
+        db.add(models.Change(**update.dict()))
+        db.commit()
 
 def save_expertise(attr, db):
     row = schemas.Attribute(atype='expertise', **attr)
+    db.add(models.Attribute(**row.dict()))
     update = schemas.Change(wpid=attr['id'], last_update=attr['updated'], atype='provider')
+    db.add(models.Change(**update.dict()))
+    db.commit()
     attributes = []
     attributes += [int(x) for x in attr['locations']]
     attributes += [int(x) for x in attr['conditions']]
     attributes += [int(x) for x in attr['treatments']]
     for attribute in attributes:
         a = schemas.AttributeRelations(left_id=attr.id, right_id=attribute)
-    if(more_recent(row.id, datetime.fromisoformat(attr['updated']), 'expertise', db)):
-        print(row)
-        # TODO: same as attributes except also hitting the AttributeRelations table
+        db.add(models.AttributeRelation(**a.dict()))
+    db.commit()
 
 def save_provider(provider, db):
     p = schemas.Provider(
         id=provider['id'],
-        updated=provider['updated'],
         full_name=provider['full_name'],
         first_name=provider['first_name'],
         middle_name=provider['middle_name'],
@@ -168,11 +151,13 @@ def save_provider(provider, db):
     attributes += [int(x) for x in provider['patient_type']]
     attributes += [int(x) for x in provider['academic_title']]
     attributes += [int(x) for x in provider['affiliation']]
+    db.add(models.Provider(**p.dict()))
     for attribute in attributes:
         a = schemas.ProviderAttribute(provider_id=p.id, attribute_id=attribute)
-    if(more_recent(p.id, datetime.fromisoformat(provider['updated']), 'provider', db)):
-        print(row)
-        # TODO: same as expertise, but with ProviderAttributes
+        db.add(models.ProviderAttribute(**a.dict()))
+    update = schemas.Change(wpid=provider['id'], last_update=provider['updated'], atype='provider')
+    db.add(models.Change(**update.dict()))
+    db.commit()
 
 def nothing(x, db):
     pass
