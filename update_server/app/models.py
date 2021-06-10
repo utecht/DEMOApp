@@ -19,8 +19,14 @@ class Change(Base):
 class ProviderAttribute(Base):
     __tablename__ = "provider_attributes"
 
-    provider_id = Column(Integer, ForeignKey('providers.id'), primary_key=True)
-    attribute_id = Column(Integer, ForeignKey('attributes.id'), primary_key=True)
+    provider_id = Column(Integer, primary_key=True)
+    attribute_id = Column(Integer, primary_key=True)
+
+class AttributeRelation(Base):
+    __tablename__ = "attribute_relations"
+
+    left_id = Column(Integer, primary_key=True)
+    right_id = Column(Integer, primary_key=True)
 
 class Provider(Base):
     __tablename__ = "providers"
@@ -41,4 +47,5 @@ class Attribute(Base):
     id = Column(Integer, primary_key=True, index=True)
     atype = Column(String)
     name = Column(String)
+    link = Column(String)
     content = Column(String)

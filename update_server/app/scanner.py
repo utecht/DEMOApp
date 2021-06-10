@@ -6,27 +6,36 @@ import requests
 from . import crud, models, schemas
 from .database import SessionLocal, engine
 
+from bs4 import BeautifulSoup
+
 models.Base.metadata.create_all(bind=engine)
+
+def clean_text(text):
+    return BeautifulSoup(text, "lxml").text
 
 def handle_detailed(item):
     id = item["id"]
     updated = item["modified_gmt"]
     type = item["type"]
+    link = item['link']
     name = item["title"]["rendered"]
-    content = item["content"]["rendered"]
+    content = clean_text(item["content"]["rendered"])
     return {'id': id,
             'updated': updated,
             'type': type,
             'name': name,
+            'link': link,
             'content': content}
 
 def handle_simple(item):
     id = item["id"]
     type = item["taxonomy"]
     name = item["name"]
+    link = item['link']
     return {'id': id,
             'updated': None,
             'type': type,
+            'link': link,
             'name': name}
 
 def handle_location(item):
@@ -34,10 +43,23 @@ def handle_location(item):
     name = item["title"]["rendered"]
     return {'id': id,
             'updated': None,
+            'link': item['link'],
             'name': name}
 
 def keys_to_list(dict):
     return list(dict.keys())
+
+def handle_expertise(item):
+    return {'id': item['id'],
+            'updated': item['modified_gmt'],
+            'name': item['title']['rendered'],
+            'content': clean_text(item["content"]["rendered"]),
+            'link': item['link'],
+            # TODO: Fix to correct field names once wordpress API is updated
+            'locations': keys_to_list(item.get("locations", {})),
+            'conditions': keys_to_list(item.get("conditions", {})),
+            'treatments': keys_to_list(item.get("treatments", {})),
+        }
 
 def handle_provider(prov):
     meta = prov["provider_meta"]
@@ -50,7 +72,7 @@ def handle_provider(prov):
         'middle_name': meta["physician_middle_name"],
         'title': meta["physician_title"],
         'service_line': meta["physician_service_line"],
-        'bio': meta["physician_clinical_bio"],
+        'bio': clean_text(meta["physician_clinical_bio"]),
         'short_bio': meta["physician_short_clinical_bio"],
         'locations': keys_to_list(meta.get("physician_locations", {})),
         'photo': meta["physician_photo"],
@@ -89,6 +111,19 @@ def save_attributes(data, atype, db):
         db.add(models.Attribute(**row.dict()))
         db.commit()
 
+def save_expertise(attr, db):
+    row = schemas.Attribute(atype='expertise', **attr)
+    db.add(models.Attribute(**row.dict()))
+    db.commit()
+    attributes = []
+    attributes += [int(x) for x in attr['locations']]
+    attributes += [int(x) for x in attr['conditions']]
+    attributes += [int(x) for x in attr['treatments']]
+    for attribute in attributes:
+        a = schemas.AttributeRelations(left_id=attr.id, right_id=attribute)
+        db.add(models.AttributeRelation(**a.dict()))
+        db.commit()
+
 def save_provider(provider, db):
     p = schemas.Provider(
         id=provider['id'],
@@ -123,31 +158,31 @@ def nothing(x, db):
 
 if __name__ == '__main__':
     db = SessionLocal()
-    #treatments = get_listings('treatment', handle_detailed, nothing, db)
-    #save_attributes(treatments, 'treatment', db)
-    #print(len(treatments))
-    #conditions = get_listings('condition', handle_detailed, nothing, db)
-    #save_attributes(conditions, 'condition', db)
-    #print(len(conditions))
-    #expertise = get_listings('expertise', handle_detailed, nothing, db)
-    #save_attributes(expertise, 'exertise', db)
-    #print(len(expertise))
-    #languages = get_listings('language', handle_simple, nothing, db)
-    #save_attributes(languages, 'language', db)
-    #print(len(languages))
-    #degrees = get_listings('medical_degree', handle_simple, nothing, db)
-    #save_attributes(degrees, 'medical_degree', db)
-    #print(len(degrees))
-    #titles = get_listings('clinical_title', handle_simple, nothing, db)
-    #save_attributes(titles, 'clinical_title', db)
-    #print(len(titles))
-    #affiliations = get_listings('affiliation', handle_simple, nothing, db)
-    #save_attributes(affiliations, 'affiliation', db)
-    #print(len(affiliations))
-    #patient_types = get_listings('patient_type', handle_simple, nothing, db)
-    #save_attributes(patient_types, 'patient_type', db)
-    #print(len(patient_types))
-    #locations = get_listings('location', handle_location, nothing, db)
-    #save_attributes(locations, 'location', db)
+    treatments = get_listings('treatment', handle_detailed, nothing, db)
+    save_attributes(treatments, 'treatment', db)
+    print(len(treatments))
+    conditions = get_listings('condition', handle_detailed, nothing, db)
+    save_attributes(conditions, 'condition', db)
+    print(len(conditions))
+    languages = get_listings('language', handle_simple, nothing, db)
+    save_attributes(languages, 'language', db)
+    print(len(languages))
+    degrees = get_listings('medical_degree', handle_simple, nothing, db)
+    save_attributes(degrees, 'medical_degree', db)
+    print(len(degrees))
+    titles = get_listings('clinical_title', handle_simple, nothing, db)
+    save_attributes(titles, 'clinical_title', db)
+    print(len(titles))
+    affiliations = get_listings('affiliation', handle_simple, nothing, db)
+    save_attributes(affiliations, 'affiliation', db)
+    print(len(affiliations))
+    patient_types = get_listings('patient_type', handle_simple, nothing, db)
+    save_attributes(patient_types, 'patient_type', db)
+    print(len(patient_types))
+    locations = get_listings('location', handle_location, nothing, db)
+    save_attributes(locations, 'location', db)
+    expertise = get_listings('expertise', handle_expertise, save_expertise, db)
+    print(len(expertise))
     providers = get_listings('provider', handle_provider, save_provider, db)
+    print(len(providers))
     db.close()

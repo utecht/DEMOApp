@@ -22,6 +22,7 @@ class Attribute(BaseModel):
     id: int
     atype: str
     name: str
+    link: str
     content: Optional[str]
 
     class Config:
@@ -44,6 +45,13 @@ class Provider(BaseModel):
 class ProviderAttribute(BaseModel):
     provider_id: int
     attribute_id: int
+
+    class Config:
+        orm_mode = True
+
+class AttributeRelation(BaseModel):
+    left_id: int
+    right_id: int
 
     class Config:
         orm_mode = True
