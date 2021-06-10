@@ -234,6 +234,7 @@ async function open(){
       //createFromLocation: 1
   });
   console.log('[db] database open');
+  // # TODO: Add call to server to request new update statements
 
   databaseInstance = db;
   return db;
