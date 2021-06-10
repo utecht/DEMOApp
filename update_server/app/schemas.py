@@ -17,3 +17,33 @@ class Change(BaseModel):
 
     class Config:
         orm_mode = True
+
+class Attribute(BaseModel):
+    id: int
+    atype: str
+    name: str
+    content: Optional[str]
+
+    class Config:
+        orm_mode = True
+
+class Provider(BaseModel):
+    id: int
+    full_name: str
+    last_name: Optional[str]
+    middle_name: Optional[str]
+    title: Optional[str]
+    service_line: Optional[str]
+    bio: Optional[str]
+    short_bio: Optional[str]
+    photo: Optional[str]
+
+    class Config:
+        orm_mode = True
+
+class ProviderAttribute(BaseModel):
+    provider_id: int
+    attribute_id: int
+
+    class Config:
+        orm_mode = True
